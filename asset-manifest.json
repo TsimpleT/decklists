@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/decklists/static/css/main.eebb6a26.css",
-    "main.js": "/decklists/static/js/main.818cc458.js",
+    "main.js": "/decklists/static/js/main.c29408dc.js",
     "static/js/453.0c9396f7.chunk.js": "/decklists/static/js/453.0c9396f7.chunk.js",
     "static/media/RainbowRuneBorder.png": "/decklists/static/media/RainbowRuneBorder.77b0a7671c08b3e00cff.png",
     "static/media/RainbowRune.png": "/decklists/static/media/RainbowRune.7891cef5fa18cebd1b34.png",
@@ -27,7 +27,6 @@
     "static/media/ChampionUnit.png": "/decklists/static/media/ChampionUnit.217fa6209e7b7b229a6e.png",
     "static/media/FuryBW.png": "/decklists/static/media/FuryBW.7a29c74523ff3b8fddab.png",
     "static/media/Mind.png": "/decklists/static/media/Mind.75c731fa3f86e5982633.png",
-    "static/media/Trophy.png": "/decklists/static/media/Trophy.30a31643a0555ffce0b3.png",
     "static/media/Legend.png": "/decklists/static/media/Legend.61d4e34ec368da4acc6b.png",
     "static/media/SwordIconRB.png": "/decklists/static/media/SwordIconRB.ff3fac41f3d2b33d6a0a.png",
     "static/media/Rune.png": "/decklists/static/media/Rune.47016f988135420163fa.png",
@@ -37,17 +36,19 @@
     "static/media/MindBW.png": "/decklists/static/media/MindBW.3eeeea90bdd34d2d01b6.png",
     "static/media/Up.png": "/decklists/static/media/Up.b6cb93dd56c66b6edd5c.png",
     "static/media/Order.png": "/decklists/static/media/Order.01bdad0955cc15e6f18d.png",
+    "static/media/Trophy.png": "/decklists/static/media/Trophy.4821cf3f1a7cfd9ea3f4.png",
     "static/media/OrderBW.png": "/decklists/static/media/OrderBW.2bce79e6617e17fdab60.png",
+    "static/media/Question.png": "/decklists/static/media/Question.4a995e242b03fddb996c.png",
     "static/media/Battlefield.png": "/decklists/static/media/Battlefield.0517b5b4a467adb32d32.png",
     "static/media/Settings.png": "/decklists/static/media/Settings.f7b1035622557c87aa8e.png",
     "static/media/Battlefy.png": "/decklists/static/media/Battlefy.b15d53dd9826e1a33967.png",
     "index.html": "/decklists/index.html",
     "main.eebb6a26.css.map": "/decklists/static/css/main.eebb6a26.css.map",
-    "main.818cc458.js.map": "/decklists/static/js/main.818cc458.js.map",
+    "main.c29408dc.js.map": "/decklists/static/js/main.c29408dc.js.map",
     "453.0c9396f7.chunk.js.map": "/decklists/static/js/453.0c9396f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eebb6a26.css",
-    "static/js/main.818cc458.js"
+    "static/js/main.c29408dc.js"
   ]
 }
