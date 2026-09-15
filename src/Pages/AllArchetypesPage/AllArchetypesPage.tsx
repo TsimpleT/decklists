@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './AllArchetypesPage.module.css';
 
-import { DEV_STRING_PRE, GET_ARCHETYPE_DECKLISTS, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ARCHETYPE_TIER_NAMES, GET_CARD, Meta, ALL_METAS, GET_ARCHETYPE_TIERS, GET_MAX_ARCHETYPE_TIER_SIZE, GET_META_NAME } from '../../Data';
-import { LegendImage } from '../../Views';
+import { DEV_STRING_PRE, GET_ARCHETYPE_DECKLISTS, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ARCHETYPE_TIER_NAMES, GET_CARD, Meta, ALL_METAS, GET_ARCHETYPE_TIERS, GET_MAX_ARCHETYPE_TIER_SIZE, GET_META_NAME, GET_ARCHETYPE_ANNOTATIONS, AnnotationImageType } from '../../Data';
+import { AnnotationImage, LegendImage } from '../../Views';
 
 const BOTTOM_ARCHETYPE_STYLE = {borderBottom: "none", borderRadius: "0 0 8px 8px"};
 
@@ -71,11 +71,13 @@ export class AllArchetypesPage extends React.Component<{}, IState> {
                                                 <div className={styles.archetypeText}>{archetype}</div>
                                                 <div className={styles.archetypeSubtitle}>{subtitle}</div>
                                             </div>
+                                            <div className={styles.archetypeAnnotationContainer}>{
+                                                GET_ARCHETYPE_ANNOTATIONS(this.state.meta, archetype).map((str) => <AnnotationImage input={str as AnnotationImageType} size={18}/>)
+                                            }</div>
                                         </div>
                                     </Link>
                                 );
                             })}
-
                         </div>
                     )}
                 </div>

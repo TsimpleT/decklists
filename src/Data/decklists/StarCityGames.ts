@@ -1,5 +1,25 @@
 import { ITournamentResults } from "../TournamentResults";
 
+export const SCG_20260912: ITournamentResults = {
+    tournamentName: "Riftbound Showdown SCGCon Baltimore", abbrName: "RSS", date: "2026/09/12", meta: "VEN", host: "", tier: 2,
+    links: [],
+    results: [
+        {placing: "Top 4", decklists: [
+            {"username":"Jasoniltg","archetype":"Lux Control","legend":"OGS-021","chosenChampion":"OGS-014","mainDeck":[{"id":"OGS-014","count":1},{"id":"OGN-216","count":3},{"id":"OGN-110","count":3},{"id":"OGN-104","count":2},{"id":"UNL-173","count":3},{"id":"OGN-095","count":3},{"id":"UNL-061","count":1},{"id":"VEN-049","count":3},{"id":"UNL-165","count":3},{"id":"SFD-070","count":1},{"id":"UNL-069","count":1},{"id":"OGN-115","count":1},{"id":"OGN-114","count":2},{"id":"VEN-056","count":3},{"id":"OGN-122","count":3},{"id":"OGN-120","count":3},{"id":"OGN-212","count":3},{"id":"UNL-085","count":1}],"battlefields":[{"id":"SFD-209","count":1},{"id":"OGN-287","count":1},{"id":"SFD-219","count":1}],"runeDeck":[{"id":"OGN-089","count":7},{"id":"OGN-214","count":5}],"sideboard":[{"id":"SFD-160","count":1},{"id":"VEN-069","count":2},{"id":"UNL-169","count":1},{"id":"SFD-070","count":2},{"id":"OGN-085","count":1},{"id":"OGN-114","count":1},{"id":"OGN-105","count":1},{"id":"UNL-180","count":1}]},
+            {"username":"TSD Aadesh","archetype":"Lucian","legend":"SFD-183","chosenChampion":"SFD-113","mainDeck":[{"id":"SFD-113","count":1},{"id":"UNL-112","count":3},{"id":"OGN-136","count":3},{"id":"OGN-132","count":3},{"id":"UNL-097","count":3},{"id":"OGN-039","count":3},{"id":"OGN-012","count":3},{"id":"UNL-116","count":2},{"id":"SFD-021","count":2},{"id":"OGN-156","count":2},{"id":"SFD-097","count":3},{"id":"SFD-184","count":2},{"id":"OGN-029","count":2},{"id":"SFD-095","count":3},{"id":"SFD-022","count":3},{"id":"UNL-019","count":2}],"battlefields":[{"id":"UNL-210","count":1},{"id":"SFD-208","count":1},{"id":"OGN-297","count":1}],"runeDeck":[{"id":"OGN-126","count":6},{"id":"OGN-007","count":6}],"sideboard":[{"id":"OGN-026","count":1},{"id":"SFD-105","count":2},{"id":"SFD-021","count":1},{"id":"VEN-085","count":1},{"id":"OGN-156","count":1},{"id":"VEN-083","count":3},{"id":"VEN-011","count":1}]},
+            {"username":"aggresia","archetype":"Kennen Miracle"},
+            {"username":"ASC A Turtle","archetype":"Rengar"},
+        ]},
+        {placing: "Top 8", decklists: [
+            {"username":"DeadlyFX","archetype":"Kennen Miracle"},
+            {"username":"TobiasNataleCG","archetype":"LeBlanc"},
+            {"username":"Kaillou","archetype":"Lucian"},
+            {"username":"FlexQ Zac Plott","archetype":"Yi (OGS)","legend":"OGS-019","chosenChampion":"UNL-113","mainDeck":[{"id":"UNL-113","count":1},{"id":"SFD-036","count":3},{"id":"OGN-136","count":3},{"id":"UNL-053","count":3},{"id":"OGN-132","count":3},{"id":"UNL-120","count":3},{"id":"SFD-105","count":2},{"id":"OGN-046","count":2},{"id":"OGN-043","count":3},{"id":"OGN-045","count":3},{"id":"OGN-156","count":1},{"id":"SFD-097","count":3},{"id":"OGN-058","count":3},{"id":"SFD-045","count":1},{"id":"VEN-083","count":2},{"id":"UNL-192","count":1},{"id":"VEN-081","count":1},{"id":"OGN-077","count":2}],"battlefields":[{"id":"SFD-207","count":1},{"id":"SFD-217","count":1},{"id":"UNL-215","count":1}],"runeDeck":[{"id":"OGN-126","count":7},{"id":"OGN-042","count":5}],"sideboard":[{"id":"SFD-032","count":3},{"id":"SFD-110","count":2},{"id":"SFD-105","count":1},{"id":"VEN-040","count":2},{"id":"OGN-156","count":1},{"id":"SFD-045","count":1}]},
+        ]},
+    ]
+};
+
+
 export const SCG_20251123: ITournamentResults = {
     tournamentName: "SCGCon Las Vegas", abbrName: "SCG", date: "2025/11/23", meta: "OGN", host: "", tier: 2,
     links: ["https://melee.gg/Tournament/View/384979"],

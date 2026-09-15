@@ -57,6 +57,7 @@
 }
 
 .archetypeContainer {
+    position: relative;
     display: flex;
     gap: 4px;
     align-items: center;
@@ -66,6 +67,16 @@
     color: var(--text-default);
     background-color: var(--bg-default-off);
     border-bottom: 1px #E0E0CD solid;
+}
+
+.archetypeAnnotationContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    right: 3px;
+    z-index: 1;
+    gap: 2px;
 }
 
 .archetypeContainer:hover {

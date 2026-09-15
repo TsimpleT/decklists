@@ -42,9 +42,9 @@ export class AppNav extends React.Component/*<{}, IState>*/ {
                 <Link to={"/decklists/riftbound/tournament-results"}>
                     Tournament Results
                 </Link>
-                <Link to={"/decklists/riftbound/player-results"}>
+                {/* <Link to={"/decklists/riftbound/player-results"}>
                     Player Results
-                </Link>
+                </Link> */}
                 <Link to={"/decklists/riftbound/all-cards"}>
                     All Cards
                 </Link>

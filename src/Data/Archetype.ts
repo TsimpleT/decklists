@@ -137,11 +137,19 @@ export function PREDICT_ARCHETYPE(decklist: Decklist): Archetype {
 
 export const ARCHETYPE_TIER_NAMES = ["Favorites", "Contenders", "Real Challengers", "Potential Challengers", "Struggling", "Memes"];
 const META_ARCHETYPE_TIERS: {[meta in Meta]: Archetype[][]} = {
+    "VEN2": [
+        ["LeBlanc", "Jayce", "Yi (OGS)", "Azir", "Irelia"],
+        ["Rengar", "Rek'Sai", "Akali", "Diana", "Ornn", "Fiora", "Lillia"],
+        ["Lucian", "Kai'Sa", "Kennen Miracle", "Viktor", "Vex", "Kha'Zix", "Nasus", "Ezreal Control", "Ambessa", "Kennen Hook"],
+        ["Yi (UNL)", "Sivir Aurora", "Poppy Aurora", "Draven", "Jax", "Kennen Control", "Sivir", "Jhin"],
+        ["Ivern", "Rumble", "Vi", "Renekton", "Mel"],
+        ["Pyke", "Zed", "Renata Glasc", "Shen"],
+    ],
     "VEN": [
-        ["Rengar", "Kennen Miracle", "Yi (OGS)", "Azir"],
-        ["Ezreal Control", "Irelia", "Diana", "Lux Control", "Rek'Sai", "Ornn", "Kha'Zix", "Jayce"],
-        ["Draven", "LeBlanc", "Annie", "Mel", "Nasus", "Kennen Hook", "Sivir Aurora", "Viktor", "Viktor Control", "Akali", "Fiora"],
-        ["Kai'Sa", "Kennen Control", "Vex", "Miss Fortune Aurora", "Ambessa", "Lillia", "Pyke", "Zed", "Sivir", "Darius", "Poppy Aurora", "Jhin", "Lucian", "Yi (UNL)"],
+        ["Kennen Miracle", "Yi (OGS)", "Azir", "Irelia"],
+        ["Rengar", "Jayce", "Ezreal Control", "Lux Control", "Akali", "Rek'Sai", "Diana", "LeBlanc", "Kha'Zix"],
+        ["Ornn", "Draven", "Annie", "Lucian", "Fiora", "Kennen Hook", "Sivir Aurora", "Viktor", "Viktor Control", "Mel", "Nasus", "Vex", "Lillia"],
+        ["Kai'Sa", "Kennen Control", "Miss Fortune Aurora", "Ambessa", "Pyke", "Zed", "Sivir", "Darius", "Poppy Aurora", "Jhin", "Yi (UNL)"],
         ["Teemo", "Volibear", "Jinx", "Lee Sin", "Jax", "Vi", "Renekton", "Ahri", "Rumble", "Ivern"],
         ["Yasuo", "Leona", "Renata Glasc", "Shen"],
     ],
@@ -184,3 +192,69 @@ export function GET_ARCHETYPE_TIERS(meta: Meta): Archetype[][] {
 export function GET_MAX_ARCHETYPE_TIER_SIZE(meta: Meta) {
     return Math.max(...META_ARCHETYPE_TIERS[meta].map((tier) => tier.length))
 };
+
+const ARCHETYPE_ANNOTATIONS: {[meta in Meta]: {[key in Archetype]?: string[]}} = {
+    "VEN2": {
+        "LeBlanc": ["Up On the rise"],
+        "Ambessa": ["Up On the rise"],
+        "Jax": ["Up On the rise"],
+        "Jayce": ["Up On the rise"],
+        "Poppy Aurora": ["Up On the rise"],
+        "Lucian": ["Up On the rise", "Question Speculative"],
+        "Viktor": ["Up On the rise", "Question Speculative"],
+        "Kai'Sa": ["Up On the rise", "Question Speculative"],
+        "Yi (UNL)": ["Up On the rise"],
+        "Ornn": ["Up On the rise"],
+        "Lillia": ["Up On the rise"],
+        "Fiora": ["Up On the rise"],
+        "Kha'Zix": ["Down On the decline"],
+        "Zed": ["Down On the decline"],
+        "Pyke": ["Down On the decline"],
+        "Draven": ["Down On the decline"],
+        "Mel": ["Down On the decline"],
+        "Sivir Aurora": ["Down On the decline"],
+        "Akali": ["Down On the decline"],
+        "Kennen Miracle": ["Down On the decline"],
+        "Ezreal Control": ["Down On the decline"],
+
+    },
+    "VEN": {
+        "Kennen Miracle": ["Trophy Won Auckland SD + Many Top 8s"],
+        "Akali": ["Up On the rise", "Trophy Won Singapore RQ + Shenyang Open"],
+        "Ornn": ["Down On the decline", "Trophy Won Barcelona RQ"],
+        "Irelia": ["Up On the rise", "Trophy Won Wuhan Open"],
+        "Lux Control": ["Up On the rise", "Trophy Won Baltimore SD"],
+        "Rengar": ["Trophy Won Los Angeles SD + Ottawa SD"],
+        "Azir": ["Trophy Won Speyer SD"],
+        "Jayce": ["Up On the rise"],
+        "Ezreal Control": ["Up On the rise"],
+        "Lucian": ["Up On the rise"],
+        "Fiora": ["Up On the rise"],
+        "Kha'Zix": ["Up On the rise"],
+        "Diana": ["Down On the decline"],
+        "Poppy Aurora": ["Down On the decline"],
+        "Shen": ["Down On the decline"],
+        "Kennen Hook": ["Question Everyone plays miracle"],
+        "Kennen Control": ["Question Everyone plays miracle"],
+        "Kai'Sa": ["Question No best of available"],
+        "Viktor": ["Question No best of available"],
+        "Viktor Control": ["Question No best of available"],
+        "Miss Fortune Aurora": ["Question No best of available"],
+        "Sivir": ["Question No one plays non-aurora"],
+        "Darius": ["Question No best of available"],
+        "Teemo": ["Question No best of available"],
+        "Volibear": ["Question No best of available"],
+        "Jinx": ["Question No best of available"],
+        "Lee Sin": ["Question No best of available"],
+        "Ahri": ["Question No best of available"],
+        "Yasuo": ["Question No best of available"],
+        "Leona": ["Question No best of available"],
+    },
+    "UNL": {},
+    "SFD2": {},
+    "SFD": {},
+    "OGN": {}
+};
+export function GET_ARCHETYPE_ANNOTATIONS(meta: Meta, archetype: Archetype): string[] {
+    return ARCHETYPE_ANNOTATIONS[meta][archetype] ?? [];
+}
