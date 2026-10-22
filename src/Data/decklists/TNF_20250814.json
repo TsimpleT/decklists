@@ -1,0 +1,98 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/08/14",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/q6a6rit9"
+  ],
+  "results": [
+    {
+      "placing": "5-0",
+      "decklists": [
+        {
+          "username": "AsuiKitsune",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    },
+    {
+      "placing": "4-1",
+      "decklists": [
+        {
+          "username": "Kuvi",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "Nashun",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    },
+    {
+      "placing": "3-2",
+      "decklists": [
+        {
+          "username": "SamaBR",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "Prismaticism",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "ConnectedTwig",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "NAT14",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    }
+  ]
+}

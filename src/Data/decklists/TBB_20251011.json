@@ -1,0 +1,165 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/10/11",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/BandleBlitz03/"
+  ],
+  "results": [
+    {
+      "placing": "4-0",
+      "decklists": [
+        {
+          "username": "TsimpleT",
+          "archetype": "Kai'Sa",
+          "legend": "OGN-299*",
+          "chosenChampion": "OGN-039a",
+          "mainDeck": [
+            {
+              "id": "OGN-095",
+              "count": 3
+            },
+            {
+              "id": "OGN-004",
+              "count": 3
+            },
+            {
+              "id": "OGN-009",
+              "count": 3
+            },
+            {
+              "id": "OGN-104",
+              "count": 2
+            },
+            {
+              "id": "OGN-013",
+              "count": 2
+            },
+            {
+              "id": "OGN-103",
+              "count": 3
+            },
+            {
+              "id": "OGN-029",
+              "count": 3
+            },
+            {
+              "id": "OGN-093",
+              "count": 2
+            },
+            {
+              "id": "OGN-096",
+              "count": 3
+            },
+            {
+              "id": "OGN-087",
+              "count": 1
+            },
+            {
+              "id": "OGN-024",
+              "count": 3
+            },
+            {
+              "id": "OGN-012",
+              "count": 3
+            },
+            {
+              "id": "OGN-106",
+              "count": 1
+            },
+            {
+              "id": "OGN-027a",
+              "count": 3
+            },
+            {
+              "id": "OGN-116",
+              "count": 3
+            },
+            {
+              "id": "OGN-248",
+              "count": 1
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-289",
+              "count": 1
+            },
+            {
+              "id": "OGN-292",
+              "count": 1
+            },
+            {
+              "id": "OGN-285",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007a",
+              "count": 6
+            },
+            {
+              "id": "OGN-089a",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "OGN-104",
+              "count": 1
+            },
+            {
+              "id": "OGN-093",
+              "count": 1
+            },
+            {
+              "id": "OGN-102",
+              "count": 1
+            },
+            {
+              "id": "OGN-106",
+              "count": 2
+            },
+            {
+              "id": "OGN-123",
+              "count": 1
+            },
+            {
+              "id": "OGN-248",
+              "count": 1
+            },
+            {
+              "id": "OGN-122",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "3-1",
+      "decklists": [
+        {
+          "username": "Terasadon",
+          "archetype": "Kai'Sa"
+        },
+        {
+          "username": "RTFRift",
+          "archetype": "Ahri"
+        },
+        {
+          "username": "Kedjius",
+          "archetype": "Kai'Sa"
+        },
+        {
+          "username": "lordpet",
+          "archetype": "Yasuo"
+        }
+      ]
+    }
+  ]
+}

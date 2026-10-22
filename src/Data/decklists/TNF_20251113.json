@@ -1,0 +1,36 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/11/13",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/f8swlozd"
+  ],
+  "results": [
+    {
+      "placing": "4-0",
+      "decklists": [
+        {
+          "username": "Zbrojson",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "3-1",
+      "decklists": [
+        {
+          "username": "Doughynut"
+        },
+        {
+          "username": "Prismaticism"
+        },
+        {
+          "username": "Barfling"
+        }
+      ]
+    }
+  ]
+}

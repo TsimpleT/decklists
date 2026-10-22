@@ -1,0 +1,173 @@
+{
+  "tournamentName": "Riftmaxxing W5",
+  "abbrName": "RMX",
+  "date": "2025/11/24",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/riftmaxxing6"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "Entropy",
+          "archetype": "Kai'Sa",
+          "legend": "OGN-247",
+          "chosenChampion": "OGN-039",
+          "mainDeck": [
+            {
+              "id": "OGN-095",
+              "count": 3
+            },
+            {
+              "id": "OGN-004",
+              "count": 3
+            },
+            {
+              "id": "OGN-104",
+              "count": 3
+            },
+            {
+              "id": "OGN-090",
+              "count": 1
+            },
+            {
+              "id": "OGN-009",
+              "count": 3
+            },
+            {
+              "id": "OGN-096",
+              "count": 2
+            },
+            {
+              "id": "OGN-013",
+              "count": 3
+            },
+            {
+              "id": "OGN-103",
+              "count": 3
+            },
+            {
+              "id": "OGN-093",
+              "count": 2
+            },
+            {
+              "id": "OGN-029",
+              "count": 3
+            },
+            {
+              "id": "OGN-024",
+              "count": 2
+            },
+            {
+              "id": "OGN-012",
+              "count": 3
+            },
+            {
+              "id": "OGN-106",
+              "count": 2
+            },
+            {
+              "id": "OGN-028",
+              "count": 1
+            },
+            {
+              "id": "OGN-027a",
+              "count": 2
+            },
+            {
+              "id": "OGN-116",
+              "count": 2
+            },
+            {
+              "id": "OGN-248",
+              "count": 1
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-284",
+              "count": 1
+            },
+            {
+              "id": "OGN-292",
+              "count": 1
+            },
+            {
+              "id": "OGN-289",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007a",
+              "count": 6
+            },
+            {
+              "id": "OGN-089a",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "OGN-016",
+              "count": 1
+            },
+            {
+              "id": "OGN-024",
+              "count": 1
+            },
+            {
+              "id": "OGN-114",
+              "count": 1
+            },
+            {
+              "id": "OGN-088",
+              "count": 2
+            },
+            {
+              "id": "OGN-014",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "Battle"
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "DrRickMarshall"
+        },
+        {
+          "username": "SokkaQ"
+        }
+      ]
+    },
+    {
+      "placing": "Top 7",
+      "decklists": [
+        {
+          "username": "z_alex"
+        },
+        {
+          "username": "CoreyMilhouse"
+        },
+        {
+          "username": "bkbgrnrjefekk"
+        }
+      ]
+    }
+  ]
+}

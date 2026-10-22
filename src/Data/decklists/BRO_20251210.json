@@ -1,0 +1,79 @@
+{
+  "tournamentName": "Brocains Spiritforged",
+  "abbrName": "BRO",
+  "date": "2025/12/10",
+  "meta": "SFD",
+  "host": "",
+  "tier": 3,
+  "size": 10,
+  "links": [
+    "https://challonge.com/5wahywfb"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "Vendorty"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "Terasadon"
+        }
+      ]
+    },
+    {
+      "placing": "3rd",
+      "decklists": [
+        {
+          "username": "B1GB3N"
+        }
+      ]
+    },
+    {
+      "placing": "4th",
+      "decklists": [
+        {
+          "username": "Brocain"
+        }
+      ]
+    },
+    {
+      "placing": "Top 6",
+      "decklists": [
+        {
+          "username": "bkbgrnrjefekk"
+        },
+        {
+          "username": "xTacio"
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "Kuvi"
+        },
+        {
+          "username": "Doughynut"
+        }
+      ]
+    },
+    {
+      "placing": "Top 10",
+      "decklists": [
+        {
+          "username": "UED"
+        },
+        {
+          "username": "Kronerberg"
+        }
+      ]
+    }
+  ]
+}

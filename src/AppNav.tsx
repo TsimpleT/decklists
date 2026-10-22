@@ -20,7 +20,7 @@ export class AppNav extends React.Component<RouteAwareProps> {
 
         return (<>
             <nav className={styles.container}>
-                <img className={styles.icon} src={ImageUtil.getImage("Riftbound")} height={26} title={"Riftbound"} alt={"Riftbound"} />
+                <img className={styles.icon} src={ImageUtil.getImage("CATL")} height={26} title={"Riftbound"} alt={"Riftbound"} />
                 <span className={styles.title} title={VERSION_STRING}>Decklists</span>
                 {IS_DEV && <span className={styles.titleNotes}>test build</span>}
                 {archetypeStatsActive

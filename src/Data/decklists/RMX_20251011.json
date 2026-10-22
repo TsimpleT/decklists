@@ -1,0 +1,58 @@
+{
+  "tournamentName": "Riftmaxxing W2",
+  "abbrName": "RMX",
+  "date": "2025/10/11",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/riftmaxxing2"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "Entropy"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "BeardlyFunny"
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "Poldy"
+        },
+        {
+          "username": "Freakz"
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "Gtracks"
+        },
+        {
+          "username": "LuscoLuna",
+          "archetype": "Kai'Sa"
+        },
+        {
+          "username": "Elteras"
+        },
+        {
+          "username": "Terasadon"
+        }
+      ]
+    }
+  ]
+}

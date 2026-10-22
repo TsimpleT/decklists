@@ -1,6 +1,6 @@
 {
   "name": "decklists",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "homepage": "https://tsimplet.github.io/decklists",
   "private": false,
   "dependencies": {
@@ -24,6 +24,7 @@
   "scripts": {
     "predeploy": "react-scripts test --watchAll && npm run build",
     "deploy": "gh-pages -d build",
+    "generate:tournament-data": "node scripts/generate-tournament-data.js",
     "start": "react-scripts test && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

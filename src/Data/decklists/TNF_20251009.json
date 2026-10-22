@@ -1,0 +1,59 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/10/09",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/gnvkeezj"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "searn",
+          "archetype": "Yi (OGS)"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "GrandpaRoji",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "kitman85"
+        },
+        {
+          "username": "SilentKamiii"
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "tog"
+        },
+        {
+          "username": "Doughynut"
+        },
+        {
+          "username": "Gtracks"
+        },
+        {
+          "username": "10kTurnips"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "tournamentName": "SCGCon Los Angeles $10k",
+  "abbrName": "SCG",
+  "date": "2026/10/10",
+  "meta": "VEN2",
+  "host": "",
+  "tier": 2,
+  "links": [],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "ASC Evansrhim",
+          "archetype": "Kennen Miracle"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "NnePt",
+          "archetype": "LeBlanc"
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "LittlePkid",
+          "archetype": "Kennen Miracle"
+        },
+        {
+          "username": "Employee 427",
+          "archetype": "Akali"
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "CJinseng",
+          "archetype": "Viktor"
+        },
+        {
+          "username": "sweatrag",
+          "archetype": "Jayce"
+        },
+        {
+          "username": "povsanti",
+          "archetype": "Jayce"
+        },
+        {
+          "username": "Construct",
+          "archetype": "Kennen Miracle"
+        }
+      ]
+    }
+  ]
+}

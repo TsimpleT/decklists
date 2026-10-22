@@ -1,0 +1,37 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/09/27",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://www.start.gg/tournament/the-bandle-blitz/events/the-bandle-blitz-27-09-2025"
+  ],
+  "results": [
+    {
+      "placing": "3-0",
+      "decklists": [
+        {
+          "username": "Kedjius"
+        }
+      ]
+    },
+    {
+      "placing": "2-1",
+      "decklists": [
+        {
+          "username": "BermudaTriangle96",
+          "archetype": "Kai'Sa"
+        },
+        {
+          "username": "B1GB3N"
+        },
+        {
+          "username": "Cedro52",
+          "archetype": "Darius"
+        }
+      ]
+    }
+  ]
+}

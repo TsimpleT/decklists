@@ -1,0 +1,35 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/11/16",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/c9ftz2x6"
+  ],
+  "results": [
+    {
+      "placing": "3-0",
+      "decklists": [
+        {
+          "username": "Terasadon"
+        }
+      ]
+    },
+    {
+      "placing": "2-1",
+      "decklists": [
+        {
+          "username": "iCurio"
+        },
+        {
+          "username": "Ceesium"
+        },
+        {
+          "username": "QEquinox"
+        }
+      ]
+    }
+  ]
+}

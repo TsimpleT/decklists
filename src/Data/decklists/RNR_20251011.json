@@ -1,0 +1,48 @@
+{
+  "tournamentName": "Runes & Rift Open 2",
+  "abbrName": "RNR",
+  "date": "2025/10/11",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://battlefy.com/runes-rift-riftbound-hub/runes-rift-open-2-weekly-riftbound-tournament/68dc722eb02d3f002f27deb7/info?infoTab=details"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "PewQ",
+          "archetype": "Ahri"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "Bamboopanda",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "3rd",
+      "decklists": [
+        {
+          "username": "MaybeLethal",
+          "archetype": "Teemo"
+        }
+      ]
+    },
+    {
+      "placing": "4th",
+      "decklists": [
+        {
+          "username": "Joni"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/10/16",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/uh7yn5y0"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "SouledOut",
+          "archetype": "Annie",
+          "legend": "OGS-017",
+          "chosenChampion": "OGS-010",
+          "mainDeck": [
+            {
+              "id": "OGN-183",
+              "count": 3
+            },
+            {
+              "id": "OGN-004",
+              "count": 3
+            },
+            {
+              "id": "OGN-169",
+              "count": 3
+            },
+            {
+              "id": "OGS-011",
+              "count": 3
+            },
+            {
+              "id": "OGN-168",
+              "count": 2
+            },
+            {
+              "id": "OGN-185",
+              "count": 3
+            },
+            {
+              "id": "OGN-013",
+              "count": 2
+            },
+            {
+              "id": "OGN-173",
+              "count": 3
+            },
+            {
+              "id": "OGN-036a",
+              "count": 3
+            },
+            {
+              "id": "OGN-176",
+              "count": 3
+            },
+            {
+              "id": "OGN-024",
+              "count": 3
+            },
+            {
+              "id": "OGN-012",
+              "count": 2
+            },
+            {
+              "id": "OGN-039a",
+              "count": 3
+            },
+            {
+              "id": "OGN-027",
+              "count": 3
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-298",
+              "count": 1
+            },
+            {
+              "id": "OGN-292",
+              "count": 1
+            },
+            {
+              "id": "OGN-290",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007a",
+              "count": 7
+            },
+            {
+              "id": "OGN-166a",
+              "count": 5
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "OGN-179",
+              "count": 2
+            },
+            {
+              "id": "OGN-029",
+              "count": 2
+            },
+            {
+              "id": "OGN-172",
+              "count": 2
+            },
+            {
+              "id": "OGN-035",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "DollarObama",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "3rd",
+      "decklists": [
+        {
+          "username": "GhaelWinds",
+          "archetype": "Yasuo"
+        }
+      ]
+    },
+    {
+      "placing": "4th",
+      "decklists": [
+        {
+          "username": "icerRB"
+        }
+      ]
+    },
+    {
+      "placing": "5th",
+      "decklists": [
+        {
+          "username": "TsimpleT",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "6th",
+      "decklists": [
+        {
+          "username": "Terasadon",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "7th/8th",
+      "decklists": [
+        {
+          "username": "housesarebig"
+        },
+        {
+          "username": "GanZtrax"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "tournamentName": "Riftmaxxing W4",
+  "abbrName": "RMX",
+  "date": "2025/10/25",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/Riftmaxxing4"
+  ],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "Sanini54"
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "B1GB3N"
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "bear"
+        },
+        {
+          "username": "Kuvi"
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "King_2x"
+        },
+        {
+          "username": "Prismaticism"
+        },
+        {
+          "username": "Entropy"
+        },
+        {
+          "username": "ChefBoyYardTea"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/09/25",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/sppqkqfc"
+  ],
+  "results": [
+    {
+      "placing": "5-0",
+      "decklists": [
+        {
+          "username": "PewQ",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "4-1",
+      "decklists": [
+        {
+          "username": "housesarebig"
+        },
+        {
+          "username": "LuscoLuna",
+          "archetype": "Kai'Sa"
+        },
+        {
+          "username": "Anima7ed"
+        },
+        {
+          "username": "Prismaticism",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    }
+  ]
+}

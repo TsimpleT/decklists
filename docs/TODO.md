@@ -3,7 +3,6 @@ host elsewhere to properly support url/links: https://docs.netlify.com/build/fra
 
 # Restructing
 DecklistPage base class for Regular/Expert vs Tournament
-Tournament results to json too?
 deprecate ttsid / uid + add PA id
 
 # Future
@@ -16,4 +15,4 @@ deck legality in formats / with bans
 decklisttable toprow backgroundcolor to hide under sticky; left sticky scrolls if you go really far
 for card hover make img move up so its not cut off at bottom; fixes empty bottom for decklist/decklisttable
 appnav color for selected page + remember to remove hover
-multi type cards prettier with half-icons
+multi type cards prettier with half-icons when more are printed

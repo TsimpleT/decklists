@@ -1,0 +1,36 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/12/18",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "size": 10,
+  "links": [
+    "https://challonge.com/hru03fv9"
+  ],
+  "results": [
+    {
+      "placing": "3-0",
+      "decklists": [
+        {
+          "username": "Entropy"
+        }
+      ]
+    },
+    {
+      "placing": "2-1",
+      "decklists": [
+        {
+          "username": "Terasadon"
+        },
+        {
+          "username": "Dirtydeathmask"
+        },
+        {
+          "username": "bkbgrnrjefekk"
+        }
+      ]
+    }
+  ]
+}

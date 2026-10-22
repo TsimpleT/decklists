@@ -1,0 +1,53 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/09/04",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/99m99l80"
+  ],
+  "results": [
+    {
+      "placing": "5-0",
+      "decklists": [
+        {
+          "username": "SouledOut",
+          "archetype": "Miss Fortune Aurora",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    },
+    {
+      "placing": "4-1",
+      "decklists": [
+        {
+          "username": "DollarObama",
+          "archetype": "Kai'Sa",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "Matfarb",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    }
+  ]
+}

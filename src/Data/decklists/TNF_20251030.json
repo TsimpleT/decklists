@@ -1,0 +1,57 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/10/30",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/fe1df1jm#"
+  ],
+  "results": [
+    {
+      "placing": "5-0",
+      "decklists": [
+        {
+          "username": "Terasadon",
+          "archetype": "Kai'Sa"
+        }
+      ]
+    },
+    {
+      "placing": "4-1",
+      "decklists": [
+        {
+          "username": "GanZtrax"
+        },
+        {
+          "username": "SouledOut",
+          "archetype": "Lux Control"
+        }
+      ]
+    },
+    {
+      "placing": "3-2",
+      "decklists": [
+        {
+          "username": "Prismaticism",
+          "archetype": "Miss Fortune Aggro"
+        },
+        {
+          "username": "LovelySnOw1",
+          "archetype": "Miss Fortune Aurora"
+        },
+        {
+          "username": "solaggytoday"
+        },
+        {
+          "username": "10kTurnips",
+          "archetype": "Annie"
+        },
+        {
+          "username": "Barfling"
+        }
+      ]
+    }
+  ]
+}

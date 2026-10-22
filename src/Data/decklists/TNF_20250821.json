@@ -1,0 +1,201 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/08/21",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [
+    "https://challonge.com/heqob2xu"
+  ],
+  "results": [
+    {
+      "placing": "4-0",
+      "decklists": [
+        {
+          "username": "TsimpleT",
+          "archetype": "Kai'Sa",
+          "legend": "OGN-299*",
+          "chosenChampion": "OGN-039a",
+          "mainDeck": [
+            {
+              "id": "OGN-039a",
+              "count": 2
+            },
+            {
+              "id": "OGN-095",
+              "count": 3
+            },
+            {
+              "id": "OGN-004",
+              "count": 2
+            },
+            {
+              "id": "OGN-009",
+              "count": 3
+            },
+            {
+              "id": "OGN-104",
+              "count": 1
+            },
+            {
+              "id": "OGN-103",
+              "count": 3
+            },
+            {
+              "id": "OGN-029",
+              "count": 3
+            },
+            {
+              "id": "OGN-010",
+              "count": 1
+            },
+            {
+              "id": "OGN-093",
+              "count": 3
+            },
+            {
+              "id": "OGN-096",
+              "count": 3
+            },
+            {
+              "id": "OGN-087",
+              "count": 3
+            },
+            {
+              "id": "OGN-024",
+              "count": 3
+            },
+            {
+              "id": "OGN-106",
+              "count": 3
+            },
+            {
+              "id": "OGN-027a",
+              "count": 2
+            },
+            {
+              "id": "OGN-116",
+              "count": 2
+            },
+            {
+              "id": "OGN-248",
+              "count": 2
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-289",
+              "count": 1
+            },
+            {
+              "id": "OGN-296",
+              "count": 1
+            },
+            {
+              "id": "OGN-285",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007a",
+              "count": 7
+            },
+            {
+              "id": "OGN-089a",
+              "count": 5
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "OGN-004",
+              "count": 1
+            },
+            {
+              "id": "OGN-104",
+              "count": 2
+            },
+            {
+              "id": "OGN-036",
+              "count": 2
+            },
+            {
+              "id": "OGN-017",
+              "count": 2
+            },
+            {
+              "id": "OGN-027a",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "3-1",
+      "decklists": [
+        {
+          "username": "SouledOut",
+          "archetype": "Annie",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "xDoughynut",
+          "archetype": "Viktor",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "housesarebig",
+          "archetype": "Viktor",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "Kuvi",
+          "archetype": "Darius",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "SamaBR",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        },
+        {
+          "username": "HermesLoki",
+          "archetype": "Unknown",
+          "legend": "",
+          "chosenChampion": "",
+          "mainDeck": [],
+          "battlefields": [],
+          "runeDeck": [],
+          "sideboard": []
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,11 @@ within each bullet/section, children folders first, then ../folder_name, then al
 - baseId: id of first printing of card
 - ttsId: id that TTS uses
 
+# TOURNAMENT DATA
+- Store tournament results as one JSON file per event in `src/Data/decklists/`, named with its abbreviation and date.
+- Run this: `npm.cmd run generate:tournament-data`
+  - This will update `src/Data/TournamentData.generated.ts`; do not edit it manually.
+
 # COMMITS:
 - first line: "[MAJOR.REGULAR.TWEAK/FIX] <summary>"
 - TODO.md / RELEASE-NOTES.md / UPDATE-HISTORY.md

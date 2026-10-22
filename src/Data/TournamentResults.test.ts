@@ -1,26 +1,25 @@
-import { readdirSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { GET_CARD } from './Cards';
 import { ALL_METAS, GET_ARCHETYPE_DECKLISTS, GET_PLACING, GET_TOURNAMENT_ABBR, GET_TOURNAMENT_DECKLIST, GET_TOURNAMENT_ID, GET_TOURNAMENT_NAME, TOURNAMENT_RESULTS } from './TournamentResults';
 import { ALL_ARCHETYPES } from './Archetype';
 
-test("Every tournament export is included in TOURNAMENT_RESULTS", () => {
+test("Every tournament JSON file is included in TOURNAMENT_RESULTS", () => {
     const registeredTournamentIds = new Set(TOURNAMENT_RESULTS.map((tournament) =>
         `${tournament.abbrName}-${tournament.date.replaceAll("/", "")}`
     ));
-    const tournamentFiles = readdirSync(join(__dirname, "decklists")).filter((fileName) => fileName.endsWith(".ts"));
+    const tournamentFiles = readdirSync(join(__dirname, "decklists")).filter((fileName) => fileName.endsWith(".json"));
     const missingTournamentIds = tournamentFiles.flatMap((fileName) => {
-        const tournamentExports = require(join(__dirname, "decklists", fileName)) as Record<string, unknown>;
-        return Object.entries(tournamentExports).flatMap(([exportName, value]) => {
-            if(exportName === "MORE_DECKLISTS" || !hasTournamentIdentifier(value)) {
-                return [];
-            }
-            const tournamentId = `${value.abbrName}-${value.date.replaceAll("/", "")}`;
-            return registeredTournamentIds.has(tournamentId) ? [] : [tournamentId];
-        });
+        const tournament = JSON.parse(readFileSync(join(__dirname, "decklists", fileName), "utf8")) as unknown;
+        if(!hasTournamentIdentifier(tournament)) {
+            return [fileName];
+        }
+        const tournamentId = `${tournament.abbrName}-${tournament.date.replaceAll("/", "")}`;
+        return registeredTournamentIds.has(tournamentId) ? [] : [tournamentId];
     });
 
     expect(missingTournamentIds).toEqual([]);
+    expect(tournamentFiles).toHaveLength(TOURNAMENT_RESULTS.length);
 });
 
 test("Each tournament has a unique ID", () => {
@@ -36,6 +35,12 @@ test("Each tournament has a unique ID", () => {
     }
 
     expect(duplicateTournamentIds).toEqual([]);
+});
+
+test("Tournament results are ordered newest first", () => {
+    for(let index = 1; index < TOURNAMENT_RESULTS.length; index++) {
+        expect(TOURNAMENT_RESULTS[index - 1].date >= TOURNAMENT_RESULTS[index].date).toBe(true);
+    }
 });
 
 test("Each tournament has valid meta, tier, and date metadata", () => {

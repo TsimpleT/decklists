@@ -1,0 +1,1059 @@
+{
+  "tournamentName": "Runes & Rift Open 16",
+  "abbrName": "RNR",
+  "date": "2026/07/25",
+  "meta": "VEN",
+  "host": "",
+  "tier": 3,
+  "links": [],
+  "results": [
+    {
+      "placing": "1st",
+      "decklists": [
+        {
+          "username": "ClaedeusFR",
+          "archetype": "Rengar",
+          "legend": "UNL-183",
+          "chosenChampion": "UNL-120",
+          "mainDeck": [
+            {
+              "id": "UNL-111",
+              "count": 3
+            },
+            {
+              "id": "UNL-002",
+              "count": 2
+            },
+            {
+              "id": "UNL-112",
+              "count": 3
+            },
+            {
+              "id": "OGN-136",
+              "count": 3
+            },
+            {
+              "id": "OGN-132",
+              "count": 3
+            },
+            {
+              "id": "UNL-021",
+              "count": 2
+            },
+            {
+              "id": "UNL-097",
+              "count": 3
+            },
+            {
+              "id": "VEN-020",
+              "count": 3
+            },
+            {
+              "id": "UNL-114",
+              "count": 2
+            },
+            {
+              "id": "OGN-039",
+              "count": 2
+            },
+            {
+              "id": "OGN-012",
+              "count": 2
+            },
+            {
+              "id": "OGN-026",
+              "count": 2
+            },
+            {
+              "id": "SFD-021",
+              "count": 2
+            },
+            {
+              "id": "SFD-097",
+              "count": 2
+            },
+            {
+              "id": "UNL-184",
+              "count": 2
+            },
+            {
+              "id": "OGN-029",
+              "count": 3
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "SFD-207",
+              "count": 1
+            },
+            {
+              "id": "UNL-210",
+              "count": 1
+            },
+            {
+              "id": "UNL-215",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007",
+              "count": 6
+            },
+            {
+              "id": "OGN-126",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "OGN-026",
+              "count": 1
+            },
+            {
+              "id": "SFD-021",
+              "count": 1
+            },
+            {
+              "id": "VEN-085",
+              "count": 2
+            },
+            {
+              "id": "VEN-015",
+              "count": 2
+            },
+            {
+              "id": "OGN-145",
+              "count": 2
+            },
+            {
+              "id": "VEN-003",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "2nd",
+      "decklists": [
+        {
+          "username": "astar",
+          "archetype": "Ornn",
+          "legend": "SFD-189",
+          "chosenChampion": "SFD-085",
+          "mainDeck": [
+            {
+              "id": "VEN-043",
+              "count": 2
+            },
+            {
+              "id": "VEN-058",
+              "count": 3
+            },
+            {
+              "id": "UNL-053",
+              "count": 2
+            },
+            {
+              "id": "OGN-091",
+              "count": 3
+            },
+            {
+              "id": "SFD-050",
+              "count": 1
+            },
+            {
+              "id": "OGN-095",
+              "count": 3
+            },
+            {
+              "id": "OGN-045",
+              "count": 3
+            },
+            {
+              "id": "OGN-058",
+              "count": 3
+            },
+            {
+              "id": "SFD-045",
+              "count": 1
+            },
+            {
+              "id": "UNL-042",
+              "count": 1
+            },
+            {
+              "id": "SFD-064",
+              "count": 1
+            },
+            {
+              "id": "SFD-046",
+              "count": 3
+            },
+            {
+              "id": "SFD-042",
+              "count": 1
+            },
+            {
+              "id": "OGN-060",
+              "count": 3
+            },
+            {
+              "id": "OGN-077",
+              "count": 2
+            },
+            {
+              "id": "UNL-078",
+              "count": 3
+            },
+            {
+              "id": "SFD-059",
+              "count": 2
+            },
+            {
+              "id": "VEN-045",
+              "count": 1
+            },
+            {
+              "id": "SFD-192",
+              "count": 1
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "SFD-213",
+              "count": 1
+            },
+            {
+              "id": "SFD-216",
+              "count": 1
+            },
+            {
+              "id": "SFD-220",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-042",
+              "count": 8
+            },
+            {
+              "id": "OGN-089",
+              "count": 4
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "SFD-074",
+              "count": 2
+            },
+            {
+              "id": "SFD-032",
+              "count": 3
+            },
+            {
+              "id": "OGN-116",
+              "count": 2
+            },
+            {
+              "id": "OGN-064",
+              "count": 2
+            },
+            {
+              "id": "SFD-190",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "Top 4",
+      "decklists": [
+        {
+          "username": "mastershien",
+          "archetype": "Nasus",
+          "legend": "VEN-145",
+          "chosenChampion": "VEN-046",
+          "mainDeck": [
+            {
+              "id": "VEN-043",
+              "count": 3
+            },
+            {
+              "id": "SFD-036",
+              "count": 3
+            },
+            {
+              "id": "UNL-053",
+              "count": 3
+            },
+            {
+              "id": "VEN-032",
+              "count": 3
+            },
+            {
+              "id": "UNL-084",
+              "count": 3
+            },
+            {
+              "id": "OGN-116",
+              "count": 3
+            },
+            {
+              "id": "UNL-060",
+              "count": 2
+            },
+            {
+              "id": "OGN-104",
+              "count": 2
+            },
+            {
+              "id": "SFD-080",
+              "count": 2
+            },
+            {
+              "id": "OGN-043",
+              "count": 2
+            },
+            {
+              "id": "OGN-045",
+              "count": 3
+            },
+            {
+              "id": "OGN-058",
+              "count": 3
+            },
+            {
+              "id": "SFD-045",
+              "count": 1
+            },
+            {
+              "id": "OGN-047",
+              "count": 3
+            },
+            {
+              "id": "VEN-146",
+              "count": 1
+            },
+            {
+              "id": "SFD-051",
+              "count": 2
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-287",
+              "count": 1
+            },
+            {
+              "id": "SFD-207",
+              "count": 1
+            },
+            {
+              "id": "SFD-218",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-042",
+              "count": 6
+            },
+            {
+              "id": "OGN-089",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "VEN-037",
+              "count": 3
+            },
+            {
+              "id": "VEN-040",
+              "count": 1
+            },
+            {
+              "id": "VEN-061",
+              "count": 1
+            },
+            {
+              "id": "SFD-080",
+              "count": 1
+            },
+            {
+              "id": "SFD-045",
+              "count": 1
+            },
+            {
+              "id": "OGN-093",
+              "count": 2
+            },
+            {
+              "id": "UNL-042",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "username": "DBZ Goku",
+          "archetype": "Kennen Control",
+          "legend": "VEN-197",
+          "chosenChampion": "VEN-135a",
+          "mainDeck": [
+            {
+              "id": "UNL-121",
+              "count": 3
+            },
+            {
+              "id": "SFD-140",
+              "count": 3
+            },
+            {
+              "id": "OGN-218",
+              "count": 1
+            },
+            {
+              "id": "OGN-226",
+              "count": 2
+            },
+            {
+              "id": "VEN-156",
+              "count": 3
+            },
+            {
+              "id": "OGN-183",
+              "count": 3
+            },
+            {
+              "id": "UNL-165",
+              "count": 2
+            },
+            {
+              "id": "OGN-209",
+              "count": 3
+            },
+            {
+              "id": "OGN-213",
+              "count": 1
+            },
+            {
+              "id": "OGN-224",
+              "count": 1
+            },
+            {
+              "id": "VEN-103",
+              "count": 1
+            },
+            {
+              "id": "UNL-128",
+              "count": 2
+            },
+            {
+              "id": "VEN-106",
+              "count": 1
+            },
+            {
+              "id": "UNL-180",
+              "count": 3
+            },
+            {
+              "id": "OGN-245",
+              "count": 3
+            },
+            {
+              "id": "OGN-181",
+              "count": 3
+            },
+            {
+              "id": "OGN-186",
+              "count": 2
+            },
+            {
+              "id": "SFD-168",
+              "count": 2
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-287",
+              "count": 1
+            },
+            {
+              "id": "SFD-209",
+              "count": 1
+            },
+            {
+              "id": "SFD-221",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-214a",
+              "count": 7
+            },
+            {
+              "id": "OGN-166a",
+              "count": 5
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "VEN-102",
+              "count": 2
+            },
+            {
+              "id": "UNL-169",
+              "count": 2
+            },
+            {
+              "id": "UNL-147a",
+              "count": 1
+            },
+            {
+              "id": "OGN-213",
+              "count": 1
+            },
+            {
+              "id": "VEN-127",
+              "count": 1
+            },
+            {
+              "id": "OGN-224",
+              "count": 2
+            },
+            {
+              "id": "OGN-186",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "placing": "Top 8",
+      "decklists": [
+        {
+          "username": "Terroking",
+          "archetype": "Ambessa",
+          "legend": "VEN-196",
+          "chosenChampion": "VEN-084a",
+          "mainDeck": [
+            {
+              "id": "SFD-155",
+              "count": 3
+            },
+            {
+              "id": "VEN-074",
+              "count": 3
+            },
+            {
+              "id": "OGN-132",
+              "count": 2
+            },
+            {
+              "id": "VEN-134",
+              "count": 3
+            },
+            {
+              "id": "VEN-122",
+              "count": 2
+            },
+            {
+              "id": "UNL-171",
+              "count": 2
+            },
+            {
+              "id": "UNL-114",
+              "count": 3
+            },
+            {
+              "id": "VEN-136a",
+              "count": 1
+            },
+            {
+              "id": "UNL-106",
+              "count": 1
+            },
+            {
+              "id": "OGN-156",
+              "count": 2
+            },
+            {
+              "id": "SFD-097",
+              "count": 2
+            },
+            {
+              "id": "UNL-175",
+              "count": 3
+            },
+            {
+              "id": "OGN-128",
+              "count": 2
+            },
+            {
+              "id": "VEN-154",
+              "count": 3
+            },
+            {
+              "id": "VEN-083",
+              "count": 3
+            },
+            {
+              "id": "VEN-081",
+              "count": 1
+            },
+            {
+              "id": "OGN-163",
+              "count": 2
+            },
+            {
+              "id": "VEN-077",
+              "count": 1
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "SFD-220",
+              "count": 1
+            },
+            {
+              "id": "VEN-163",
+              "count": 1
+            },
+            {
+              "id": "VEN-164",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-126",
+              "count": 7
+            },
+            {
+              "id": "OGN-214",
+              "count": 5
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "VEN-132",
+              "count": 2
+            },
+            {
+              "id": "UNL-169",
+              "count": 2
+            },
+            {
+              "id": "VEN-085",
+              "count": 1
+            },
+            {
+              "id": "UNL-106",
+              "count": 1
+            },
+            {
+              "id": "OGN-224",
+              "count": 2
+            },
+            {
+              "id": "VEN-081",
+              "count": 1
+            },
+            {
+              "id": "VEN-077",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "username": "NoddL",
+          "archetype": "Sivir",
+          "legend": "SFD-203",
+          "chosenChampion": "SFD-143",
+          "mainDeck": [
+            {
+              "id": "UNL-121",
+              "count": 3
+            },
+            {
+              "id": "SFD-149a",
+              "count": 3
+            },
+            {
+              "id": "SFD-140",
+              "count": 2
+            },
+            {
+              "id": "SFD-109",
+              "count": 1
+            },
+            {
+              "id": "VEN-104",
+              "count": 1
+            },
+            {
+              "id": "UNL-120a",
+              "count": 1
+            },
+            {
+              "id": "OGN-192",
+              "count": 2
+            },
+            {
+              "id": "OGN-183",
+              "count": 3
+            },
+            {
+              "id": "OGN-156",
+              "count": 3
+            },
+            {
+              "id": "SFD-097",
+              "count": 3
+            },
+            {
+              "id": "OGN-128",
+              "count": 3
+            },
+            {
+              "id": "OGN-172",
+              "count": 3
+            },
+            {
+              "id": "VEN-083",
+              "count": 3
+            },
+            {
+              "id": "UNL-128",
+              "count": 2
+            },
+            {
+              "id": "OGN-181",
+              "count": 3
+            },
+            {
+              "id": "OGN-186",
+              "count": 3
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-287",
+              "count": 1
+            },
+            {
+              "id": "SFD-219",
+              "count": 1
+            },
+            {
+              "id": "SFD-221",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-126",
+              "count": 6
+            },
+            {
+              "id": "OGN-166",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "VEN-101",
+              "count": 1
+            },
+            {
+              "id": "SFD-109",
+              "count": 1
+            },
+            {
+              "id": "SFD-132",
+              "count": 1
+            },
+            {
+              "id": "OGN-179",
+              "count": 1
+            },
+            {
+              "id": "VEN-085",
+              "count": 3
+            },
+            {
+              "id": "VEN-081",
+              "count": 1
+            },
+            {
+              "id": "UNL-110",
+              "count": 1
+            },
+            {
+              "id": "OGN-203",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "username": "Meiz",
+          "archetype": "Rek'Sai",
+          "legend": "SFD-187",
+          "chosenChampion": "SFD-029",
+          "mainDeck": [
+            {
+              "id": "UNL-153",
+              "count": 3
+            },
+            {
+              "id": "SFD-155",
+              "count": 2
+            },
+            {
+              "id": "UNL-002",
+              "count": 3
+            },
+            {
+              "id": "UNL-003",
+              "count": 2
+            },
+            {
+              "id": "VEN-128",
+              "count": 2
+            },
+            {
+              "id": "OGN-211",
+              "count": 2
+            },
+            {
+              "id": "OGN-218",
+              "count": 3
+            },
+            {
+              "id": "OGN-012",
+              "count": 3
+            },
+            {
+              "id": "SFD-012",
+              "count": 2
+            },
+            {
+              "id": "SFD-175",
+              "count": 3
+            },
+            {
+              "id": "OGN-004",
+              "count": 2
+            },
+            {
+              "id": "OGN-209",
+              "count": 2
+            },
+            {
+              "id": "OGN-213",
+              "count": 2
+            },
+            {
+              "id": "SFD-188",
+              "count": 3
+            },
+            {
+              "id": "OGN-029",
+              "count": 1
+            },
+            {
+              "id": "OGN-233",
+              "count": 1
+            },
+            {
+              "id": "OGN-245",
+              "count": 3
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "OGN-291",
+              "count": 1
+            },
+            {
+              "id": "OGN-294",
+              "count": 1
+            },
+            {
+              "id": "UNL-210",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-007",
+              "count": 6
+            },
+            {
+              "id": "OGN-214",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "UNL-176",
+              "count": 1
+            },
+            {
+              "id": "OGN-209",
+              "count": 1
+            },
+            {
+              "id": "VEN-131",
+              "count": 2
+            },
+            {
+              "id": "OGN-224",
+              "count": 2
+            },
+            {
+              "id": "OGN-029",
+              "count": 1
+            },
+            {
+              "id": "OGN-212",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "username": "E-Gauge",
+          "archetype": "Kha'Zix",
+          "legend": "UNL-201",
+          "chosenChampion": "UNL-143",
+          "mainDeck": [
+            {
+              "id": "UNL-112",
+              "count": 3
+            },
+            {
+              "id": "VEN-095",
+              "count": 2
+            },
+            {
+              "id": "OGN-185",
+              "count": 3
+            },
+            {
+              "id": "SFD-113",
+              "count": 2
+            },
+            {
+              "id": "SFD-140",
+              "count": 3
+            },
+            {
+              "id": "UNL-150",
+              "count": 2
+            },
+            {
+              "id": "VEN-112",
+              "count": 3
+            },
+            {
+              "id": "UNL-120",
+              "count": 2
+            },
+            {
+              "id": "OGN-183",
+              "count": 3
+            },
+            {
+              "id": "OGN-156",
+              "count": 2
+            },
+            {
+              "id": "SFD-097",
+              "count": 2
+            },
+            {
+              "id": "UNL-095",
+              "count": 2
+            },
+            {
+              "id": "OGN-173",
+              "count": 2
+            },
+            {
+              "id": "UNL-202",
+              "count": 3
+            },
+            {
+              "id": "VEN-083",
+              "count": 2
+            },
+            {
+              "id": "UNL-128",
+              "count": 3
+            }
+          ],
+          "battlefields": [
+            {
+              "id": "UNL-210",
+              "count": 1
+            },
+            {
+              "id": "UNL-215",
+              "count": 1
+            },
+            {
+              "id": "VEN-164",
+              "count": 1
+            }
+          ],
+          "runeDeck": [
+            {
+              "id": "OGN-126",
+              "count": 6
+            },
+            {
+              "id": "OGN-166",
+              "count": 6
+            }
+          ],
+          "sideboard": [
+            {
+              "id": "VEN-080",
+              "count": 2
+            },
+            {
+              "id": "VEN-102",
+              "count": 1
+            },
+            {
+              "id": "VEN-085",
+              "count": 1
+            },
+            {
+              "id": "OGN-169",
+              "count": 2
+            },
+            {
+              "id": "OGN-156",
+              "count": 1
+            },
+            {
+              "id": "SFD-136",
+              "count": 2
+            },
+            {
+              "id": "VEN-090",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

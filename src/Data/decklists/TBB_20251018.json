@@ -1,0 +1,35 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/10/18",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/wy1yanj5"
+  ],
+  "results": [
+    {
+      "placing": "3-0",
+      "decklists": [
+        {
+          "username": "denni1"
+        }
+      ]
+    },
+    {
+      "placing": "2-1",
+      "decklists": [
+        {
+          "username": "Azrael"
+        },
+        {
+          "username": "Terasadon"
+        },
+        {
+          "username": "Iratorum"
+        }
+      ]
+    }
+  ]
+}

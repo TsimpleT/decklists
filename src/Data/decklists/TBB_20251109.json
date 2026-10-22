@@ -1,0 +1,40 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/11/09",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/mon8444h"
+  ],
+  "results": [
+    {
+      "placing": "4-0",
+      "decklists": [
+        {
+          "username": "Zbrojson"
+        }
+      ]
+    },
+    {
+      "placing": "3-1",
+      "decklists": [
+        {
+          "username": "Terasadon"
+        }
+      ]
+    },
+    {
+      "placing": "2-2",
+      "decklists": [
+        {
+          "username": "Nouhhhhhhh"
+        },
+        {
+          "username": "Iratorum"
+        }
+      ]
+    }
+  ]
+}

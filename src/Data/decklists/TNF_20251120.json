@@ -1,0 +1,36 @@
+{
+  "tournamentName": "Thursday Night Fights",
+  "abbrName": "TNF",
+  "date": "2025/11/20",
+  "meta": "OGN",
+  "host": "",
+  "tier": 4,
+  "links": [
+    "https://challonge.com/69wo26r9"
+  ],
+  "results": [
+    {
+      "placing": "4-0",
+      "decklists": [
+        {
+          "username": "Nouhhhhhhh",
+          "archetype": "Annie"
+        }
+      ]
+    },
+    {
+      "placing": "3-1",
+      "decklists": [
+        {
+          "username": "Prismaticism"
+        },
+        {
+          "username": "z_alex"
+        },
+        {
+          "username": "IX_Vanquish"
+        }
+      ]
+    }
+  ]
+}

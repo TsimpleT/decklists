@@ -1,0 +1,44 @@
+{
+  "tournamentName": "The Bandle Blitz!",
+  "abbrName": "TBB",
+  "date": "2025/10/04",
+  "meta": "OGN",
+  "host": "",
+  "tier": 3,
+  "links": [],
+  "results": [
+    {
+      "placing": "5-0",
+      "decklists": [
+        {
+          "username": "Merz"
+        },
+        {
+          "username": "Jibbs"
+        }
+      ]
+    },
+    {
+      "placing": "4-1",
+      "decklists": [
+        {
+          "username": "Entropy"
+        }
+      ]
+    },
+    {
+      "placing": "3-2",
+      "decklists": [
+        {
+          "username": "ocean"
+        },
+        {
+          "username": "Fliresh"
+        },
+        {
+          "username": "Cedro52"
+        }
+      ]
+    }
+  ]
+}
