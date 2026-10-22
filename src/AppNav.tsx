@@ -15,6 +15,7 @@ export class AppNav extends React.Component<RouteAwareProps> {
             || pathname.startsWith("/riftbound/archetype/");
         const myDecklistsActive = pathname.startsWith("/riftbound/me");
         const tournamentResultsActive = pathname === "/riftbound/tournament-results"
+            || pathname.startsWith("/riftbound/tournament-results/")
             || pathname.startsWith("/riftbound/tournament/");
         const allCardsActive = pathname === "/riftbound/all-cards";
 

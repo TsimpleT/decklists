@@ -11,6 +11,7 @@ const RouteAwareAppNav = withRoute(AppNav);
 const RouteAwareArchetypesPage = withRoute(AllArchetypesPage);
 const RouteAwareDecklistPage = withRoute(DecklistPage);
 const RouteAwareDecklistTablePage = withRoute(DecklistTablePage);
+const RouteAwareTournamentResultsPage = withRoute(TournamentResultsPage);
 const RouteAwareTournamentDecklistPage = withRoute(TournamentDecklistPage);
 
 export class AppMainRouter extends React.Component {
@@ -31,7 +32,8 @@ export class AppMainRouter extends React.Component {
                     <Route path={ROUTE_PATHS.archetypeDecklists} element={<RouteAwareDecklistTablePage />} />
                     <Route path={ROUTE_PATHS.playerResults} element={<PlayerResultsPage />} />
                     <Route path={ROUTE_PATHS.allCards} element={<CardListPage />} />
-                    <Route path={ROUTE_PATHS.tournamentResults} element={<TournamentResultsPage />} />
+                    <Route path={ROUTE_PATHS.tournamentResults} element={<RouteAwareTournamentResultsPage />} />
+                    <Route path={ROUTE_PATHS.tournamentResultsMeta} element={<RouteAwareTournamentResultsPage />} />
                     <Route path={ROUTE_PATHS.tournamentDecklist} element={<RouteAwareTournamentDecklistPage />} />
                     <Route path="*" element={<ErrorPage />} />
                 </Routes>

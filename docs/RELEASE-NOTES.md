@@ -1,1 +1,2 @@
-[6.0.2] Fixed tournament decklists into json + script to generate
+[6.1.0] Added meta filter to tournament results
+Added lazy loading to LegendImages

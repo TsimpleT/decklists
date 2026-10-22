@@ -26,12 +26,12 @@ export class AllArchetypesPage extends React.Component<RouteAwareProps> {
         const meta = this.getMetaFromPath();
         return (
             <div className={styles.container}>
-                <div style={{display: "flex", gap: "10px"}}>
-                    <div className={styles.headerContainer}>
-                        <div className={styles.headerLabel} style={{borderLeft: "none"}}>{`${GET_META_NAME(meta)} Meta`}</div>
+                <div className={styles.headerRow}>
+                    <div className={`${styles.headerContainer} ${styles.metaTitleContainer}`}>
+                        <div className={styles.metaTitle}>{`${GET_META_NAME(meta)} Meta`}</div>
                     </div>
                     <div className={styles.headerContainer}>
-                        {ALL_METAS.map((iterMeta, idx) => {
+                        {[...ALL_METAS].reverse().map((iterMeta: Meta, idx: number) => {
                             const extraStyles = (
                                 (idx === 0) ?
                                     styles.firstMeta :

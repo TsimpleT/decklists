@@ -16,6 +16,25 @@
     width: fit-content;
 }
 
+.headerRow {
+    display: grid;
+    grid-template-columns: 280px max-content;
+    column-gap: 10px;
+    width: max-content;
+}
+
+.metaTitleContainer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.metaTitle {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 14px;
+    text-align: center;
+}
+
 .headerLabel {
     padding: 6px 14px;
 }

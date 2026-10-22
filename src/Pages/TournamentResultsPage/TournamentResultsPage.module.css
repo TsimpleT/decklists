@@ -1,3 +1,67 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.metaFilters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 8px;
+}
+
+.headerContainer {
+    display: flex;
+    margin-bottom: 8px;
+    background-color: black;
+    border: 1px #E0E0CD solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.headerLabel {
+    padding: 6px 14px;
+}
+
+.leftBorder {
+    border-left: 1px #E0E0CD solid;
+}
+
+.firstMeta {
+    border-radius: 7px 0 0 7px;
+}
+
+.lastMeta {
+    border-radius: 0 7px 7px 0;
+}
+
+.headerLabelLink {
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+}
+
+.currentMeta {
+    background-color: var(--bg-default-hover);
+}
+
+.allMetaLabel {
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.headerLabelLink:hover {
+    background-color: var(--bg-dark-hover);
+}
+
+.headerLabelLink:focus-visible {
+    outline: 2px solid var(--text-default);
+    outline-offset: 2px;
+}
+
 .container {
     margin-left: 4px;
     display: flex;

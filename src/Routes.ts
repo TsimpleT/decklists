@@ -11,6 +11,7 @@ export const ROUTE_PATHS = {
     playerResults: '/riftbound/player-results',
     allCards: '/riftbound/all-cards',
     tournamentResults: '/riftbound/tournament-results',
+    tournamentResultsMeta: '/riftbound/tournament-results/:meta',
     tournamentDecklist: '/riftbound/tournament/:tourneyName/decklist/:username'
 };
 
@@ -22,7 +23,9 @@ export const ROUTES = {
     decklist: (deckId: string): string => generatePath(ROUTE_PATHS.decklist, { deckid: deckId }),
     playerResults: (): string => ROUTE_PATHS.playerResults,
     allCards: (): string => ROUTE_PATHS.allCards,
-    tournamentResults: (): string => ROUTE_PATHS.tournamentResults,
+    tournamentResults: (meta?: string): string => meta
+        ? generatePath(ROUTE_PATHS.tournamentResultsMeta, { meta })
+        : ROUTE_PATHS.tournamentResults,
     tournamentDecklist: (tourneyName: string, username: string): string =>
         generatePath(ROUTE_PATHS.tournamentDecklist, { tourneyName, username })
 };

@@ -62,7 +62,7 @@ export class MyDecklistsPage extends React.Component<{}, IState> {
             window.alert(`${decklist.runeDeck.reduce((sum, current) => sum + current.count, 0)} cards in rune deck (need 12)`);
             return;
         }
-        copy(JSON.stringify(decklist.toInterface(true))+",");
+        copy(JSON.stringify(decklist.toInterface(true), null, 2)+",");
         window.alert("Decklist copied to clipboard.");
     }
 
