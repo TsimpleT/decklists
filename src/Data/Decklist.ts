@@ -69,20 +69,7 @@ export class Decklist {
         this.archetype = (idl.archetype !== undefined && idl.archetype !== "Unknown") ? idl.archetype : PREDICT_ARCHETYPE(this);
 
         this.mainDeck.sort(cardSortComparator);
-        this.sideboard.sort(cardSortComparator)
-
-        // ensure cc is in mainDeck + move cc dca to start of mainDeck
-        if(this.chosenChampion !== "") {
-            const ccIdx = this.mainDeck.findIndex((dca) => dca.id === this.chosenChampion);
-            if(ccIdx === -1) {
-                this.mainDeck.unshift({id: this.chosenChampion, count: 1});
-            } else {
-                this.mainDeck.unshift(this.mainDeck.splice(ccIdx, 1)[0]);
-            }
-            if(this.mainDeck.reduce((a,{count})=>a+count, 0) === 39) {
-                this.mainDeck[0].count += 1;
-            }
-        }
+        this.sideboard.sort(cardSortComparator);
     }
 
     // exclude sideboard by default
@@ -122,29 +109,19 @@ export class Decklist {
     }
 
     private combinedDCAs(includeSideboard: boolean = true): DecklistCardAmount[] {
-        return [{id: this.legend, count: 1}].concat(this.mainDeck).concat(this.battlefields).concat(this.runeDeck).concat((includeSideboard) ? this.sideboard : []);
+        return [{id: this.legend, count: 1}].concat([{id: this.chosenChampion, count: 1}]).concat(this.mainDeck).concat(this.battlefields).concat(this.runeDeck).concat((includeSideboard) ? this.sideboard : []);
     }
 
-    public exportToText(): string {
-        const parseDCAForText = (dca: DecklistCardAmount) => `${dca.count} ${GET_CARD(dca.id).name}`;
-        let strs = ([
-            [[{id: this.legend, count: 1}], "Legend"],
-            [this.mainDeck, "Main Deck"],
-            [this.battlefields, "Battlefields"],
-            [this.runeDeck, "Runes"],
-            [this.sideboard, "Sideboard"]
-        ] as [DecklistCardAmount[], string][]).map((dcaArr: [DecklistCardAmount[], string]) => {
-            return dcaArr[1] + ":\n" + dcaArr[0].map(parseDCAForText).join("\n");
-        });
-        strs.splice(1, 0, `Chosen Champion:\n${GET_CARD(this.chosenChampion).name}`);
-        return strs.join("\n\n");
-    }
-
-    public exportToTCGA(): string {
-        const parseDCAForTCGA = (dca: DecklistCardAmount) => `${dca.count} ${dca.id.replaceAll("*","s")}`;
+    public exportStandard(mode:"TEXT"|"IDS"): string {
+        const dcaParser = (
+            (mode === "IDS") ?
+                (dca: DecklistCardAmount) => `${dca.count} ${dca.id.replaceAll("*","s")}`:
+            // (mode === "TEXT") ?
+                (dca: DecklistCardAmount) => `${dca.count} ${GET_CARD(dca.id).name}`
+        );
         return ([
             [[{id: this.legend, count: 1}], "Legend"],
-            [[{id: this.chosenChampion, count: 1}], "ChosenChampion"],
+            [[{id: this.chosenChampion, count: 1}], "Champion"],
             [(this.mainDeck.length === 0)
                 ? []
                 : ((this.mainDeck[0].count > 1)
@@ -155,7 +132,7 @@ export class Decklist {
             [this.runeDeck, "Runes"],
             [this.sideboard, "Sideboard"]
         ] as [DecklistCardAmount[], string][]).map((dcaArr: [DecklistCardAmount[], string]) => {
-            return dcaArr[1] + ":\n" + dcaArr[0].map(parseDCAForTCGA).join("\n");
+            return dcaArr[1] + ":\n" + dcaArr[0].map(dcaParser).join("\n");
         }).join("\n\n");
     }
 
@@ -244,20 +221,22 @@ export class Decklist {
         return new Decklist(decklist);
     }
 
-    // in order: 1x legend, 40x main deck, 3x battlefield, 12x rune, rest sideboard
+    // in order: 1x legend, 1x chosen champion, 39x remaining main deck, 3x battlefield, 12x rune, rest sideboard
     public static fromTTSText(text: string, username?: string): Decklist {
         const cardIdList: string[] = text.split(" ").map(ttsId => TTS_ID_TO_ID(ttsId));
 
         let decklist: IDecklist = {
-            legend: (cardIdList.length > 0) ? cardIdList[0] : "", chosenChampion: "",
+            legend: (cardIdList.length > 0) ? cardIdList[0] : "",
+            chosenChampion: (cardIdList.length > 1) ? cardIdList[1] : "",
             mainDeck: [], battlefields: [], runeDeck: [], sideboard: []
         };
+        decklist.mainDeck = [];
         if(username) {
             decklist.username = username;
         }
 
         let mainDeckDone = false;
-        for(let startI = 1; startI < cardIdList.length; startI++) { // skip first card legend; already handled
+        for(let startI = 2; startI < cardIdList.length; startI++) { // skip first and second cards: legend and cc are already handled
             if(!IS_CARD_ID(cardIdList[startI])) { continue; }
             let count = 1;
             while(startI+count < cardIdList.length && cardIdList[startI+count] === cardIdList[startI]) {
@@ -280,16 +259,40 @@ export class Decklist {
             startI += count-1;
         }
 
-        const legendChampTag: string|undefined = GET_CARD(cardIdList[0]).championTag;
-        if(legendChampTag !== undefined) {
-            if(cardIdList.length > 1 && GET_CARD(cardIdList[1]).championTag === legendChampTag) {
-                decklist.chosenChampion = cardIdList[1];
-            } else {
-                for(let dca of decklist.mainDeck ?? []) {
-                    if(GET_CARD(dca.id).championTag === legendChampTag) {
+        // fix PA TTS export bug where 2nd card isnt chosen champ, but rather some other champion (likely with most copies)
+        const legendId: string = (cardIdList.length < 1) ? "" : cardIdList[0];
+        const chosenChampId: string = (cardIdList.length < 2) ? "" : cardIdList[1];
+        if(legendId && chosenChampId && legendId !== chosenChampId) {
+            const legendChampTag: string|undefined = GET_CARD(legendId).championTag;
+            console.log(legendChampTag);
+            const chosenChampTag: string|undefined = GET_CARD(chosenChampId).championTag;
+            if(legendChampTag !== undefined && chosenChampTag !== undefined && legendChampTag !== chosenChampTag) {
+                let movedIncorrectCCToMain = false;
+                let foundCorrectCC = false;
+                let ccIdxToSplice = -1;
+                for(let i = 0; i < decklist.mainDeck?.length; i++) {
+                    const dca = decklist.mainDeck[i];
+                    console.log(`${i} ${dca.id} ${GET_CARD(dca.id).name} ${GET_CARD(dca.id).championTag}`);
+                    if(dca.id === chosenChampId && !movedIncorrectCCToMain) {
+                        dca.count = dca.count+1;
+                        console.log(`added incorrect cc`);
+                        movedIncorrectCCToMain = true;
+                    } else if(GET_CARD(dca.id).championTag === legendChampTag && !foundCorrectCC) {
                         decklist.chosenChampion = dca.id;
-                        break;
+                        console.log(`found ${dca.id} at ${i}`);
+                        if(dca.count > 1) {
+                            dca.count = dca.count-1;
+                        } else {
+                            ccIdxToSplice = i;
+                        }
+                        foundCorrectCC = true;
                     }
+                }
+                if(ccIdxToSplice !== -1) {
+                    decklist.mainDeck.splice(ccIdxToSplice, 1);
+                }
+                if(!movedIncorrectCCToMain) {
+                    decklist.mainDeck.push({id: chosenChampId, count: 1});
                 }
             }
         }

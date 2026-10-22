@@ -8,6 +8,7 @@ export const ALL_ARCHETYPES = [
     "Rumble", "Lucian", "Draven", "Draven Miracle", "Rek'Sai", "Ornn", "Jax", "Irelia", "Azir", "Ezreal Control", "Ezreal Rat", "Renata Glasc", "Sivir", "Sivir Miracle", "Sivir Aurora", "Fiora",
     "Jhin", "Rengar", "Pyke", "Vi", "Lillia", "Yi (UNL)", "Vex", "Ivern", "Diana", "LeBlanc", "Kha'Zix", "Poppy Aurora",
     "Akali", "Renekton", "Zed", "Nasus", "Shen", "Jayce", "Mel", "Ambessa", "Kennen Control", "Kennen Hook", "Kennen Miracle",
+    "Ekko", "Ziggs", "Mordekaiser", "Orianna", "K'Sante", "Riven", "Seraphine", "Evelynn", "Jarvan IV",
     "Unknown"
 ] as const;
 export type Archetype = typeof ALL_ARCHETYPES[number];
@@ -79,6 +80,15 @@ const archetypeLegendDict: {[archetype in Archetype]: string} = {
     "Kennen Control": "VEN-155",
     "Kennen Hook": "VEN-155",
     "Kennen Miracle": "VEN-155",
+    "Ekko": "RAD-139",
+    "Ziggs": "RAD-141",
+    "Mordekaiser": "RAD-143",
+    "Orianna": "RAD-145",
+    "K'Sante": "RAD-147",
+    "Riven": "RAD-149",
+    "Seraphine": "RAD-151",
+    "Evelynn": "RAD-153",
+    "Jarvan IV": "RAD-155",
     "Unknown": ""
 };
 
@@ -130,20 +140,29 @@ export function PREDICT_ARCHETYPE(decklist: Decklist): Archetype {
     } else if(baseLegendId === "SFD-199") {
         return decklist.contains("OGN-091") && decklist.contains("SFD-134") ? "Ezreal Rat" : "Ezreal Control";
     } else if(baseLegendId === "VEN-155") {
-        return decklist.contains("OGN-242", {exactCount: 3}) ? "Kennen Hook" : decklist.contains("OGN-195", {exactCount: 3}) ? "Kennen Miracle" : "Kennen Control";
+        return decklist.contains("OGN-242", {exactCount: 3}) ? "Kennen Hook" : decklist.contains("OGN-195", {minCount: 2}) ? "Kennen Miracle" : "Kennen Control";
     }
     return "Unknown";
 }
 
-export const ARCHETYPE_TIER_NAMES = ["Favorites", "Contenders", "Real Challengers", "Potential Challengers", "Struggling", "Memes"];
+export const ARCHETYPE_TIER_NAMES = ["Favorites", "Contenders", "Real Challengers", "Potential Challengers", "Struggling", "Memes"/*, "Rotated + Not Top Tier"*/];
 const META_ARCHETYPE_TIERS: {[meta in Meta]: Archetype[][]} = {
+    "RAD": [
+        ["Kennen Miracle", "Riven", "Irelia", "Rengar", "Azir", "Yi (OGS)", "Kai'Sa", "Akali"],
+        ["Kennen Hook", "LeBlanc", "Jayce", "Vex", "Rek'Sai", "Sett", "Viktor"],
+        ["Mordekaiser", "Zed", "Orianna", "Evelynn", "Kha'Zix", "Ornn", "Diana", "Nasus", "Ezreal Control"],
+        ["Lillia", "Ambessa", "Poppy Aurora", "Jarvan IV", "Jhin", "Yi (UNL)"],
+        ["Ziggs", "Ekko", "Ivern", "Vi", "Mel", "Pyke"],
+        ["Seraphine", "K'Sante", "Renekton", "Shen"]
+        // ["Sett", "Darius", "Fiora", "Lucian", "Lux Control", "Volibear", "Annie", "Draven", "Miss Fortune Aurora", "Sivir Aurora", "Ahri", "Jax", "Yasuo", "Leona", "Rumble", "Lee Sin", "Teemo", "Jinx", "Renata Glasc", "Garen Aurora"],
+    ],
     "VEN2": [
-        ["LeBlanc", "Jayce", "Yi (OGS)", "Azir", "Irelia"],
-        ["Rengar", "Rek'Sai", "Akali", "Diana", "Ornn", "Fiora", "Lillia"],
-        ["Lucian", "Kai'Sa", "Kennen Miracle", "Viktor", "Vex", "Kha'Zix", "Nasus", "Ezreal Control", "Ambessa", "Kennen Hook"],
-        ["Yi (UNL)", "Sivir Aurora", "Poppy Aurora", "Draven", "Jax", "Kennen Control", "Sivir", "Jhin"],
-        ["Ivern", "Rumble", "Vi", "Renekton", "Mel"],
-        ["Pyke", "Zed", "Renata Glasc", "Shen"],
+        ["Kennen Miracle", "Irelia", "LeBlanc", "Rengar", "Azir"],
+        ["Yi (OGS)", "Kai'Sa", "Rek'Sai", "Jayce", "Akali", "Vex", "Kha'Zix", "Diana"],
+        ["Ornn", "Ezreal Control", "Fiora", "Lucian", "Lillia", "Viktor", "Nasus"],
+        ["Draven", "Sivir Aurora", "Ambessa", "Poppy Aurora", "Jax", "Sivir", "Jhin", "Yi (UNL)"],
+        ["Ivern", "Rumble", "Vi", "Mel", "Pyke"],
+        ["Renekton", "Zed", "Shen", "Renata Glasc"],
     ],
     "VEN": [
         ["Kennen Miracle", "Yi (OGS)", "Azir", "Irelia"],
@@ -194,35 +213,37 @@ export function GET_MAX_ARCHETYPE_TIER_SIZE(meta: Meta) {
 };
 
 const ARCHETYPE_ANNOTATIONS: {[meta in Meta]: {[key in Archetype]?: string[]}} = {
+    "RAD": {
+        "Riven": ["Up On the rise"],
+        "Mordekaiser": ["Up On the rise"],
+    },
     "VEN2": {
+        "Rengar": ["Up On the rise", "Trophy Won RQ LA"],
+        "Irelia": ["Up On the rise"],
         "LeBlanc": ["Up On the rise"],
-        "Ambessa": ["Up On the rise"],
         "Jax": ["Up On the rise"],
-        "Jayce": ["Up On the rise"],
+        "Diana": ["Down On the decline"],
+        "Jayce": ["Down On the decline"],
+        "Vex": ["Up On the rise"],
         "Poppy Aurora": ["Up On the rise"],
         "Lucian": ["Up On the rise", "Question Speculative"],
         "Viktor": ["Up On the rise", "Question Speculative"],
         "Kai'Sa": ["Up On the rise", "Question Speculative"],
-        "Yi (UNL)": ["Up On the rise"],
-        "Ornn": ["Up On the rise"],
-        "Lillia": ["Up On the rise"],
-        "Fiora": ["Up On the rise"],
-        "Kha'Zix": ["Down On the decline"],
+        "Yi (OGS)": ["Down On the decline"],
+        "Kha'Zix": ["Up On the rise"],
         "Zed": ["Down On the decline"],
         "Pyke": ["Down On the decline"],
         "Draven": ["Down On the decline"],
         "Mel": ["Down On the decline"],
         "Sivir Aurora": ["Down On the decline"],
-        "Akali": ["Down On the decline"],
         "Kennen Miracle": ["Down On the decline"],
-        "Ezreal Control": ["Down On the decline"],
-
+        "Ezreal Control": ["Up On the rise"],
     },
     "VEN": {
         "Kennen Miracle": ["Trophy Won Auckland SD + Many Top 8s"],
         "Akali": ["Up On the rise", "Trophy Won Singapore RQ + Shenyang Open"],
         "Ornn": ["Down On the decline", "Trophy Won Barcelona RQ"],
-        "Irelia": ["Up On the rise", "Trophy Won Wuhan Open"],
+        "Irelia": ["Up On the rise", "Trophy Won Wuhan Open + Lucca SD"],
         "Lux Control": ["Up On the rise", "Trophy Won Baltimore SD"],
         "Rengar": ["Trophy Won Los Angeles SD + Ottawa SD"],
         "Azir": ["Trophy Won Speyer SD"],
@@ -250,10 +271,36 @@ const ARCHETYPE_ANNOTATIONS: {[meta in Meta]: {[key in Archetype]?: string[]}} =
         "Yasuo": ["Question No best of available"],
         "Leona": ["Question No best of available"],
     },
-    "UNL": {},
-    "SFD2": {},
-    "SFD": {},
-    "OGN": {}
+    "UNL": {
+        "Irelia": ["Trophy"],
+        "Azir": ["Trophy"],
+        "Yi (OGS)": ["Trophy"],
+        "LeBlanc": ["Trophy"],
+        "Diana": ["Trophy"],
+        "Draven": ["Trophy"],
+        "Ezreal Control": ["Trophy"],
+    },
+    "SFD2": {
+        "Draven": ["Trophy"],
+        "Azir": ["Trophy"],
+        "Annie": ["Trophy"],
+    },
+    "SFD": {
+        "Draven": ["Trophy Dominant"],
+        "Draven Miracle": ["Trophy Dominant"],
+        "Ezreal Control": ["Trophy"],
+        "Annie": ["Trophy"],
+        "Irelia": ["Trophy"],
+        "Kai'Sa": ["Trophy"],
+    },
+    "OGN": {
+        "Kai'Sa": ["Trophy Dominant"],
+        "Yi (OGS)": ["Trophy Dominant"],
+        "Yi (OGS) Aurora": ["Trophy"],
+        "Annie": ["Trophy"],
+        "Miss Fortune Aurora": ["Trophy"],
+        "Sett": ["Trophy"],
+    }
 };
 export function GET_ARCHETYPE_ANNOTATIONS(meta: Meta, archetype: Archetype): string[] {
     return ARCHETYPE_ANNOTATIONS[meta][archetype] ?? [];

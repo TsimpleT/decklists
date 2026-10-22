@@ -3,6 +3,7 @@ import BaseCardListOGS from "./BaseCardListOGS260717.json";
 import BaseCardListSFD from "./BaseCardListSFD260717.json";
 import BaseCardListUNL from "./BaseCardListUNL260717.json";
 import BaseCardListVEN from "./BaseCardListVEN260717.json";
+import BaseCardListRAD from "./BaseCardListRAD261013.json";
 import CardCategories from "./CardCategories.json";
 import IdMappings from "./IdMappings.json";
 
@@ -58,7 +59,7 @@ export const CCATEGORY_ORDERING: {[key in CCATEGORY]: number} = {
 };
 
 let cardData: {[cardId: string]: CardDTO} = {
-    ...BaseCardListOGN.cards, ...BaseCardListOGS.cards, ...BaseCardListSFD.cards, ...BaseCardListUNL.cards, ...BaseCardListVEN.cards
+    ...BaseCardListOGN.cards, ...BaseCardListOGS.cards, ...BaseCardListSFD.cards, ...BaseCardListUNL.cards, ...BaseCardListVEN.cards, ...BaseCardListRAD.cards
 } as any;
 let cardNameToBaseId: {[name: string]: string} = {};
 for(let card in cardData) {
@@ -76,7 +77,7 @@ export function GET_BASE_ID_FROM_CARD_NAME(name: string) {
 
 let cardCategories: {[cardId: string]: CCATEGORY} = CardCategories.cardCategories as any;
 
-const fullIdMappings: {[id: string]: {baseId: string, ttsId: string, rarity: Rarity}} = IdMappings.mappings as any;
+const fullIdMappings: {[id: string]: {baseId: string, ttsId: string, rarity: Rarity}} = IdMappings.mappings as any; // TODO add all attributes
 let ttsIdMappings: {[id: string]: string} = {};
 let fromTtsIdMappings: {[ttsId: string]: string} = {};
 for(let id in fullIdMappings) {
@@ -143,33 +144,91 @@ export function TTS_ID_TO_ID(ttsId: string): string {
     return fromTtsIdMappings[ttsId];
 }
 
-const CARD_ART_EXCEPTIONS: {[id: string]: string} = {
-    "ARC-001": "https://cdn.piltoverarchive.com/temporary/1760416626325-f3zxpz5s8g7.webp",
-    "ARC-002": "https://cdn.piltoverarchive.com/temporary/1760416743034-mjx1r8rnhhi.webp",
-    "ARC-003": "https://cdn.piltoverarchive.com/temporary/1760416827138-ytd8qmfc3v.webp",
-    "ARC-004": "https://cdn.piltoverarchive.com/temporary/1760416787235-exutfmhlgxf.webp",
-    "ARC-005": "https://cdn.piltoverarchive.com/temporary/1760416716990-we9v5u8rbb.webp",
-    "ARC-006": "https://cdn.piltoverarchive.com/temporary/1760416556879-01whuib9pmfi.webp",
-    "SFD-R01a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R01b.avif",
-    "SFD-R02a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R02b.avif",
-    "SFD-R03a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R03b.avif",
-    "SFD-R04a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R04b.avif",
-    "SFD-R05a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R05b.avif",
-    "SFD-R06a": "https://russeus.github.io/RB-TCG-Arena/Images/SFD-avif/R06b.avif",
-    "UNL-R01a": "https://cdn.piltoverarchive.com/temporary/1772489366582-j850d8b51vc.png",
-    "UNL-R02a": "https://cdn.piltoverarchive.com/temporary/1772489327958-x4rjerafcx.png",
-    "UNL-R03a": "https://cdn.piltoverarchive.com/temporary/1772489382491-gffpct65jgb.png",
-    "UNL-R04a": "https://cdn.piltoverarchive.com/temporary/1772489304316-2thnys211eo.png",
-    "UNL-R05a": "https://cdn.piltoverarchive.com/temporary/1772489349570-60fm8rfv2nl.png",
-    "UNL-R06a": "https://cdn.piltoverarchive.com/temporary/1772489400276-1xifka38ob4.png",
+const MISSING_CARD_ART: {[id: string]: string} = {
+    "OGN-076b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSsaju0uxjlaIZMMAGmT9-dj_PLzyz9DKksDoF6TQnjh7h0xANvIMzAAZY&s=10",
+    "OGN-303a": "https://pbs.twimg.com/media/HROWKfZa0AACC9d?format=webp", // TODO: fix to signature-less image
+    "OGN-303a*": "https://pbs.twimg.com/media/HROWKfZa0AACC9d?format=webp",
+    "VEN-139a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FsyLmw_QyAO6HnbUnmhnzCIZqQxHGTj0QBzrmkzyWVah72PbrYtO7tmr",
+    "VEN-155a": "https://preview.redd.it/the-china-exclusive-kennen-promo-for-their-riftbound-1st-v0-sc8tqgt901ph1.jpeg?auto=webp&s=52c98e0bd727d11fb8cd94c044b8c68f398c65ac",
+    "RAD-021b": "https://preview.redd.it/nation-clash-exclusive-ekko-champion-promo-v0-lhfqa6ht5jwh1.png?auto=webp&s=aa11c9438d55043f56e1059c9865fef7ee2c710b",
+    "RAD-086b": "https://64.media.tumblr.com/bd7d559f55e2b90652c7eb0fe294edaa/9982843c022b2cf7-e0/s640x960/dc8dc43a2848f94c70a1ef39ecbaaeebc5dd7b49.pnj",
+    "RAD-174a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9NIzHcMxKsjN7i9A-z_VcNU-HQbX4ruomeRKjyC7MAg&s", // TODO: fix to signature-less image
+    "RAD-174a*": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9NIzHcMxKsjN7i9A-z_VcNU-HQbX4ruomeRKjyC7MAg&s",
 };
 
-export function GET_CARD_ART(id: string): string {
-    if(id in CARD_ART_EXCEPTIONS) {
-        return CARD_ART_EXCEPTIONS[id];
+const CARD_ART_ID_OVERRIDES: {[id: string]: string} = {
+    "OGN-263a": "OGN-263-a",
+    "SFD-025a": "SFD-025-P",
+    "SFD-118a": "SFD-118a-P",
+    "SFD-178a": "SFD-178a-P",
+    "SFD-195a": "SFD-195a-P",
+    "UNL-082b": "UNL-082b-P",
+    "UNL-178b": "UNL-178b-P",
+    "SGN-001": "SGN-001/003-P",
+    "SGN-002": "SGN-002/003-P",
+    "SGN-003": "SGN-003/003-P",
+    "VEN-041a": "VEN-041a-P",
+    "VEN-069b": "VEN-069B-P",
+    "VEN-R01b": "VEN-R01B-P",
+    "VEN-R04b": "VEN-R04B-P",
+    "VEN-T06": "VEN-T01t.2",
+    "RAD-110a": "RAD-110A-P",
+};
+
+function fixCardArtId(id: string): string {
+    if(Object.prototype.hasOwnProperty.call(CARD_ART_ID_OVERRIDES, id)) {
+        return CARD_ART_ID_OVERRIDES[id];
     }
-    const cleanId = (id.startsWith("OGN") || id.startsWith("SFD")) ? id.replaceAll("*","s") : id;
-    return `https://cdn.piltoverarchive.com/cards/${cleanId}.webp`;
-    // return `https://static.dotgg.gg/riftbound/cards/${id.replaceAll("*","s")}.webp`; // original but some missing
+    if(id.startsWith("OGN")) {
+        return id.endsWith("*") ? `${id.substring(0, id.length-1)}s` : id;
+    }
+    if(id.startsWith("SFD")) {
+        if(id.endsWith("a") && !id.includes("R")) {
+            return `${id.substring(0, id.length-1)}A`;
+        }
+        return id.endsWith("*") ? `${id.substring(0, id.length-1)}-STAR` : id;
+    }
+    if(id.startsWith("UNL")) {
+        if(id.endsWith("a") && !id.includes("R")) {
+            return `${id.substring(0, id.length-1)}A`;
+        }
+        return id.endsWith("*") ? `${id.substring(0, id.length-1)}-STAR` : id;
+    }
+    if(id.startsWith("T1")) {
+        const cardId = id.endsWith("*") ? id.substring(0, id.length-1) : id;
+        return `${cardId}-P`;
+    }
+    if(id.startsWith("VEN")) {
+        if(id.endsWith("a") && !id.includes("R")) {
+            return `${id.substring(0, id.length-1)}A`;
+        }
+        if(id.endsWith("*")) {
+            return `${id.substring(0, id.length-1)}-STAR`;
+        }
+        return (id.endsWith("b") && id.includes("R")) ? `${id.substring(0, id.length-1)}b-P` : id;
+    }
+    if(id.startsWith("RAD")) {
+        if(id.endsWith("a")) {
+            return `${id.substring(0, id.length-1)}A`;
+        }
+        if(id.endsWith("*")) {
+            return `${id.substring(0, id.length-1)}-STAR`;
+        }
+        return (id.endsWith("b") && id.includes("R")) ? `${id.substring(0, id.length-1)}b-P` : id;
+    }
+    return id;
+}
+
+export function GET_CARD_ART(id: string): string {
+    if(id in MISSING_CARD_ART) {
+        return MISSING_CARD_ART[id];
+    }
+
+    const fixedId = fixCardArtId(id);
+    return `https://static.dotgg.gg/riftbound/cards/${fixedId}.webp`;
+
+    // const cleanId = (id.startsWith("OGN") || id.startsWith("SFD")) ? id.replaceAll("*","s") : id;
+    // return `https://cdn.piltoverarchive.com/cards/${cleanId}.webp`;
+
     // return `https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-001/full-desktop-2x.jpg` // high quality
 }

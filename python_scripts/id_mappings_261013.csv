@@ -1,0 +1,469 @@
+ID,Base ID,TTS ID,Rarity,Base Card Name,Version,Notes,Alter Flavor?,Altered Flavor Text
+RAD-020a,RAD-020,RAD-020-2,Showcase,"Mordekaiser, Twice Slain",Alt Art,,TRUE,"Lost in the dark
+We've come so far"
+RAD-021a,RAD-021,RAD-021-2,Showcase,"Ekko, Revolutionary",Alt Art,,TRUE,"A time fugitive who built his Pulsefire suit from scratch, Ekko improved onthe Remembrancers' technology."
+RAD-021b,RAD-021,RAD-021-5,Showcase,"Ekko, Revolutionary",Prize,EU RC26 Nation Clash Champion,FALSE,
+RAD-023a,RAD-023,RAD-023-2,Showcase,"Ziggs, Short-Fused",Alt Art,,TRUE,Dropping the bass so hard it blows the gate.
+RAD-042a,RAD-042,RAD-042-2,Showcase,"Orianna, Exquisite",Alt Art,,TRUE,"Her father gave her the light of life—and yet, Orianna always preferred the dark."
+RAD-043a,RAD-043,RAD-043-2,Showcase,"Riven, Broken Blade",Alt Art,,TRUE,The living embodiment of order inthe cosmos.
+RAD-045a,RAD-045,RAD-045-2,Showcase,"K'Sante, Dauntless",Alt Art,,TRUE,"K'Sante's always been a trailblazer on the fashion circuit, and this year he definitely wants to make the audience sweat."
+RAD-061a,RAD-061,RAD-061-2,Showcase,"Ekko, Ingenious",Alt Art,,TRUE,"NOTICE FROM THE DEAN:
+Ekko is henceforth suspended from Academy grounds ..."
+RAD-065a,RAD-065,RAD-065-2,Showcase,"Seraphine, Inspiring",Alt Art,,TRUE,A sunny siren of the Summer Court.
+RAD-068a,RAD-068,RAD-068-2,Showcase,"Orianna, Mechanical Marvel",Alt Art,,TRUE,Orianna once lived within a snowglobe created by a kindly old inventor.
+RAD-086a,RAD-086,RAD-086-2,Showcase,"K'Sante, Courageous",Alt Art,,TRUE,"K'Sante prides himself on leading under adversity, but this is a challenge unlike any other."
+RAD-086b,RAD-086,RAD-086-5,Showcase,"K'Sante, Courageous",Prize,EU/NA RC26 Top 8,TRUE,"Everybody hating ever since you got more
+They praying for the death of a rockstar"
+RAD-090a,RAD-090,RAD-090-2,Showcase,"Evelynn, Consuming",Alt Art,,TRUE,"""It's alright, darlin'. I've got you too now."""
+RAD-091a,RAD-091,RAD-091-2,Showcase,"Jarvan IV, Martial Paragon",Alt Art,,TRUE,"For Jarvan, there's nothing more relaxing than hanging out at the beach."
+RAD-109a,RAD-109,RAD-109-2,Showcase,"Evelynn, In Control",Alt Art,,TRUE,"Most awaken their souls through hard work, but this fighter ... no!"
+RAD-110a,RAD-110,RAD-110-2,Showcase,"Lulu, Whimsical",Promo,Nexus Night Chase,FALSE,
+RAD-112a,RAD-112,RAD-112-2,Showcase,"Ziggs, Explosive",Alt Art,,TRUE,"According to all known laws of apiculture, bees shouldn't be given explosives."
+RAD-114a,RAD-114,RAD-114-2-,Showcase,"Riven, Deserter",Alt Art,,TRUE,Riven's part-time job at an arcade mostly involved playing dance simulators.
+RAD-133a,RAD-133,RAD-133-2,Showcase,"Jarvan IV, Royal Heir",Alt Art,,TRUE,"With the royal line ended and a kingdom razed by his own vengeful hand, the great war can begin anew."
+RAD-137a,RAD-137,RAD-137-2,Showcase,"Mordekaiser, Dominating",Alt Art,,TRUE,"Third is the king, with a barbarous swing
+Who crushes the villains of old
+Though some folk may cry, ""He's a villain himself!""
+A poorly kept secret, all told"
+RAD-138a,RAD-138,RAD-138-2,Showcase,"Seraphine, Not Alone",Alt Art,,TRUE,She's going to listen to her audience and let the musical current take her.
+RAD-168,RAD-139,RAD-139-2,Showcase,"Ekko, Boy Who Shattered Time",Overnumbered,,FALSE,
+RAD-168*,RAD-139,RAD-139-3,Showcase,"Ekko, Boy Who Shattered Time",ON Signed,,FALSE,
+RAD-169,RAD-141,RAD-141-2,Showcase,"Ziggs, Hexplosives Expert",Overnumbered,,FALSE,
+RAD-169*,RAD-141,RAD-141-3,Showcase,"Ziggs, Hexplosives Expert",ON Signed,,FALSE,
+RAD-170,RAD-143,RAD-143-2,Showcase,"Mordekaiser, Iron Revenant",Overnumbered,,FALSE,
+RAD-170*,RAD-143,RAD-143-3,Showcase,"Mordekaiser, Iron Revenant",ON Signed,,FALSE,
+RAD-171,RAD-145,RAD-145-2,Showcase,"Orianna, Lady of Clockwork",Overnumbered,,FALSE,
+RAD-171*,RAD-145,RAD-145-3,Showcase,"Orianna, Lady of Clockwork",ON Signed,,FALSE,
+RAD-172,RAD-147,RAD-147-2,Showcase,"K'Sante, Pride of Nazumah",Overnumbered,,FALSE,
+RAD-172*,RAD-147,RAD-147-3,Showcase,"K'Sante, Pride of Nazumah",ON Signed,,FALSE,
+RAD-173,RAD-149,RAD-149-2,Showcase,"Riven, The Exile",Overnumbered,,FALSE,
+RAD-173*,RAD-149,RAD-149-3,Showcase,"Riven, The Exile",ON Signed,,FALSE,
+RAD-174,RAD-151,RAD-151-2,Showcase,"Seraphine, Starry-Eyed Songstress",Overnumbered,,FALSE,
+RAD-174*,RAD-151,RAD-151-3,Showcase,"Seraphine, Starry-Eyed Songstress",ON Signed,,FALSE,
+RAD-174a,RAD-151,RAD-151-4,Showcase,"Seraphine, Starry-Eyed Songstress",Region Exclusive,China Exclusive ON,FALSE,
+RAD-174a*,RAD-151,RAD-151-5,Showcase,"Seraphine, Starry-Eyed Songstress",Region Exclusive,China Exclusive ON Signed,FALSE,
+RAD-175,RAD-153,RAD-153-2,Showcase,"Evelynn, Agony's Embrace",Overnumbered,,FALSE,
+RAD-175*,RAD-153,RAD-153-3,Showcase,"Evelynn, Agony's Embrace",ON Signed,,FALSE,
+RAD-176,RAD-155,RAD-155-2,Showcase,"Jarvan IV, Exemplar of Demacia",Overnumbered,,FALSE,
+RAD-176*,RAD-155,RAD-155-3,Showcase,"Jarvan IV, Exemplar of Demacia",ON Signed,,FALSE,
+RAD-177,RAD-021,RAD-021-3,Showcase,"Ekko, Revolutionary",Overnumbered,,TRUE,"I keep on shattering time
+I might just leave you behind"
+RAD-177*,RAD-021,RAD-021-4,Showcase,"Ekko, Revolutionary",ON Signed,,TRUE,"I keep on shattering time
+I might just leave you behind"
+RAD-178,RAD-086,RAD-086-3,Showcase,"K'Sante, Courageous",Overnumbered,,TRUE,"Everybody hating ever since you got more
+They praying for the death of a rockstar"
+RAD-178*,RAD-086,RAD-086-4,Showcase,"K'Sante, Courageous",ON Signed,,TRUE,"Everybody hating ever since you got more
+They praying for the death of a rockstar"
+RAD-179,SFD-049,SFD-049-4,Showcase,"Aphelios, Exalted",Overnumbered,,TRUE,(ding ding ding)
+RAD-179*,SFD-049,SFD-049-5,Showcase,"Aphelios, Exalted",ON Signed,,TRUE,(ding ding ding)
+RAD-180,SFD-082,SFD-082-3,Showcase,"Ezreal, Dashing",Overnumbered,,TRUE,"Bite the bullet
+Suit and tie the silver lining"
+RAD-180*,SFD-082,SFD-082-4,Showcase,"Ezreal, Dashing",ON Signed,,TRUE,"Bite the bullet
+Suit and tie the silver lining"
+RAD-181,SFD-116,SFD-116-4,Showcase,"Yone, Blademaster",Overnumbered,,TRUE,"With his passion for music now reignited, Yone is determined to take this band straight to the top."
+RAD-181*,SFD-116,SFD-116-5,Showcase,"Yone, Blademaster",ON Signed,,TRUE,"With his passion for music now reignited, Yone is determined to take this band straight to the top."
+RAD-182,OGN-189,OGN-189-2,Showcase,"Kayn, Unleashed",Overnumbered,,TRUE,"I know I'm the bad guy, I don't gotta ask why
+If you try to step to me, it'll be the last time"
+RAD-182*,OGN-189,OGN-189-3,Showcase,"Kayn, Unleashed",ON Signed,,TRUE,"I know I'm the bad guy, I don't gotta ask why
+If you try to step to me, it'll be the last time"
+RAD-183,OGN-240,OGN-240-3,Showcase,"Sett, Kingpin",Overnumbered,,TRUE,"Heavyweight, I pull up on you with the repetition
+You in the pit, it's not no exhibition"
+RAD-183*,OGN-240,OGN-240-4,Showcase,"Sett, Kingpin",ON Signed,,TRUE,"Heavyweight, I pull up on you with the repetition
+You in the pit, it's not no exhibition"
+RAD-184,RAD-164,RAD-164-2,Showcase,Packed Amphitheater,Ultimate,,FALSE,
+RAD-SP1,RAD-038,RAD-038-2,Showcase,"Ahri, Confident",Alt Art,,TRUE,"Hard on myself
+Put my heart on a shelf
+'Cause I forget that myself needs loving"
+RAD-SP2,RAD-015,RAD-015-2,Showcase,"Akali, Brash",Alt Art,,TRUE,"Kali got a job
+Kali go to work"
+RAD-SP3,RAD-109,RAD-109-3,Showcase,"Evelynn, In Control",Alt Art,,TRUE,"I'll stay so deep inside your brain
+And take you somewhere far away"
+RAD-SP4,RAD-063,RAD-063-2,Showcase,"Kai'Sa, Rebel",Alt Art,,TRUE,"When I go it's for gold
+Yeah they cool but I'm cold
+I don't fit in the mold"
+RAD-SP5,RAD-138,RAD-138-3,Showcase,"Seraphine, Not Alone",Alt Art,,TRUE,"I know, I know, you want some more
+准备好就一起走
+Givin' it all"
+RAD-R01,OGN-007,OGN-007-1,Common,Fury Rune,Base,,FALSE,
+RAD-R02,OGN-042,OGN-042-1,Common,Calm Rune,Base,,FALSE,
+RAD-R03,OGN-089,OGN-089-1,Common,Mind Rune,Base,,FALSE,
+RAD-R04,OGN-126,OGN-126-1,Common,Body Rune,Base,,FALSE,
+RAD-R05,OGN-166,OGN-166-1,Common,Chaos Rune,Base,,FALSE,
+RAD-R06,OGN-214,OGN-214-1,Common,Order Rune,Base,,FALSE,
+RAD-R01a,OGN-007,OGN-007-8,Showcase,Fury Rune,Alt Art,,FALSE,
+RAD-R02a,OGN-042,OGN-042-8,Showcase,Calm Rune,Alt Art,,FALSE,
+RAD-R03a,OGN-089,OGN-089-8,Showcase,Mind Rune,Alt Art,,FALSE,
+RAD-R04a,OGN-126,OGN-126-8,Showcase,Body Rune,Alt Art,,FALSE,
+RAD-R05a,OGN-166,OGN-166-8,Showcase,Chaos Rune,Alt Art,,FALSE,
+RAD-R06a,OGN-214,OGN-214-8,Showcase,Order Rune,Alt Art,,FALSE,
+RAD-R01b,OGN-007,OGN-007-9,Showcase,Fury Rune,Promo,Nexus Night,FALSE,
+RAD-R02b,OGN-042,OGN-042-9,Showcase,Calm Rune,Promo,Nexus Night,FALSE,
+RAD-R03b,OGN-089,OGN-089-9,Showcase,Mind Rune,Promo,Nexus Night,FALSE,
+RAD-R04b,OGN-126,OGN-126-9,Showcase,Body Rune,Promo,Nexus Night,FALSE,
+RAD-R05b,OGN-166,OGN-166-9,Showcase,Chaos Rune,Promo,Nexus Night,FALSE,
+RAD-R06b,OGN-214,OGN-214-9,Showcase,Order Rune,Promo,Nexus Night,FALSE,
+T1A-001,VEN-084,VEN-084-3,Showcase,"Ambessa, The Wolf",Collector,T1 2025 Player Bundle,TRUE,
+T1A-002,SFD-176,SFD-176-2,Showcase,"Xin Zhao, Vigilant",Collector,T1 2025 Player Bundle,TRUE,
+T1A-003,UNL-171,UNL-171-2,Showcase,"Galio, Indefatigable",Collector,T1 2025 Player Bundle,TRUE,
+T1A-004,OGN-193,OGN-193-4,Showcase,"Miss Fortune, Buccaneer",Collector,T1 2025 Player Bundle,TRUE,
+T1A-005,RAD-138,RAD-138-4,Showcase,"Seraphine, Not Alone",Collector,T1 2025 Player Bundle,TRUE,
+T1S-001,VEN-084,VEN-084-4,Showcase,"Ambessa, The Wolf",Collector,T1 2025 Signature Bundle,TRUE,"""I believe this is only the prologue of my story.""
+—Doran"
+T1S-002,SFD-176,SFD-176-3,Showcase,"Xin Zhao, Vigilant",Collector,T1 2025 Signature Bundle,TRUE,"""Relax, I will carry you to victory.""
+—Oner"
+T1S-003,UNL-171,UNL-171-3,Showcase,"Galio, Indefatigable",Collector,T1 2025 Signature Bundle,TRUE,"""I have watched the rise and fall of many teams, but the player who stood at the end was always me."" —Faker"
+T1S-004,OGN-193,OGN-193-5,Showcase,"Miss Fortune, Buccaneer",Collector,T1 2025 Signature Bundle,TRUE,"""Now I can say it out loud: I am the best AD carry in the world."" —Gumayusi"
+T1S-005,RAD-138,RAD-138-5,Showcase,"Seraphine, Not Alone",Collector,T1 2025 Signature Bundle,TRUE,"""Feel free to look up to me—just don't think it will be easy to follow."" —Keria"
+T1S-001*,VEN-084,VEN-084-5,Showcase,"Ambessa, The Wolf",Collector,T1 2025 Signature Bundle: Serialized,TRUE,"""I believe this is only the prologue of my story.""
+—Doran"
+T1S-002*,SFD-176,SFD-176-4,Showcase,"Xin Zhao, Vigilant",Collector,T1 2025 Signature Bundle: Serialized,TRUE,"""Relax, I will carry you to victory.""
+—Oner"
+T1S-003*,UNL-171,UNL-171-4,Showcase,"Galio, Indefatigable",Collector,T1 2025 Signature Bundle: Serialized,TRUE,"""I have watched the rise and fall of many teams, but the player who stood at the end was always me."" —Faker"
+T1S-004*,OGN-193,OGN-193-6,Showcase,"Miss Fortune, Buccaneer",Collector,T1 2025 Signature Bundle: Serialized,TRUE,"""Now I can say it out loud: I am the best AD carry in the world."" —Gumayusi"
+T1S-005*,RAD-138,RAD-138-6,Showcase,"Seraphine, Not Alone",Collector,T1 2025 Signature Bundle: Serialized,TRUE,"""Feel free to look up to me—just don't think it will be easy to follow."" —Keria"
+VEN-019a,VEN-019,VEN-019-2,Showcase,"Renekton, Rage Fueled",Alt Art,,TRUE,"""What? Do I have someone in my teeth?"""
+VEN-021a,VEN-021,VEN-021-2,Showcase,"Akali, Deadly Weapon",Alt Art,,TRUE,"""A little star-struck?"""
+VEN-023a,VEN-023,VEN-023-2,Showcase,"Zed, From the Shadows",Alt Art,,FALSE,
+VEN-038a,VEN-038,VEN-038-2,Showcase,"Akali, Silent",Alt Art,,FALSE,
+VEN-041a,VEN-041,VEN-041-2,Showcase,"Riven, Shattered",Promo,Gen Con,FALSE,
+VEN-042a,VEN-042,VEN-042-2,Showcase,"Shen, Scourge of Shadows",Alt Art,,FALSE,
+VEN-046a,VEN-046,VEN-046-2,Showcase,"Nasus, Ascended",Alt Art,,FALSE,
+VEN-063a,VEN-063,VEN-063-2,Showcase,"Nasus, Guardian of Knowledge",Alt Art,,FALSE,
+VEN-068a,VEN-068,VEN-068-2,Showcase,"Jayce, Brilliant Inventor",Alt Art,,FALSE,
+VEN-069a,VEN-069,VEN-069-2,Showcase,"Mel, Newly Awakened",Alt Art,,FALSE,
+VEN-069b,VEN-069,VEN-069-3,Showcase,"Mel, Newly Awakened",Promo,Nexus Night Chase,FALSE,
+VEN-084a,VEN-084,VEN-084-2,Showcase,"Ambessa, The Wolf",Alt Art,,FALSE,
+VEN-088a,VEN-088,VEN-088-2,Showcase,"Jayce, Hammer in Hand",Alt Art,,FALSE,
+VEN-092a,VEN-092,VEN-092-2,Showcase,"Renekton, Brute",Alt Art,,TRUE,"""Embrace the jaws of death."""
+VEN-110a,VEN-110,VEN-110-2,Showcase,"Mel, Defiant Soul",Alt Art,,FALSE,
+VEN-112a,VEN-112,VEN-112-2,Showcase,"Zed, Without a Sound",Alt Art,,TRUE,"""The truth lies in darkness."""
+VEN-113a,VEN-113,VEN-113-2,Showcase,"Kennen, Storm of Shuriken",Alt Art,,FALSE,
+VEN-135a,VEN-135,VEN-135-2,Showcase,"Kennen, Keeper of Balance",Alt Art,,FALSE,
+VEN-136a,VEN-136,VEN-136-2,Showcase,"Ambessa, Respected and Feared",Alt Art,,TRUE,"""Join your ancestors!"""
+VEN-138a,VEN-138,VEN-138-2,Showcase,"Shen, Leader of the Kinkou Order",Alt Art,,FALSE,
+VEN-139a,VEN-139,VEN-139-3,Showcase,"Akali, Rogue Assassin",Promo,Gift of the Rift Bundle,FALSE,
+VEN-155a,VEN-155,VEN-155-4,Showcase,"Kennen, Heart of the Tempest",Promo,CN 1st Anniversary Gift Box,FALSE,
+VEN-167,OGN-036,OGN-036-3,Showcase,"Vi, Destructive",Overnumbered,,TRUE,"""I like you as far as I can throw you ... not even."""
+VEN-168,OGN-030,OGN-030-3,Showcase,"Jinx, Demolitionist",Overnumbered,,TRUE,"""You're my favorite waste of bullets."""
+VEN-169,VEN-023,VEN-023-3,Showcase,"Zed, From the Shadows",Overnumbered,,TRUE,"""Challenge me, Shen ... You shall not be an orphan long!"""
+VEN-170,VEN-042,VEN-042-3,Showcase,"Shen, Scourge of Shadows",Overnumbered,,TRUE,"""You're already dead. You just haven't caught up yet."""
+VEN-171,VEN-041,VEN-041-2,Showcase,"Riven, Shattered",Overnumbered,,TRUE,"""Violence to end violence ..."""
+VEN-172,OGN-028,OGN-028-2,Showcase,"Draven, Showboat",Overnumbered,,TRUE,"""Doesn't get better than this."""
+VEN-173,VEN-065,VEN-065-2,Showcase,"Swain, Visionary",Overnumbered,,TRUE,"""Am I to seek revenge for my poor deparated arm? If anything, girl, you did me a favor."""
+VEN-174,SFD-057,SFD-057-5,Showcase,"Irelia, Fervent",Overnumbered,,TRUE,"""Did you wanna lose the other one too?"""
+VEN-175,SFD-084,SFD-084-2,Showcase,"Jayce, Man of Progress",Overnumbered,,TRUE,"""Our future will be bright."""
+VEN-176,OGN-117,OGN-117-3,Showcase,"Viktor, Innovator",Overnumbered,,TRUE,"""You betray your future."""
+VEN-177,VEN-092,VEN-092-3,Showcase,"Renekton, Brute",Overnumbered,,TRUE,"""You are not my brother, traitor!"""
+VEN-178,VEN-063,VEN-063-3,Showcase,"Nasus, Guardian of Knowledge",Overnumbered,,TRUE,"""Rage burned away all that was good in you, my brother."""
+VEN-179,UNL-120,UNL-120-3,Showcase,"Rengar, Trophy Hunter",Overnumbered,,TRUE,A hunter to test the fiercest prey.
+VEN-180,UNL-119,UNL-119-3,Showcase,"Kha'Zix, Evolving Hunter",Overnumbered,,TRUE,A predator to challenge the keenest foe.
+VEN-181,VEN-086,VEN-086-2,Showcase,"Gangplank, Naval",Overnumbered,,TRUE,"""My heart is iron."""
+VEN-182,VEN-109,VEN-109-2,Showcase,"Illaoi, Prophet of the Great Kraken",Overnumbered,,TRUE,"""I broke men's hearts. I broke men's spines. You're the first who's going to get both."""
+VEN-183,UNL-149,UNL-149-3,Showcase,"Diana, No Longer Human",Overnumbered,,TRUE,"Their dearest wish is to share a sky
+Made large enough for both to dance
+With hands and hearts entwined
+—Hymn of the Dawn"
+VEN-184,OGN-238,OGN-238-3,Showcase,"Leona, Determined",Overnumbered,,TRUE,"Instead they must steal glances
+Wait for the other to approach
+Or watch the other depart
+—Hymn of the Dawn"
+VEN-185,VEN-134,VEN-134-2,Showcase,"Kayle, Justified",Overnumbered,,TRUE,"""Not murder. Justice."""
+VEN-186,VEN-017,VEN-017-2,Showcase,"Morgana, Vindictive",Overnumbered,,TRUE,"""Mother must be so proud of all your murders, Kayle."""
+VEN-187,VEN-136,VEN-136-3,Showcase,"Ambessa, Respected and Feared",Overnumbered,,TRUE,"""Have you finally realized your potential, Mel?"""
+VEN-188,VEN-110,VEN-110-3,Showcase,"Mel, Defiant Soul",Overnumbered,,TRUE,"""I deserve everything I've attained; I know that now."""
+VEN-189,VEN-139,VEN-139-2,Showcase,"Akali, Rogue Assassin",Overnumbered,,FALSE,
+VEN-189*,VEN-139,VEN-139-3,Showcase,"Akali, Rogue Assassin",ON Signed,,FALSE,
+VEN-190,VEN-141,VEN-141-2,Showcase,"Renekton, Butcher of the Sands",Overnumbered,,FALSE,
+VEN-190*,VEN-141,VEN-141-3,Showcase,"Renekton, Butcher of the Sands",ON Signed,,FALSE,
+VEN-191,VEN-143,VEN-143-2,Showcase,"Zed, Master of Shadows",Overnumbered,,FALSE,
+VEN-191*,VEN-143,VEN-143-3,Showcase,"Zed, Master of Shadows",ON Signed,,FALSE,
+VEN-192,VEN-145,VEN-145-2,Showcase,"Nasus, Curator of the Sands",Overnumbered,,FALSE,
+VEN-192*,VEN-145,VEN-145-3,Showcase,"Nasus, Curator of the Sands",ON Signed,,FALSE,
+VEN-193,VEN-147,VEN-147-2,Showcase,"Shen, Eye of Twilight",Overnumbered,,FALSE,
+VEN-193*,VEN-147,VEN-147-3,Showcase,"Shen, Eye of Twilight",ON Signed,,FALSE,
+VEN-194,VEN-149,VEN-149-2,Showcase,"Jayce, Defender of Tomorrow",Overnumbered,,FALSE,
+VEN-194*,VEN-149,VEN-149-3,Showcase,"Jayce, Defender of Tomorrow",ON Signed,,FALSE,
+VEN-195,VEN-151,VEN-151-2,Showcase,"Mel, Soul's Reflection",Overnumbered,,FALSE,
+VEN-195*,VEN-151,VEN-151-3,Showcase,"Mel, Soul's Reflection",ON Signed,,FALSE,
+VEN-196,VEN-153,VEN-153-2,Showcase,"Ambessa, Matriarch of War",Overnumbered,,FALSE,
+VEN-196*,VEN-153,VEN-153-3,Showcase,"Ambessa, Matriarch of War",ON Signed,,FALSE,
+VEN-197,VEN-155,VEN-155-2,Showcase,"Kennen, Heart of the Tempest",Overnumbered,,FALSE,
+VEN-197*,VEN-155,VEN-155-3,Showcase,"Kennen, Heart of the Tempest",ON Signed,,FALSE,
+VEN-SP1,OGN-039,OGN-039-3,Showcase,"Kai'Sa, Survivor",Alt Art,,TRUE,
+VEN-SP2,OGN-073,OGN-073-2,Showcase,"Sona, Harmonious",Alt Art,,TRUE,
+VEN-SP3,OGN-119,OGN-119-5,Showcase,"Ahri, Inquisitive",Alt Art,,TRUE,
+VEN-SP4,OGN-164,OGN-164-4,Showcase,"Sett, Brawler",Alt Art,,TRUE,
+VEN-SP5,SFD-149,SFD-149-3,Showcase,"Ezreal, Prodigy",Alt Art,,TRUE,
+VEN-SP6,OGS-014,OGS-014-2,Showcase,"Lux, Crownguard",Alt Art,,TRUE,
+VEN-R01,OGN-007,OGN-007-1,Common,Fury Rune,Base,,FALSE,
+VEN-R02,OGN-042,OGN-042-1,Common,Calm Rune,Base,,FALSE,
+VEN-R03,OGN-089,OGN-089-1,Common,Mind Rune,Base,,FALSE,
+VEN-R04,OGN-126,OGN-126-1,Common,Body Rune,Base,,FALSE,
+VEN-R05,OGN-166,OGN-166-1,Common,Chaos Rune,Base,,FALSE,
+VEN-R06,OGN-214,OGN-214-1,Common,Order Rune,Base,,FALSE,
+VEN-R01a,OGN-007,OGN-007-6,Showcase,Fury Rune,Alt Art,,FALSE,
+VEN-R02a,OGN-042,OGN-042-6,Showcase,Calm Rune,Alt Art,,FALSE,
+VEN-R03a,OGN-089,OGN-089-6,Showcase,Mind Rune,Alt Art,,FALSE,
+VEN-R04a,OGN-126,OGN-126-6,Showcase,Body Rune,Alt Art,,FALSE,
+VEN-R05a,OGN-166,OGN-166-6,Showcase,Chaos Rune,Alt Art,,FALSE,
+VEN-R06a,OGN-214,OGN-214-6,Showcase,Order Rune,Alt Art,,FALSE,
+VEN-R01b,OGN-007,OGN-007-7,Showcase,Fury Rune,Promo,CN 1st Anniversary Gift Box,FALSE,
+VEN-R02b,OGN-042,OGN-042-7,Showcase,Calm Rune,Promo,Nexus Night,FALSE,
+VEN-R03b,OGN-089,OGN-089-7,Showcase,Mind Rune,Promo,Nexus Night,FALSE,
+VEN-R04b,OGN-126,OGN-126-7,Showcase,Body Rune,Promo,Nexus Night,FALSE,
+VEN-R05b,OGN-166,OGN-166-7,Showcase,Chaos Rune,Promo,Nexus Night,FALSE,
+VEN-R06b,OGN-214,OGN-214-7,Showcase,Order Rune,Promo,Nexus Night,FALSE,
+UNL-022a,UNL-022,UNL-022-2,Showcase,"Jhin, Murderous Artist",Alt Art,,FALSE,
+UNL-024a,UNL-024,UNL-024-2,Showcase,"Rengar, Unseen",Alt Art,,TRUE,"""A true hunter never rests."""
+UNL-028a,UNL-028,UNL-028-2,Showcase,"Pyke, Dockside Butcher",Alt Art,,FALSE,
+UNL-029a,UNL-029,UNL-029-2,Showcase,Red Brambleback,Alt Art,,TRUE,"""You said the only things in this valley were lizards!"""
+UNL-030a,UNL-030,UNL-030-2,Showcase,"Vi, Hotheaded",Alt Art,,FALSE,
+UNL-051a,UNL-051,UNL-051-2,Showcase,"Ivern, Nurturer",Alt Art,,FALSE,
+UNL-055a,UNL-055,UNL-055-2,Showcase,"Vex, Mocking",Alt Art,,FALSE,
+UNL-058a,UNL-058,UNL-058-2,Showcase,"Lillia, Protector of Dreams",Alt Art,,FALSE,
+UNL-059a,UNL-059,UNL-059-2,Showcase,"Master Yi, Unstoppable",Alt Art,,FALSE,
+UNL-060a,UNL-060,UNL-060-2,Showcase,Vilemaw,Alt Art,,FALSE,
+UNL-079a,UNL-079,UNL-079-2,Showcase,"Diana, Lunari",Alt Art,,FALSE,
+UNL-082a,UNL-082,UNL-082-2,Showcase,"Lillia, Fae Fawn",Alt Art,,FALSE,
+UNL-082b,UNL-082,UNL-082-3,Showcase,"Lillia, Fae Fawn",Prize,CN UNL Regional Open Champions,FALSE,
+UNL-087a,UNL-087,UNL-087-2,Showcase,Blue Sentinel,Alt Art,,FALSE,
+UNL-089a,UNL-089,UNL-089-2,Showcase,"Jhin, Meticulous Killer",Alt Art,,FALSE,
+UNL-090a,UNL-090,UNL-090-2,Showcase,"LeBlanc, Everywhere at Once",Alt Art,,FALSE,
+UNL-113a,UNL-113,UNL-113-2,Showcase,"Master Yi, Tempered",Alt Art,,FALSE,
+UNL-116a,UNL-116,UNL-116-2,Showcase,"Poppy, Paragon",Alt Art,,FALSE,
+UNL-118a,UNL-118,UNL-118-2,Showcase,Elder Dragon,Alt Art,,FALSE,
+UNL-119a,UNL-119,UNL-119-2,Showcase,"Kha'Zix, Evolving Hunter",Alt Art,,FALSE,
+UNL-120a,UNL-120,UNL-120-2,Showcase,"Rengar, Trophy Hunter",Alt Art,,FALSE,
+UNL-143a,UNL-143,UNL-143-2,Showcase,"Kha'Zix, Mutating Horror",Alt Art,,FALSE,
+UNL-145a,UNL-145,UNL-145-2,Showcase,"Pyke, Returned",Alt Art,,FALSE,
+UNL-147a,UNL-147,UNL-147-2,Showcase,Baron Nashor,Alt Art,,FALSE,
+UNL-149a,UNL-149,UNL-149-2,Showcase,"Diana, No Longer Human",Alt Art,,FALSE,
+UNL-150a,UNL-150,UNL-150-2,Showcase,"Vex, Apathetic",Alt Art,,FALSE,
+UNL-172a,UNL-172,UNL-172-2,Showcase,"LeBlanc, Fragmented",Alt Art,,FALSE,
+UNL-176a,UNL-176,UNL-176-2,Showcase,"Vi, Peacekeeper",Alt Art,,FALSE,
+UNL-177a,UNL-177,UNL-177-2,Showcase,"Ivern, Friend to All",Alt Art,,FALSE,
+UNL-178a,UNL-178,UNL-178-2,Showcase,"Poppy, Defender of the Meek",Alt Art,,TRUE,"""I'm in, 100%! That's everything, right?"""
+UNL-178b,UNL-178,UNL-178-3,Showcase,"Poppy, Defender of the Meek",Prize,UNL Regional Champions,FALSE,
+UNL-179a,UNL-179,UNL-179-2,Showcase,Rift Herald,Alt Art,,FALSE,
+UNL-220,OGN-013,OGN-013-2,Showcase,Pouty Poro,Overnumbered,,TRUE,"There will be winds we cannot face
+And cold that reaches to our bone"
+UNL-221,SFD-036,SFD-036-2,Showcase,Lonely Poro,Overnumbered,,TRUE,"We may have fallen out of gracce
+We may feel we are all alone"
+UNL-222,SFD-069,SFD-069-2,Showcase,Plundering Poro,Overnumbered,,TRUE,"But dreams are brighter than we know
+And shine like gold to lead us home"
+UNL-223,SFD-099,SFD-099-2,Showcase,Veteran Poro,Overnumbered,,TRUE,"As others know when we've been strong
+So others strive to be enough"
+UNL-224,OGN-171,OGN-171-2,Showcase,Mystic Poro,Overnumbered,,TRUE,"Now let us find the strength in song
+And let it raise our hearts aloft"
+UNL-225,OGN-210,OGN-210-2,Showcase,Daring Poro,Overnumbered,,TRUE,"We rush to meet the rising dawn
+And may it lead us to our fluft"
+UNL-226,UNL-181,UNL-181-2,Showcase,"Jhin, Virtuoso",Overnumbered,,FALSE,
+UNL-226*,UNL-181,UNL-181-3,Showcase,"Jhin, Virtuoso",ON Signed,,FALSE,
+UNL-227,UNL-183,UNL-183-2,Showcase,"Rengar, Pridestalker",Overnumbered,,FALSE,
+UNL-227*,UNL-183,UNL-183-3,Showcase,"Rengar, Pridestalker",ON Signed,,FALSE,
+UNL-228,UNL-185,UNL-185-2,Showcase,"Pyke, Bloodharbor Ripper",Overnumbered,,FALSE,
+UNL-228*,UNL-185,UNL-185-3,Showcase,"Pyke, Bloodharbor Ripper",ON Signed,,FALSE,
+UNL-229,UNL-187,UNL-187-2,Showcase,"Vi, Piltover Enforcer",Overnumbered,,FALSE,
+UNL-229*,UNL-187,UNL-187-3,Showcase,"Vi, Piltover Enforcer",ON Signed,,FALSE,
+UNL-230,UNL-189,UNL-189-2,Showcase,"Lillia, Bashful Bloom",Overnumbered,,FALSE,
+UNL-230*,UNL-189,UNL-189-3,Showcase,"Lillia, Bashful Bloom",ON Signed,,FALSE,
+UNL-231,UNL-191,UNL-191-2,Showcase,"Master Yi, Wuju Master",Overnumbered,,FALSE,
+UNL-231*,UNL-191,UNL-191-3,Showcase,"Master Yi, Wuju Master",ON Signed,,FALSE,
+UNL-232,UNL-193,UNL-193-2,Showcase,"Vex, Gloomist",Overnumbered,,FALSE,
+UNL-232*,UNL-193,UNL-193-3,Showcase,"Vex, Gloomist",ON Signed,,FALSE,
+UNL-233,UNL-195,UNL-195-2,Showcase,"Ivern, Green Father",Overnumbered,,FALSE,
+UNL-233*,UNL-195,UNL-195-3,Showcase,"Ivern, Green Father",ON Signed,,FALSE,
+UNL-234,UNL-197,UNL-197-2,Showcase,"Diana, Scorn of the Moon",Overnumbered,,FALSE,
+UNL-234*,UNL-197,UNL-197-3,Showcase,"Diana, Scorn of the Moon",ON Signed,,FALSE,
+UNL-235,UNL-199,UNL-199-2,Showcase,"LeBlanc, Deceiver",Overnumbered,,FALSE,
+UNL-235*,UNL-199,UNL-199-3,Showcase,"LeBlanc, Deceiver",ON Signed,,FALSE,
+UNL-236,UNL-201,UNL-201-2,Showcase,"Kha'Zix, Voidreaver",Overnumbered,,FALSE,
+UNL-236*,UNL-201,UNL-201-3,Showcase,"Kha'Zix, Voidreaver",ON Signed,,FALSE,
+UNL-237,UNL-203,UNL-203-2,Showcase,"Poppy, Keeper of the Hammer",Overnumbered,,FALSE,
+UNL-237*,UNL-203,UNL-203-3,Showcase,"Poppy, Keeper of the Hammer",ON Signed,,FALSE,
+UNL-238,UNL-147,UNL-147-3,Ultimate,Baron Nashor,Ultimate,,FALSE,
+UNL-R01,OGN-007,OGN-007-1,Common,Fury Rune,Base,,FALSE,
+UNL-R02,OGN-042,OGN-042-1,Common,Calm Rune,Base,,FALSE,
+UNL-R03,OGN-089,OGN-089-1,Common,Mind Rune,Base,,FALSE,
+UNL-R04,OGN-126,OGN-126-1,Common,Body Rune,Base,,FALSE,
+UNL-R05,OGN-166,OGN-166-1,Common,Chaos Rune,Base,,FALSE,
+UNL-R06,OGN-214,OGN-214-1,Common,Order Rune,Base,,FALSE,
+UNL-R01a,OGN-007,OGN-007-5,Showcase,Fury Rune,Alt Art,,FALSE,
+UNL-R02a,OGN-042,OGN-042-5,Showcase,Calm Rune,Alt Art,,FALSE,
+UNL-R03a,OGN-089,OGN-089-5,Showcase,Mind Rune,Alt Art,,FALSE,
+UNL-R04a,OGN-126,OGN-126-5,Showcase,Body Rune,Alt Art,,FALSE,
+UNL-R05a,OGN-166,OGN-166-5,Showcase,Chaos Rune,Alt Art,,FALSE,
+UNL-R06a,OGN-214,OGN-214-5,Showcase,Order Rune,Alt Art,,FALSE,
+UNL-R01b,OGN-007,OGN-007-4,Showcase,Fury Rune,Alt Art,Nexus Night,FALSE,
+UNL-R02b,OGN-042,OGN-042-4,Showcase,Calm Rune,Alt Art,Nexus Night,FALSE,
+UNL-R03b,OGN-089,OGN-089-4,Showcase,Mind Rune,Alt Art,Nexus Night,FALSE,
+UNL-R04b,OGN-126,OGN-126-4,Showcase,Body Rune,Alt Art,Nexus Night,FALSE,
+UNL-R05b,OGN-166,OGN-166-4,Showcase,Chaos Rune,Alt Art,Nexus Night,FALSE,
+UNL-R06b,OGN-214,OGN-214-4,Showcase,Order Rune,Alt Art,Nexus Night,FALSE,
+SGN-001,UNL-189,UNL-189-4,Showcase,"Lillia, Bashful Bloom",Promo,Secret Garden,FALSE,
+SGN-002,UNL-195,UNL-195-4,Showcase,"Ivern, Green Father",Promo,Secret Garden,FALSE,
+SGN-003,UNL-160,UNL-160-2,Showcase,Ultrasoft Poro,Promo,Secret Garden,FALSE,
+SFD-020a,SFD-020,SFD-020-2,Showcase,"Draven, Vanquisher",Alt Art,,FALSE,
+SFD-025a,SFD-025,SFD-025-2,Showcase,"Rengar, Pouncing",Promo,CN Nexus Night Chase,FALSE,
+SFD-026a,SFD-026,SFD-026-2,Showcase,"Rumble, Hotheaded",Alt Art,,FALSE,
+SFD-028a,SFD-028,SFD-028-2,Showcase,"Lucian, Gunslinger",Alt Art,,FALSE,
+SFD-029a,SFD-029,SFD-029-2,Showcase,"Rek'Sai, Breacher",Alt Art,,FALSE,
+SFD-050a,SFD-050,SFD-050-2,Showcase,"Azir, Ascendant",Alt Art,,FALSE,
+SFD-054a,SFD-054,SFD-054-2,Showcase,"Jax, Unmatched",Alt Art,,FALSE,
+SFD-057a,SFD-057,SFD-057-2,Showcase,"Irelia, Fervent",Alt Art,,FALSE,
+SFD-058a,SFD-058,SFD-058-2,Showcase,"Ornn, Blacksmith",Alt Art,,FALSE,
+SFD-082a,SFD-082,SFD-082-2,Showcase,"Ezreal, Dashing",Alt Art,,FALSE,
+SFD-085a,SFD-085,SFD-085-2,Showcase,"Ornn, Forge God",Alt Art,,FALSE,
+SFD-088a,SFD-088,SFD-088-2,Showcase,"Renata Glasc, Mastermind",Alt Art,,FALSE,
+SFD-089a,SFD-089,SFD-089-2,Showcase,"Rumble, Scrapper",Alt Art,,FALSE,
+SFD-110a,SFD-110,SFD-110-2,Showcase,"Fiora, Peerless",Alt Art,,FALSE,
+SFD-113a,SFD-113,SFD-113-2,Showcase,"Lucian, Merciless",Alt Art,,FALSE,
+SFD-118a,SFD-118,SFD-118-2,Showcase,Boneshiver,Promo,SFD Regional Qualifier Participation,FALSE,
+SFD-119a,SFD-119,SFD-119-2,Showcase,"Jax, Unrelenting",Alt Art,,FALSE,
+SFD-120a,SFD-120,SFD-120-2,Showcase,"Sivir, Ambitious",Alt Art,,FALSE,
+SFD-141a,SFD-141,SFD-141-2,Showcase,"Irelia, Graceful",Alt Art,,FALSE,
+SFD-143a,SFD-143,SFD-143-2,Showcase,"Sivir, Mercenary",Alt Art,,FALSE,
+SFD-148a,SFD-148,SFD-148-2,Showcase,"Draven, Audacious",Alt Art,,FALSE,
+SFD-149a,SFD-149,SFD-149-2,Showcase,"Ezreal, Prodigy",Alt Art,,FALSE,
+SFD-170a,SFD-170,SFD-170-2,Showcase,"Rek'Sai, Swarm Queen",Alt Art,,FALSE,
+SFD-171a,SFD-171,SFD-171-2,Showcase,"Renata Glasc, Industrialist",Alt Art,,FALSE,
+SFD-177a,SFD-177,SFD-177-2,Showcase,"Azir, Sovereign",Alt Art,,FALSE,
+SFD-178a,SFD-178,SFD-178-2,Showcase,Blade of the Ruined King,Prize,SFD Regional Qualifer Champion,FALSE,
+SFD-180a,SFD-180,SFD-180-2,Showcase,"Fiora, Worthy",Alt Art,,FALSE,
+SFD-195a,SFD-195,SFD-195-3,Showcase,"Irelia, Blade Dancer",Promo,Lunar Revel Bundle,FALSE,
+SFD-222,OGN-040,OGN-040-2,Showcase,Seal of Rage,Overnumbered,,FALSE,
+SFD-223,OGN-035,OGN-035-2,Showcase,"Vayne, Hunter",Overnumbered,,TRUE,"""Goodbye... for now."""
+SFD-223*,OGN-035,OGN-035-3,Showcase,"Vayne, Hunter",ON Signed,,TRUE,"""Goodbye... for now."""
+SFD-224,SFD-049,SFD-049-2,Showcase,"Aphelios, Exalted",Overnumbered,,FALSE,
+SFD-224*,SFD-049,SFD-049-3,Showcase,"Aphelios, Exalted",ON Signed,,FALSE,
+SFD-225,SFD-057,SFD-057-3,Showcase,"Irelia, Fervent",Overnumbered,,TRUE,"""Everyone has a purpose."""
+SFD-225*,SFD-057,SFD-057-4,Showcase,"Irelia, Fervent",ON Signed,,TRUE,"""Everyone has a purpose."""
+SFD-226,OGN-081,OGN-081-2,Showcase,Seal of Focus,Overnumbered,,FALSE,
+SFD-227,OGN-119,OGN-119-3,Showcase,"Ahri, Inquisitive",Overnumbered,,TRUE,"""Just remember... to follow the fox."""
+SFD-227*,OGN-119,OGN-119-4,Showcase,"Ahri, Inquisitive",ON Signed,,TRUE,"""Just remember... to follow the fox."""
+SFD-228,SFD-079,SFD-079-2,Showcase,"Bard, Mercurial",Overnumbered,,TRUE,(Mysterious flower noises intensify.)
+SFD-228*,SFD-079,SFD-079-3,Showcase,"Bard, Mercurial",ON Signed,,TRUE,(Mysterious flower noises intensify.)
+SFD-229,OGN-120,OGN-120-2,Showcase,Seal of Insight,Overnumbered,,FALSE,
+SFD-230,OGN-121,OGN-121-2,Showcase,"Teemo, Strategist",Overnumbered,,FALSE,
+SFD-230*,OGN-121,OGN-121-3,Showcase,"Teemo, Strategist",ON Signed,,FALSE,
+SFD-231,OGN-163,OGN-163-2,Showcase,Seal of Strength,Overnumbered,,FALSE,
+SFD-232,OGN-164,OGN-164-2,Showcase,"Sett, Brawler",Overnumbered,,TRUE,"""Kings or beggars—all the same to me."""
+SFD-232*,OGN-164,OGN-164-3,Showcase,"Sett, Brawler",ON Signed,,TRUE,"""Kings or beggars—all the same to me."""
+SFD-233,SFD-116,SFD-116-2,Showcase,"Yone, Blademaster",Overnumbered,,FALSE,
+SFD-233*,SFD-116,SFD-116-3,Showcase,"Yone, Blademaster",ON Signed,,FALSE,
+SFD-234,OGN-204,OGN-204-2,Showcase,Seal of Discord,Overnumbered,,FALSE,
+SFD-235,OGN-205,OGN-205-2,Showcase,"Yasuo, Windrider",Overnumbered,,TRUE,"""I hope you find the path that brings you joy."""
+SFD-235*,OGN-205,OGN-205-3,Showcase,"Yasuo, Windrider",ON Signed,,TRUE,"""I hope you find the path that brings you joy."""
+SFD-236,OGN-243,OGN-243-2,Showcase,"Darius, Executioner",Overnumbered,,TRUE,"""Even in death, I cannot lay down my axe."""
+SFD-236*,OGN-243,OGN-243-3,Showcase,"Darius, Executioner",ON Signed,,TRUE,"""Even in death, I cannot lay down my axe."""
+SFD-237,OGN-235,OGN-235-2,Showcase,"Karma, Channeler",Overnumbered,,TRUE,"""Endings are beginnings with a different face."""
+SFD-237*,OGN-235,OGN-235-3,Showcase,"Karma, Channeler",ON Signed,,TRUE,"""Endings are beginnings with a different face."""
+SFD-238,OGN-245,OGN-245-2,Showcase,Seal of Unity,Overnumbered,,FALSE,
+SFD-239,SFD-173,SFD-173-2,Showcase,"Soraka, Wanderer",Overnumbered,,TRUE,"""Do not let the envy of others rob you of your shine."""
+SFD-239*,SFD-173,SFD-173-3,Showcase,"Soraka, Wanderer",ON Signed,,TRUE,"""Do not let the envy of others rob you of your shine."""
+SFD-240,SFD-181,SFD-181-2,Showcase,"Rumble, Mechanized Menace",Overnumbered,,FALSE,
+SFD-241,SFD-183,SFD-183-2,Showcase,"Lucian, Purifier",Overnumbered,,FALSE,
+SFD-242,SFD-185,SFD-185-2,Showcase,"Draven, Glorious Executioner",Overnumbered,,FALSE,
+SFD-243,SFD-187,SFD-187-2,Showcase,"Rek'Sai, Void Burrower",Overnumbered,,FALSE,
+SFD-244,SFD-189,SFD-189-2,Showcase,"Ornn, Fire Below the Mountain",Overnumbered,,FALSE,
+SFD-245,SFD-193,SFD-193-2,Showcase,"Jax, Grandmaster at Arms",Overnumbered,,FALSE,
+SFD-246,SFD-195,SFD-195-2,Showcase,"Irelia, Blade Dancer",Overnumbered,,FALSE,
+SFD-247,SFD-197,SFD-197-2,Showcase,"Azir, Emperor of the Sands",Overnumbered,,FALSE,
+SFD-248,SFD-199,SFD-199-2,Showcase,"Ezreal, Prodigal Explorer",Overnumbered,,FALSE,
+SFD-249,SFD-201,SFD-201-2,Showcase,"Renata Glasc, Chem-Baroness",Overnumbered,,FALSE,
+SFD-250,SFD-203,SFD-203-2,Showcase,"Sivir, Battle Mistress",Overnumbered,,FALSE,
+SFD-251,SFD-205,SFD-205-2,Showcase,"Fiora, Grand Duelist",Overnumbered,,FALSE,
+SFD-R01,OGN-007,OGN-007-1,Common,Fury Rune,Base,,FALSE,
+SFD-R02,OGN-042,OGN-042-1,Common,Calm Rune,Base,,FALSE,
+SFD-R03,OGN-089,OGN-089-1,Common,Mind Rune,Base,,FALSE,
+SFD-R04,OGN-126,OGN-126-1,Common,Body Rune,Base,,FALSE,
+SFD-R05,OGN-166,OGN-166-1,Common,Chaos Rune,Base,,FALSE,
+SFD-R06,OGN-214,OGN-214-1,Common,Order Rune,Base,,FALSE,
+SFD-R01a,OGN-007,OGN-007-2,Showcase,Fury Rune,Alt Art,,FALSE,
+SFD-R02a,OGN-042,OGN-042-2,Showcase,Calm Rune,Alt Art,,FALSE,
+SFD-R03a,OGN-089,OGN-089-2,Showcase,Mind Rune,Alt Art,,FALSE,
+SFD-R04a,OGN-126,OGN-126-2,Showcase,Body Rune,Alt Art,,FALSE,
+SFD-R05a,OGN-166,OGN-166-2,Showcase,Chaos Rune,Alt Art,,FALSE,
+SFD-R06a,OGN-214,OGN-214-2,Showcase,Order Rune,Alt Art,,FALSE,
+SFD-R01b,OGN-007,OGN-007-4,Showcase,Fury Rune,Promo,Nexus Night,FALSE,
+SFD-R02b,OGN-042,OGN-042-4,Showcase,Calm Rune,Promo,Nexus Night,FALSE,
+SFD-R03b,OGN-089,OGN-089-4,Showcase,Mind Rune,Promo,Nexus Night,FALSE,
+SFD-R04b,OGN-126,OGN-126-4,Showcase,Body Rune,Promo,Nexus Night,FALSE,
+SFD-R05b,OGN-166,OGN-166-4,Showcase,Chaos Rune,Promo,Nexus Night,FALSE,
+SFD-R06b,OGN-214,OGN-214-4,Showcase,Order Rune,Promo,Nexus Night,FALSE,
+OGN-007a,OGN-007,OGN-007-2,Showcase,Fury Rune,Alt Art,,FALSE,
+OGN-007b,OGN-007,OGN-007-3,Showcase,Fury Rune,Promo,Nexus Night,FALSE,
+OGN-027a,OGN-027,OGN-027-2,Showcase,"Darius, Trifarian",Alt Art,,FALSE,
+OGN-030a,OGN-030,OGN-030-2,Showcase,"Jinx, Demolitionist",Alt Art,,FALSE,
+OGN-039a,OGN-039,OGN-039-2,Showcase,"Kai'Sa, Survivor",Alt Art,,FALSE,
+OGN-041a,OGN-041,OGN-041-2,Showcase,"Volibear, Furious",Alt Art,,FALSE,
+OGN-042a,OGN-042,OGN-042-2,Showcase,Calm Rune,Alt Art,,FALSE,
+OGN-042b,OGN-042,OGN-042-3,Showcase,Calm Rune,Promo,Nexus Night,FALSE,
+OGN-066a,OGN-066,OGN-066-2,Showcase,"Ahri, Alluring",Alt Art,,FALSE,
+OGN-076a,OGN-076,OGN-076-2,Showcase,"Yasuo, Remorseful",Alt Art,,FALSE,
+OGN-076b,OGN-076,OGN-076-3,Showcase,"Yasuo, Remorseful",Promo,,FALSE,
+OGN-078a,OGN-078,OGN-078-2,Showcase,"Lee Sin, Ascetic",Alt Art,,FALSE,
+OGN-079a,OGN-079,OGN-079-2,Showcase,"Leona, Zealot",Alt Art,,FALSE,
+OGN-089a,OGN-089,OGN-089-2,Showcase,Mind Rune,Alt Art,,FALSE,
+OGN-089b,OGN-089,OGN-089-3,Showcase,Mind Rune,Promo,Nexus Night,FALSE,
+OGN-112a,OGN-112,OGN-112-2,Showcase,"Kai'Sa, Evolutionary",Alt Art,,FALSE,
+OGN-117a,OGN-117,OGN-117-2,Showcase,"Viktor, Innovator",Alt Art,,FALSE,
+OGN-119a,OGN-119,OGN-119-2,Showcase,"Ahri, Inquisitive",Alt Art,,FALSE,
+OGN-121a,OGN-121,OGN-121-2,Showcase,"Teemo, Strategist",Alt Art,,FALSE,
+OGN-126a,OGN-126,OGN-126-2,Showcase,Body Rune,Alt Art,,FALSE,
+OGN-126b,OGN-126,OGN-126-3,Showcase,Body Rune,Promo,Nexus Night,FALSE,
+OGN-151a,OGN-151,OGN-151-2,Showcase,"Lee Sin, Centered",Alt Art,,FALSE,
+OGN-158a,OGN-158,OGN-158-2,Showcase,"Volibear, Imposing",Alt Art,,FALSE,
+OGN-162a,OGN-162,OGN-162-2,Showcase,"Miss Fortune, Captain",Alt Art,,FALSE,
+OGN-164a,OGN-164,OGN-164-2,Showcase,"Sett, Brawler",Alt Art,,FALSE,
+OGN-166a,OGN-166,OGN-166-2,Showcase,Chaos Rune,Alt Art,,FALSE,
+OGN-166b,OGN-166,OGN-166-3,Showcase,Chaos Rune,Promo,Nexus Night,FALSE,
+OGN-193a,OGN-193,OGN-193-2,Showcase,"Miss Fortune, Buccaneer",Alt Art,,FALSE,
+OGN-193b,OGN-193,OGN-193-3,Showcase,"Miss Fortune, Buccaneer",Alt Art,,FALSE,
+OGN-197a,OGN-197,OGN-197-2,Showcase,"Teemo, Scout",Alt Art,,FALSE,
+OGN-202a,OGN-202,OGN-202-2,Showcase,"Jinx, Rebel",Alt Art,,FALSE,
+OGN-205a,OGN-205,OGN-205-2,Showcase,"Yasuo, Windrider",Alt Art,,FALSE,
+OGN-214a,OGN-214,OGN-214-2,Showcase,Order Rune,Alt Art,,FALSE,
+OGN-214b,OGN-214,OGN-214-3,Showcase,Order Rune,Promo,Nexus Night,FALSE,
+OGN-238a,OGN-238,OGN-238-2,Showcase,"Leona, Determined",Alt Art,,FALSE,
+OGN-240a,OGN-240,OGN-240-2,Showcase,"Sett, Kingpin",Alt Art,,FALSE,
+OGN-243a,OGN-243,OGN-243-2,Showcase,"Darius, Executioner",Alt Art,,FALSE,
+OGN-246a,OGN-246,OGN-246-2,Showcase,"Viktor, Leader",Alt Art,,FALSE,
+OGN-263a,OGN-263,OGN-263-4,Showcase,"Teemo, Swift Scout",Promo,Worlds 2025 Bundle,FALSE,
+OGN-299,OGN-247,OGN-247-2,Showcase,"Kai'Sa, Daughter of the Void",Overnumbered,,FALSE,
+OGN-299*,OGN-247,OGN-247-3,Showcase,"Kai'Sa, Daughter of the Void",ON Signed,,FALSE,
+OGN-300,OGN-249,OGN-249-2,Showcase,"Volibear, Relentless Storm",Overnumbered,,FALSE,
+OGN-300*,OGN-249,OGN-249-3,Showcase,"Volibear, Relentless Storm",ON Signed,,FALSE,
+OGN-301,OGN-251,OGN-251-2,Showcase,"Jinx, Loose Cannon",Overnumbered,,FALSE,
+OGN-301*,OGN-251,OGN-251-3,Showcase,"Jinx, Loose Cannon",ON Signed,,FALSE,
+OGN-302,OGN-253,OGN-253-2,Showcase,"Darius, Hand of Noxus",Overnumbered,,FALSE,
+OGN-302*,OGN-253,OGN-253-3,Showcase,"Darius, Hand of Noxus",ON Signed,,FALSE,
+OGN-303,OGN-255,OGN-255-2,Showcase,"Ahri, Nine-Tailed Fox",Overnumbered,,FALSE,
+OGN-303*,OGN-255,OGN-255-3,Showcase,"Ahri, Nine-Tailed Fox",ON Signed,,FALSE,
+OGN-303a,OGN-255,OGN-255-4,Showcase,"Ahri, Nine-Tailed Fox",Region Exclusive,Korean OGN,FALSE,
+OGN-303a*,OGN-255,OGN-255-5,Showcase,"Ahri, Nine-Tailed Fox",Region Exclusive,Korean OGN,FALSE,
+OGN-304,OGN-257,OGN-257-2,Showcase,"Lee Sin, Blind Monk",Overnumbered,,FALSE,
+OGN-304*,OGN-257,OGN-257-3,Showcase,"Lee Sin, Blind Monk",ON Signed,,FALSE,
+OGN-305,OGN-259,OGN-259-2,Showcase,"Yasuo, Unforgiven",Overnumbered,,FALSE,
+OGN-305*,OGN-259,OGN-259-3,Showcase,"Yasuo, Unforgiven",ON Signed,,FALSE,
+OGN-306,OGN-261,OGN-261-2,Showcase,"Leona, Radiant Dawn",Overnumbered,,FALSE,
+OGN-306*,OGN-261,OGN-261-3,Showcase,"Leona, Radiant Dawn",ON Signed,,FALSE,
+OGN-307,OGN-263,OGN-263-2,Showcase,"Teemo, Swift Scout",Overnumbered,,FALSE,
+OGN-307*,OGN-263,OGN-263-3,Showcase,"Teemo, Swift Scout",ON Signed,,FALSE,
+OGN-308,OGN-265,OGN-265-2,Showcase,"Viktor, Herald of the Arcane",Overnumbered,,FALSE,
+OGN-308*,OGN-265,OGN-265-3,Showcase,"Viktor, Herald of the Arcane",ON Signed,,FALSE,
+OGN-309,OGN-267,OGN-267-2,Showcase,"Miss Fortune, Bounty Hunter",Overnumbered,,FALSE,
+OGN-309*,OGN-267,OGN-267-3,Showcase,"Miss Fortune, Bounty Hunter",ON Signed,,FALSE,
+OGN-310,OGN-269,OGN-269-2,Showcase,"Sett, the Boss",Overnumbered,,FALSE,
+OGN-310*,OGN-269,OGN-269-3,Showcase,"Sett, the Boss",ON Signed,,FALSE,
+OGN-036a,OGN-036,OGN-036-2,Showcase,"Vi, Destructive",Promo,Arcane Box Set,FALSE,
+OGN-068a,OGN-068,OGN-068-2,Showcase,"Caitlyn, Patrolling",Promo,Arcane Box Set,FALSE,
+OGN-111a,OGN-111,OGN-111-2,Showcase,"Heimerdinger, Inventor",Promo,Arcane Box Set,FALSE,
+OGN-159a,OGN-159,OGN-152-2,Showcase,"Warwick, Hunter",Promo,Arcane Box Set,FALSE,
+OGN-202a,OGN-202,OGN-202-3,Showcase,"Jinx, Rebel",Promo,Arcane Box Set,FALSE,
+OGN-246a,OGN-246,OGN-246-3,Showcase,"Viktor, Leader",Promo,Arcane Box Set,FALSE,
+OGN-197b,OGN-197,OGN-197-3,Showcase,"Teemo, Scout",Promo,Nexus Night Chase,FALSE,
+OGN-275a,OGN-275,OGN-275-2,Showcase,Altar to Unity,Promo,Worlds 2025 Bundle,FALSE,
+OGN-276a,OGN-276,OGN-276-2,Showcase,Aspirant's Climb,Promo,Worlds 2025 Bundle,FALSE,
+OGN-278a,OGN-278,OGN-278-2,Showcase,Bandle Tree,Promo,Worlds 2025 Bundle,FALSE,
+OGN-293a,OGN-293,OGN-293-2,Showcase,The Grand Plaza,Promo,Worlds 2025 Bundle,FALSE,

@@ -86,7 +86,7 @@ export class VDecklistTable extends React.Component<IProps, IState> {
     private recordCardAmounts(): void {
         for(let decklistNum = 0; decklistNum < this.decklists.length; decklistNum++) {
             const decklist = this.decklists[decklistNum];
-            for(let listing of decklist.mainDeck.concat(decklist.battlefields).concat(decklist.runeDeck).concat({id: decklist.legend, count: 1})) {
+            for(let listing of [{id:decklist.chosenChampion, count:1}].concat(decklist.mainDeck).concat(decklist.battlefields).concat(decklist.runeDeck).concat({id: decklist.legend, count: 1})) {
                 const cardId = TO_BASE_ID(listing.id);
                 if(!this.cardIds.includes(cardId)) {
                     this.cardIds.push(cardId);

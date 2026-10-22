@@ -29,8 +29,8 @@ export class MyDecklistsPage extends React.Component<{}, IState> {
         const decklist = Decklist.fromText(text, "You");
         if(decklist.legend === "") { window.alert("no legend found"); return; }
         if(decklist.chosenChampion === "") { window.alert("no chosen champion found"); return; }
-        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 40) {
-            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 40)`);
+        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 39) {
+            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 39)`);
             return;
         }
         if(decklist.battlefields.reduce((sum, current) => sum + current.count, 0) !== 3) {
@@ -56,8 +56,8 @@ export class MyDecklistsPage extends React.Component<{}, IState> {
         const decklist = Decklist.fromText(text);
         if(decklist.legend === "") { window.alert("no legend found"); return; }
         if(decklist.chosenChampion === "") { window.alert("no chosen champion found"); return; }
-        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 40) {
-            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 40)`);
+        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 39) {
+            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 39)`);
             return;
         }
         if(decklist.runeDeck.reduce((sum, current) => sum + current.count, 0) !== 12) {
@@ -73,8 +73,8 @@ export class MyDecklistsPage extends React.Component<{}, IState> {
         const decklist = Decklist.fromText(text, "You");
         if(decklist.legend === "") { window.alert("no legend found"); return; }
         if(decklist.chosenChampion === "") { window.alert("no chosen champion found"); return; }
-        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 40) {
-            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 40)`);
+        if(decklist.mainDeck.reduce((sum, current) => sum + current.count, 0) !== 39) {
+            window.alert(`${decklist.mainDeck.reduce((sum, current) => sum + current.count, 0)} cards in main deck (need 39)`);
             return;
         }
         if(decklist.battlefields.reduce((sum, current) => sum + current.count, 0) !== 3) {

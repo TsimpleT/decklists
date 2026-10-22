@@ -1,6 +1,6 @@
 :root {
     --bg-default: rgb(61, 49, 67);
-    --bg-default-off: rgb(61, 49, 67);
+    --bg-default-off: rgb(30, 13, 39);
     --bg-default-hover: rgb(104, 84, 116);
     --bg-default-active: rgb(125, 101, 139);
     --bg-dark: rgb(21, 1, 26);

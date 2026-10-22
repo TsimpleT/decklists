@@ -1,0 +1,314 @@
+ID,Name,Supertype,Type,Domains,Rarity,Energy Cost,Power Cost,Might,Rules Text,Effect Text,Champion Tag,Other Tags,Flavor Text,Has Errata
+RAD-001,Amateur Demolitionist,,Unit,Fury,Common,2,,1,"When you play me, play a Bomb gear token to a battlefield.",,,"Bandle City, Yordle","""What's the worst that can happen—it doesn't blow up?""",FALSE
+RAD-002,Banner of Conquest,,Gear,Fury,Common,1,1,,"[Deploy]
+Friendly units here have [Assault].",,,,"When Noxus raises a banner, there will be blood before it lowers.",FALSE
+RAD-003,Bilgewater Tracker,,Unit,Fury,Common,3,,3,"When you play me, deal 1 to each of up to 2 units.",,,Bilgewater,"""Who's on top of the bounty board today?""",FALSE
+RAD-004,Brawl,,Spell,Fury,Common,3,1,,"[Action]
+Give a unit [Assault] this turn equal to its Might.",,,,"No biting, not hits below the belt—unless you want to win.",FALSE
+RAD-005,Lingering Animus,,Unit,Fury,Common,2,,2,I enter ready if a friendly unit or gear died this turn.,,,"Shadow Isles, Spirit","A drop of blood, a piercing shriek, a lingering silence.",FALSE
+RAD-006,Scorched Earth,,Spell,Fury,Common,4,1,,"[Action]
+Deal 5 damage split among units at a single battlefield.",,,,"""Leave them nothing.""",FALSE
+RAD-007,Rally for War,,Spell,Fury,Common,3,1,,Choose an occupied enemy battlefield. Play three 1[M] Recruit unit tokens there.,,,,"When the first horn sounds, every solider thinks they'll make it home.",FALSE
+RAD-008,War Scout,,Unit,Fury,Common,3,,2,"[Accelerate]
+When you play me, give a unit +2[M] this turn.",,,"Demacia, Yordle","""I didn't say 'annoy them.' I said 'badger them.'""",FALSE
+RAD-009,Antagonistic Apparatus,,Unit,Fury,Uncommon,6,1,3,"I enter ready.
+When you play me, play a ready 3[M] Mech unit token here.",,,"Bandle City, Yordle, Mech","""Uh-oh! Looks like there's a surprise on the track ahead!""",FALSE
+RAD-010,Forbidden Technique,,Spell,Fury,Uncommon,2,,,"Ready a unit.
+When you play a card with Energy cost [7] or more, you may play this from your trash for [1][R][R]. Then banish this.",,,,"""Punish restraint.""
+—Zed",TRUE
+RAD-011,Incorrigible Construct,,Unit,Fury,Uncommon,4,,4,"[Show Off] a Mech.
+I enter ready if you showed off.",,,"Piltover, Mech","""This behavior is highly inefficient!""
+—Heimerdinger",FALSE
+RAD-012,Runeblade Anvil,,Gear,Fury,Uncommon,1,,,"When you play this or when this leaves the board, banish the top card of your Main Deck. Until your next Ending Phase, you may play that card.
+[2][R], [E]: Kill this.",,,,,FALSE
+RAD-013,Lost to the Sands,,Spell,Fury,Uncommon,3,1,,"[Action]
+Choose one —
+• Deal 4 to a unit at a battlefield.
+• Kill a gear.",,,,Broken bodies. Broken landmarks. Broken dreams.,FALSE
+RAD-014,Shimmering Swimmer,,Unit,Fury,Uncommon,3,,3,"You may kill a friendly unit or gear as an additional cost to play me.
+When you play me, if you paid the additional cost, deal 2 to a unit.",,,Bilgewater,One person's trash is another person's ammunition.,FALSE
+RAD-015,"Akali, Brash",Champion,Unit,Fury,Rare,5,1,5,"The first time I move each turn, [Add] [1][A].
+The second time I move each turn, banish the top card of your Main Deck. Until your next Ending Phase, you may play that card.",,Akali,Ionia,"""You think you're gonna walk away?""",FALSE
+RAD-016,Coalesced Energy,,Unit,Fury,Rare,4,2,4,"At the end of your turn, recycle all your runes, then channel 4 runes exhausted.",,,Shurima,Where magic and malice meet.,FALSE
+RAD-017,Detonation Amplifier,,Gear,Fury,Rare,4,1,,"[Deploy]
+When you play this, you may kill another friendly unit or gear to draw 1.
+Friendly [Deathknell] effects here trigger an additional time.",,,,,FALSE
+RAD-018,Drakehound Packmaster,,Unit,Fury,Rare,9,2,9,"When you play me, reveal the top card of each opponent's Main Deck. Choose one and banish it, then play it, ignoring its cost. Recycle the rest.",,,Noxus,"""You've got the scent, my pets. Now hunt.""",FALSE
+RAD-019,Firebrand Raider,,Unit,Fury,Rare,6,1,6,"I enter ready.
+When you play me, ready all enemy units.
+Other units enter ready.
+Units can't ready during the Awaken Phase.",,,Freljord,"""I think I made my point.""",FALSE
+RAD-020,"Mordekaiser, Twice Slain",Champion,Unit,Fury,Rare,7,1,5,"[Accelerate]
+[Assault 3]
+Once each turn, if I would die, you may kill a friendly unit to heal me, exhaust me, and recall me instead.",,Mordekaiser,"Noxus, Spirit",,FALSE
+RAD-021,"Ekko, Revolutionary",Champion,Unit,Fury,Epic,5,1,4,"I enter ready.
+[Assault]
+[Action][>] Discard 1, [1][R]: Banish me, then play me to your base, ignoring my cost.",,Ekko,Zaun,"""I finish what I start.""",FALSE
+RAD-022,Whrling Twirligig,,Gear,Fury,Epic,4,1,,"[E]: Play a Gold gear token exhausted.
+Kill a friendly gear, [E]: Play a 1[M] Recruit unit token.
+Kill a friendly unit, [E]: Play a 3[M] Mech unit token.",,,,,FALSE
+RAD-023,"Ziggs, Short-Fused",Champion,Unit,Fury,Epic,5,1,5,"When you play me, play a Bomb gear token to a battlefield.
+Abilities of friendly gear deal 1 Bonus Damage.",,Ziggs,"Zaun, Yordle","""Anyone got a ... match?""",FALSE
+RAD-024,Blossoming Dreamroot,,Gear,Calm,Common,2,,,"[Deploy]
+When you win a combat here, draw 1.",,,,Not all who toil at the plow will live to taste the fruit.,FALSE
+RAD-025,Consult the Heavens,,Spell,Calm,Common,1,,,"[Reaction]
+Give a unit [Shield 2] this turn.
+[Predict].",,,,,FALSE
+RAD-026,Entrenched Boar,,Unit,Calm,Common,2,,2,"You may have me enter ready. If you do, I can't move this turn.",,,Freljord,"Outsiders fear the wolf, the hawk, and the bear. Locals fear the pig.",FALSE
+RAD-027,Iridescent Avian,,Unit,Calm,Common,3,,3,"[E]: [Buff] a unit. If it's already buffed, give it +2[M] this turn instead.",,,"Ixtal, Bird",Sweet dreams.,FALSE
+RAD-028,Ki Burst,,Spell,Calm,Common,1,,,"[Action]
+As an additional cost to play this, exhaust a friendly unit.
+[Stun] a unit.",,,,"""For those who were lost."" —Riven",FALSE
+RAD-029,Life from Stone,,Spell,Calm,Common,1,,,"[Reaction]
+As an additional cost to play this, exhaust a friendly unit.
+Draw 1 and channel 1 rune exhausted.",,,,Hope grows in the unlikeliest places.,FALSE
+RAD-030,Sanctum Conservator,,Unit,Calm,Common,5,,5,"When you play a card with Energy cost [7] or more, ready me.",,,Shurima,They pledged to save the dynasty. They should have specified how.,FALSE
+RAD-031,Stoic Ferryman,,Unit,Calm,Common,4,,2,"[Shield 3]
+When you play me to a battlefield, you may move another unit you control here to your base.",,,"Bilgewater, Sentinel","You're paying for passage, not conversation.",FALSE
+RAD-032,Battle Preparations,,Spell,Calm,Uncommon,2,,,"[Reaction]
+[Show Off] a gear.
+Give a unit +2[M] this turn. If you showed off, ready up to 2 runes.",,,,,FALSE
+RAD-033,Command: Attack,,Spell,Calm,Uncommon,1,1,,"Choose one —
+• Move a friendly gear with [Deploy] to a battlefield.
+• Look at the top 5 cards of your Main Deck. You may reveal a gear from among them and draw it. Recycle the rest.",,,,,FALSE
+RAD-034,Hunker Down,,Spell,Calm,Uncommon,1,,,"[Reaction]
+Ready a friendly unit. It can't move this turn. Draw 1.",,,,"""No. Step. Backward.""",FALSE
+RAD-035,Invigorating Bloom,,Gear,Calm,Uncommon,3,,,"When you play this, give a friendly unit +3[M] this turn.
+Exhaust a friendly [Mighty] unit, [E]: Draw 1.",,,,"Nature's bounty, there for the taking.",FALSE
+RAD-036,Storm Raptor,,Unit,Calm,Uncommon,6,,6,"[Deflect]
+When a stunned enemy unit here dies, draw 1.",,,"Freljord, Bird",The heart of the storm.,FALSE
+RAD-037,Watchful Curator,,Unit,Calm,Uncommon,3,1,4,Your gear have [Deflect].,,,Piltover,"""Hands off the merchandise!""",FALSE
+RAD-038,"Ahri, Confident",Champion,Unit,Calm,Rare,4,1,4,"[Disarm]
+When you reduce the Might of an enemy unit here by 1 or more, give me +1[M] this turn.",,Ahri,Ionia,"""I'll have them chasing their tails!""",FALSE
+RAD-039,Ephemeral Ward,,Gear,Calm,Rare,4,2,,"Your units have +2[M].
+When you play a unit, kill this.",,,,Never underestimate the power of a good story.,FALSE
+RAD-040,Heartening Soul,,Unit,Calm,Rare,7,1,7,"When you play me, ready a friendly legend.
+Friendly legends have ""[E]: Give a unit +3[M] this turn.""",,,"Shadow Isles, Spirit",Everybody needs a hero.,FALSE
+RAD-041,Hush,,Spell,Calm,Rare,1,2,,"[Reaction]
+Counter a spell with Power cost [A][A] or more.",,,,"""Never waste a breath.""
+—Soraka",FALSE
+RAD-042,"Orianna, Exquisite",Champion,Unit,Calm,Rare,3,,4,"[Shield]
+I don't deal combat damage unless there's a friendly gear here.",,Orianna,Piltover,"""Why are they running?",FALSE
+RAD-043,"Riven, Broken Blade",Champion,Unit,Calm,Rare,4,,4,"When I become exhausted, choose one that hasn't been chosen this turn —
+• [Buff] me.
+• Spend my buff to [Stun] an enemy unit.
+• Spend my buff to ready me.",,Riven,Noxus,,FALSE
+RAD-044,Hunting Blind,,Gear,Calm,Epic,4,2,,"[Deploy]
+When you play this, you may move an enemy unit to this battlefield.
+Friendly units here have [Shield 2].",,,,No one ever won a war without preparing.,FALSE
+RAD-045,"K'Sante, Dauntless",Champion,Unit,Calm,Epic,4,1,4,"[Shield]
+When I attack or defend, double the [Shield] of a unit you control here this turn.",,K'Sante,Shurima,"""Keep your heads high—we are worthy!""",FALSE
+RAD-046,Resplendent Rostrum,,Gear,Calm,Epic,8,1,,"[E]: Draw 1 and channel 1 rune exhausted.
+When this become exhausted, give a friendly unit +3[M] this turn.",,,,Power and glory have no need for subtlety.,FALSE
+RAD-047,Fanfare,,Spell,Mind,Common,3,,,"The next three times you play a unit this turn, draw 1.",,,,"""Please welcome our next performer to the stage!""",FALSE
+RAD-048,High Note,,Spell,Mind,Common,3,,,"[Reaction]
+Give a unit -[M] this turn equal to the number of exhausted units you control.",,,,"""This one's for you!""
+—Seraphine",FALSE
+RAD-049,Industrious Mechsmith,,Unit,Mind,Common,4,,1,"When you play me, play a 3[M] Mech unit token here.",,,Zaun,There's always time to make new friends.,FALSE
+RAD-050,Mysterious Chronomancer,,Unit,Mind,Common,5,,4,"When you play me, [Predict 2].
+[Disarm 2]",,,Shurima,,FALSE
+RAD-051,Parallel Convergence,,Spell,Mind,Common,2,1,,"As an additional cost to play this, return a friendly unit to its owner's hand.
+Deal 5 to a unit at a battlefield.",,,,"""Last chance to be anywhere else.""
+—Ekko",FALSE
+RAD-052,Resource Extractor,,Gear,Mind,Common,1,,,"[Deploy]
+At the end of your turn, if you control this battlefield, play a Gold gear token exhausted.",,,,,FALSE
+RAD-053,Strigian Oracle,,Unit,Mind,Common,2,,2,"When I become exhausted, [Predict].",,,"Freljord, Bird","He knokws the what and hte when, but don't ask him who.",FALSE
+RAD-054,Trinket Peddler,,Unit,Mind,Common,3,,3,[Disarm],,,"Bandle City, Yordle","""It's really good stuff! Or at any rate, it's really stuff.""",FALSE
+RAD-055,Clanging Sentry,,Unit,Mind,Uncommon,3,,2,Your Mechs have [Disarm].,,,"Piltover, Mech","""WATCH OUT, CITIZEN! CRIME IS HAPPENING!""",FALSE
+RAD-056,Improvised Projectile,,Spell,Mind,Uncommon,3,1,,"[Action]
+Choose a friendly gear. Deal damage equal to its Energy cost to a unit at a battlefield.",,,,Sometimes the solution is right in front of your face. Sometimes it's in front of some else's.,FALSE
+RAD-057,Piltovan Guidebot,,Unit,Mind,Uncommon,4,,3,"When you play a card, you may have my base Might become equal to that card's Energy cost this turn.",,,"Piltover, Mech","""MAKE WAY FOR MERRIMENT.""",FALSE
+RAD-058,Riptide Mage,,Unit,Mind,Uncommon,4,1,3,"[Accelerate]
+When you play me, give an enemy unit -3[M] this turn.",,,Bilgewater,"If they can't breathe, they can't fight.",FALSE
+RAD-059,Supernova,,Spell,Mind,Uncommon,9,1,,Deal 10 to a unit. Draw 2.,,,,"Death and rebirth, played out on a cosmic scale.",FALSE
+RAD-060,The Empyrean,,Unit,Mind,Uncommon,8,,8,"[Show Off] a card.
+When you play me, if you showed off a card, [Predict] equal to its Power cost, then draw 2.",,,"Ionia, Dragon",,FALSE
+RAD-061,"Ekko, Ingenious",Champion,Unit,Mind,Rare,3,,4,"As an additional cost to play me, return a friendly unit to its owner's hand.
+[Ganking]",,Ekko,Zaun,"""We'll do it the hard way!""",FALSE
+RAD-062,Gravity Field,,Gear,Mind,Rare,5,1,,"[Deploy]
+Opponents must pay [1][A] to move one or more units to this battlefield.
+[Deathknell][>] Draw 1.",,,,"""We will supersede nature"" —Viktor",FALSE
+RAD-063,"Kai'Sa, Rebel",Champion,Unit,Mind,Rare,5,1,5,"[Disarm]
+While I'm in a showdown, your spells have [Reaction].",,Kai'Sa,The Void,"""It's a good day for a hunt.""",FALSE
+RAD-064,Scrutinizing Scope,,Gear,Mind,Rare,2,,,"[1], [E]: Choose an opponent. They guess a card type. Reveal the top card of your Main Deck. If it has that type, recycle it. Otherwise, draw it.",,,,Safety measures were out of scope.,FALSE
+RAD-065,"Seraphine, Inspiring",Champion,Unit,Mind,Rare,4,1,3,"[Disarm 2]
+Once each turn, when you exhaust three or more friendly units at the same time, you may draw 1.",,Seraphine,Piltover,"""Hello, world! I'm Seraphine, and you are beautiful!""",FALSE
+RAD-066,Spirit of the Forge,,Unit,Mind,Rare,6,1,4,"You may return a friendly gear to its owner's hand as an additional cost to play me.
+When you play me, if you paid the additional cost, ready me and give me +[M] this turn equal to the Energy cost of the gear you returned.",,,"Freljord, Spirit",This ram parts ramparts.,FALSE
+RAD-067,Clocktower Guardian,,Unit,Mind,Epic,8,2,8,"When you play me or when I hold, [Predict 3].
+[Deathknell][>] Banish the top card of your Main Deck. You may play it, ignoring its Energy cost.",,,Shurima,,FALSE
+RAD-068,"Orianna, Mechanical Marvel",Champion,Unit,Mind,Epic,5,,5,"Once each turn, while I'm at a battlefield, you may pay [1][A] less to play a gear.",,Orianna,Piltover,"""Time tick-ticks away.""",FALSE
+RAD-069,Zero Point Inflection,,Gear,Mind,Epic,9,2,,"When you play a card, draw 2.
+When you draw 1 or more cards with 9 or more other cards in your hand, discard your hand, kill this, and choose an opponent. They score 1 point.",,,,Unlimited power always seems like a good idea at first.,FALSE
+RAD-070,Hold 'Em,,Spell,Body,Common,3,,,"[Action]
+This costs [2] less if you've played a unit or gear to a battlefield this turn.
+Give a unit +3[M] this turn.",,,,You can't choose the cards you're dealt—only how you play the hand.,FALSE
+RAD-071,Nazuman Ntofo,,Gear,Body,Common,1,,,[Equip] [1],[Shield 2] [M]+0,,Equipment,,FALSE
+RAD-072,Overloaded Traveler,,Unit,Body,Common,2,,2,"While there's a friendly gear with [Deploy] at my battlefield, I have +1[M].",,,"Bandle City, Yordle","Bandle Scout Rule 321: If your backpack's not bursting, there's more you can bring!",FALSE
+RAD-073,Pillaged Armory,,Gear,Body,Common,1,,,"[Deploy]
+When you play this or when you conquer here, [Buff] a friendly unit.",,,,Stolen weapons hit different.,FALSE
+RAD-074,Raving Witness,,Unit,Body,Common,3,,3,"When I move, reveal the top card of your Main Deck. If it's [Mighty], draw it. Otherwise, recycle it.",,,Freljord,"They're just tall tales, until they're not.",FALSE
+RAD-075,Skystrike Squadron,,Unit,Body,Common,5,,4,"You may return a friendly gear to its owner's hand as an additional cost to play me. If you do, I cost [2] less.
+[Deflect]",,,"Demacia, Elite, Bird",The highest honor.,FALSE
+RAD-076,Sneaky Zeebles,,Unit,Body,Common,2,,1,"When I conquer, [Add] [A].",,,Mount Targon,"""A zeeble gave it to you? You expect me to believe that?!""",FALSE
+RAD-077,Wrath of the Freljord,,Unit,Body,Common,9,,7,"I enter ready.
+[Shield 3]",,,"Freljord, Spirit","""The crackle of ice, the thunder of hooves, and then everything was chaos.""
+—Survivor's tale",FALSE
+RAD-078,Armored Tusker,,Unit,Body,Uncommon,6,1,4,"[Shield 3]
+[Tank]
+When I move, you may deal damage equal to my [Shield] to a unit at a battlefield.",,,Noxus,It puts up a fight you'll never forget.,FALSE
+RAD-079,Avalanche,,Spell,Body,Uncommon,5,2,,Deal 3 to all units in bases.,,,,The only safe place to stand is somewhere else.,FALSE
+RAD-080,Bloodscent Swarm,,Unit,Body,Uncommon,8,2,8,I cost [2] less for each battlefield you've conquered this turn.,,,Shurima,"""What's that buzzing sound?""
+—Common last words",FALSE
+RAD-081,Elnuk Herd,,Unit,Body,Uncommon,6,,5,"[Hidden]
+When you play me, give a friendly unit +3[M] this turn, then recycle me if I was played from face down.",,,Freljord,"In the Freljord, ""stampede"" is just another kind of weather.",TRUE
+RAD-082,Primordial Roar,,Spell,Body,Uncommon,4,2,,"[Show Off] a unit.
+If you showed off a unit, deal damage eqal to that unit's Might to a unit.",,,,A taste of what's to come.,FALSE
+RAD-083,Stalwart Goatherd,,Unit,Body,Uncommon,4,,2,"[Shield 2]
+When you play me, you may kill a gear with Energy cost [4] or less.",,,Mount Targon,Nothing gets his goat.,FALSE
+RAD-084,Cataclysm,,Spell,Body,Rare,4,1,,"Opponents can't play spells this turn.
+Move a friendly unit to an occupied enemy battlefield.",,,,"""For the King!""
+—Jarvan IV",FALSE
+RAD-085,"Graves, Blasting Through",Champion,Unit,Body,Rare,5,1,4,"When I attack or defend, deal damage equal to my Might to all enemy units here.
+I don't deal combat damage.",,Graves,Bilgewater,"""Like fish in a barrel.""",FALSE
+RAD-086,"K'Sante, Courageous",Champion,Unit,Body,Rare,5,,4,"[Accelerate]
+[Shield 2]
+When I hold, channel 1 rune.",,K'Sante,The Void,"""Act like failure is impossible.""",FALSE
+RAD-087,Portable Portal,,Gear,Body,Rare,2,,,"[Deploy]
+When you play this, you may pay [B] to ready a unit here.
+Units here have [Ganking].",,,,,FALSE
+RAD-088,Staunch Survivor,,Unit,Body,Rare,2,1,2,"[Assault 2], [Shield 2]",,,Freljord,"Her home is lost, her family fallen. But there is always one thing left to fight for.",FALSE
+RAD-089,Titanic Shrine,,Gear,Body,Rare,3,,,"When you play a unit with Might great than each other unit on hte board, exhaust me to draw 1.",,,,"Where the elements are feared, strength is revered.",FALSE
+RAD-090,"Evelynn, Consuming",Champion,Unit,Body,Epic,5,1,5,"[Ambush]
+When you play a card from face down, ready me and give me +1[M] this turn.",,Evelynn,Demon,"""I was born of a thousand screams. What's one more?""",FALSE
+RAD-091,"Jarvan IV, Martial Paragon",Champion,Unit,Body,Epic,4,1,4,"Your gear with [Deploy] have [Action].
+When I conquer, if there is a friendly gear with [Deploy] here, channel 1 rune exhausted.",,Jarvan IV,Demacia,"""We shall rest when we are dead!""",FALSE
+RAD-092,Seraphic Wyvern,,Unit,Body,Epic,7,,7,"If you would channel runes, channel that many runes plus 1 exhausted rune instead.",,,"Mount Targon, Dragon",The blessings of the Aspects are inscrutable to mortal minds.,FALSE
+RAD-093,Disposal Expert,,Unit,Chaos,Common,4,,3,"I enter ready if you control no other units.
+[Disarm 2]",,,"Bandle City, Yordle",At least he's wearing safety goggles.,FALSE
+RAD-094,Explosimian,,Unit,Chaos,Common,6,,6,"When I hold, play three Bomb gear tokens to a single battlefield.",,,Zaun,"Monkey see, monkey boom.",FALSE
+RAD-095,Momentary Companion,,Unit,Chaos,Common,4,,4,"[Hidden]
+When you play me, if it's not your turn, give me [Temporary].",,,"Shadow Isles, Demon","You'll forget what she took, but those eyes will stay with you forever.",FALSE
+RAD-096,Satchel Charge,,Spell,Chaos,Common,3,1,,"[Action]
+Move a friendly unit, then play a Bomb gear token to a battlefield.",,,,It's more fun if nobody knows how long the fuse is.,FALSE
+RAD-097,Siren of the Shallows,,Unit,Chaos,Common,2,,1,"[Disarm]
+[Ganking]",,,Bilgewater,"""Just one more step, darling.""",FALSE
+RAD-098,Siren's Song,,Spell,Chaos,Common,2,,,"[Reaction]
+Move an enemy unit that moved this turn.",,,,It's quite the earworm.,FALSE
+RAD-099,Suave Negotiator,,Unit,Chaos,Common,3,,3,"When you play me, choose an opponent. You and that player each draw 1.",,,"Bilgewater, Demon","""To your health.""",FALSE
+RAD-100,The Waters' Wage,,Spell,Chaos,Common,1,,,"[Hidden]
+Play a Gold gear token exhausted. If it's your turn and you played this from face down, play three ready Gold gear tokens instead.",,,,,FALSE
+RAD-101,An Offer You Can't Refuse,,Spell,Chaos,Uncommon,2,,,"[Action]
+Kill a gear. Its controller plays a Gold gear token exhausted.",,,,"Go on, take it.",FALSE
+RAD-102,Demon Shade,,Spell,Chaos,Uncommon,3,,,"[Hidden]
+Choose a friendly unit, then choose one —
+• Move it to an open battlefield.
+• Give it [Ganking] this turn if there are no open battlefields.",,,,"""""Let's play hard to get."" —Evelynn",FALSE
+RAD-103,Gutter Guardian,,Unit,Chaos,Uncommon,3,,3,"[Hidden]
+[Show Off] a card with [Hidden].
+When you play me, if you showed off, [Add] [A].",,,,"Where cruelty reigns, kindness is rebellion.",FALSE
+RAD-104,Pitiless Stalker,,Unit,Chaos,Uncommon,5,1,5,[E]: Stun an enemy unit.,,,"Shadow Isles, Cat",They savor their prey one nightmare at a time.,FALSE
+RAD-105,Reckless Innovator,,Unit,Chaos,Uncommon,3,,3,"[Accelerate]
+When I become exhausted, choose one —
+• Play a Gold gear token exhausted.
+• Pay [P] to draw 1.",,,Piltover,,FALSE
+RAD-106,The Good Stuff,,Gear,Chaos,Uncommon,3,1,,"[Deploy]
+When you play this, discard 1, then draw 3.
+When you hold here, return this to its owner's hand.",,,,It really is.,FALSE
+RAD-107,Bedeviling Stranger,,Unit,Chaos,Rare,2,,2,"[Hidden]
+When you play me, choose a battlefield. If there are 4 or more units there, you may return an enemy unit there to its owner's hand.",,,"Shadow Isles, Demon","""Now lean in, friends, for I dare not say it above a whisper...""",FALSE
+RAD-108,Bushwhack Trap,,Gear,Chaos,Rare,1,,,"[Deploy]
+While you or an ally control this battlefield, that player may hide an additional card here.",,,,"""There, that should be the last of them.""
+—Common last words",FALSE
+RAD-109,"Evelynn, In Control",Champion,Unit,Chaos,Rare,4,1,4,"[Disarm]
+When I hold, if you control a facedown card here, score 1 point..",,Evelynn,Demon,"""Just looking for that special someone to torment.""",FALSE
+RAD-110,"Lulu, Whimsical",Champion,Unit,Chaos,Rare,3,,3,"When I move, you may have another unit's base Might become 4 this turn.",,Lulu,"Bandle City, Yordle","""Transmogulate!""",FALSE
+RAD-111,Mechanical Bandit,,Gear,Chaos,Rare,4,1,,"At the start of your Beginning Phase, each player reveals the top card of their Main Deck. If you revealed a card with the lowest Energy cost, draw it. Recycle the rest.",,,,"""EVERYONE IS A WINNER!""",FALSE
+RAD-112,"Ziggs, Explosive",Champion,Unit,Chaos,Rare,4,,4,"[1], [E]: Play a Bomb gear token to a battlefield.
+When I defend, you may kill a friendly gear to give me +2[M] this turn.",,Ziggs,"Zaun, Yordle","""Let's blow this joint.""",FALSE
+RAD-113,Angler Wyrm,,Unit,Chaos,Epic,8,,8,"[Deflect]
+[E]: Choose an opponent. They must move a unit they control to my battlefield.",,,"Bilgewater, Dragon",The glimmer of hope comes just before the rip of teeth.,FALSE
+RAD-114,"Riven, Deserter",Champion,Unit,Chaos,Epic,5,1,5,"When another friendly unit becomes exhausted, give me +1[M] this turn.
+Exhaust a friendly unit: Ready a unit. Use this ability only once each turn.",,Riven,Noxus,"""What is broken can be reforged.""",FALSE
+RAD-115,Transpositionist,,Unit,Chaos,Epic,6,,4,"[P], [E]: Return a friendly unit to its owner's hand. You may play a unit with less Might than that unit had, ignoring its cost.",,,Bilgewater,,FALSE
+RAD-116,Concert Poster,,Gear,Order,Common,1,,,"[Deploy]
+When you play this or when you conquer here, you may pay [1] to play a 1[M] Recruit unit token to your base.",,,,Nothing draws a crowd like a crowd.,FALSE
+RAD-117,For Demacia!,,Spell,Order,Common,3,,,"[Reaction]
+Choose a battlefield. Give friendly units there [Shield 2] this turn.",,,,An ideal made manifest.,FALSE
+RAD-118,Herald of the Emperor,,Unit,Order,Common,5,,3,"When you play me, choose a friendly unit. Its base Might becomes 5 this turn.",,,Shurima,"""Kneel! And rejoice!""",FALSE
+RAD-119,Hunting Dog,,Unit,Order,Common,3,,3,[Deathknell][>] Play a 1[M] Bird unit token with [Deflect] to your base.,,,"Demacia, Dog",You couldn't ask for a more loyal companion.,FALSE
+RAD-120,Meticulous Restorationist,,Unit,Order,Common,2,,2,"When you play a card with Energy cost [7] or more, you may play me from your trash for [Y].",,,Piltover,"""I think we all deserve a second chance.""",FALSE
+RAD-121,One-Two Punch,,Spell,Order,Common,3,,,"[Action]
+[Buff] a friendly unit and [Stun] an enemy unit.",,,,"Less of an accessory, more of a statement piece.",FALSE
+RAD-122,Party Crasher,,Unit,Order,Common,9,1,6,"I cost [1] less for each exhausted unit you control.
+[Tank]",,,Zaun,"""Borrrring! Who's ready to get LOUD?""",FALSE
+RAD-123,Guardian's Shield,,Gear,Order,Common,2,1,,"[Quick-Draw]
+[Equip] [1]",[Tank] [M]+1,,Equipment,,FALSE
+RAD-124,Burn Away,,Spell,Order,Uncommon,3,1,,Banish a unit with 3[M] or less or a gear. [Burn 2].,,,,No one will remember you.,FALSE
+RAD-125,Dune Devourer,,Unit,Order,Uncommon,7,1,7,"You may kill a friendly unit as an additional cost to play me. If you do, I cost [2] less.
+[Deflect]",,,The Void,Deep in the desert lie places that are scarcely our world at all.,FALSE
+RAD-126,Mournful Spirit,,Unit,Order,Uncommon,4,,1,[Deathknell][>] You may kill a unit or gear here.,,,"Shadow Isles, Spirit","You can convince him to leave, but not alone.",FALSE
+RAD-127,Rousing Display,,Spell,Order,Uncommon,5,,,"[Show Off] a card with Energy cost [7] or more.
+Play two 1[M] Recruit unit tokens to your base. If you showed off, play four to your base instead.",,,,"""Finish the fight!"" —Lux",FALSE
+RAD-128,Steadfast Outrider,,Unit,Order,Uncommon,4,,3,"[Tank]
+While there are 2 or more other friendly units and/or gear at my battlefield, I have +2[M].",,,Demacia,"""Watch my back.""",FALSE
+RAD-129,Trifarian Captain,,Unit,Order,Uncommon,2,,1,"When you play me, look at the top 4 cards of your Main Deck. You may reveal from among them a unit or gear with Energy cost no more than [3] and with Power cost no more than [A] and draw it. Recycle the rest.",,,"Noxus, Trifarian",She commands. They obey.,FALSE
+RAD-130,Battlefield Armorer,,Unit,Order,Rare,3,,3,"When a friendly gear at a battlefield dies, you may pay [1] to return it to its owner's hand.",,,Demacia,"""People are like old steel. They can break a few times and come back stronger.""",FALSE
+RAD-131,Demacian Illuminators,,Unit,Order,Rare,3,1,3,"When one or more friendly units die, [Buff] a friendly unit.",,,Demacia,"""To sacrifice the meek is to deny your duty.""",FALSE
+RAD-132,"Heimerdinger, Academy Instructor",Champion,Unit,Order,Rare,6,1,5,"If you would play a unit token to a location while I'm at a battlefield, you may play a 3[M] Mech unit token to that same location instead.",,Heimerdinger,"Piltover, Yordle","""This calls for a prototype!""",FALSE
+RAD-133,"Jarvan IV, Royal Heir",Champion,Unit,Order,Rare,7,1,7,"[Assault]
+[Tank]
+When I attack, you may move a unit you control to my battlefield.",,Jarvan IV,Demacia,"""Who dares defy my will?""",FALSE
+RAD-134,Raucous Anthem,,Spell,Order,Rare,7,1,,Ready your units and give them +3[M] this turn.,,,,Make them remember you.,FALSE
+RAD-135,Remember the Fallen,,Spell,Order,Rare,8,2,,"Play up to 3 units and/or gear from your trash, each with Energy cost no more than [3] and Power cost no more than [A], ignoring their costs.",,,,A cherished memory. A sacred trust.,FALSE
+RAD-136,Dockside Lock-Up,,Gear,Order,Epic,6,2,,"[Deploy]
+When you play this, banish a unit here.
+When you hold here, kill this to play the banished card, ignoring its cost.",,,,"""Can't say I hate the time away from work.""",FALSE
+RAD-137,"Mordekaiser, Dominating",Champion,Unit,Order,Epic,9,2,8,"When you play me or when I attack, you may discard 1 to kill a unit or gear.",,Mordekaiser,"Noxus, Spider","""I carve my kingdom beyond, from beyond the ashes of nothing. No mortals, not even gods, will stop me from claiming what is mine.""",FALSE
+RAD-138,"Seraphine, Not Alone",Champion,Unit,Order,Epic,5,1,1,"When you play me or when I become exhausted, play a 1[M] Recruit unit token to your base.
+I have +1[M] for each other exhausted unit you control.",,Seraphine,Piltover,"""I sing to help them find themselves. The stage just makes it easier.""",FALSE
+RAD-139,"Ekko, Boy Who Shattered Time",,Legend,"Fury, Mind",Rare,,,,"[Empower] — [1], [E]
+Disempower me, [E]: Reduce the cost of the next unit you play this turn by [2][A] and give it ""Kill me at end of turn.""",,Ekko,,,FALSE
+RAD-140,Chronobreak,Signature,Spell,"Fury, Mind",Epic,2,,,"As an additional cost to play this, pay any amount of Power.
+Banish that many units you control, then for each, its owner plays that unit back to the same location or to their base, ignoring its cost.",,Ekko,,"""One more time!"" —Ekko",FALSE
+RAD-141,"Ziggs, Hexplosives Expert",,Legend,"Fury, Chaos",Rare,,,,"[1][A], [E]: Play a bomb gear token to a battlefield.",,Ziggs,,,FALSE
+RAD-142,Hexplosive Minefield,Signature,Spell,"Fury, Chaos",Epic,2,1,,"[Action]
+Kill any number of friendly Bomb tokens. At end of turn, play that many Bomb tokens to a single battlefield.",,Ziggs,,"""Fire in the hole!"" —Ziggs",FALSE
+RAD-143,"Mordekaiser, Iron Revenant",,Legend,"Fury, Order",Rare,,,,"[Reaction][>] Banish a unit or gear from your trash, [E]: [Add] [A]. Spend this Power only to play units or gear.",,Mordekaiser,,,FALSE
+RAD-144,Realm of Death,Signature,Spell,"Fury, Order",Epic,2,1,,Give an enemy unit -2[M] this turn and a friendly unit +2[M] this turn. They deal damage equal to their Mights to each other.,,Mordekaiser,,,FALSE
+RAD-145,"Orianna, Lady of Clockwork",,Legend,"Calm, Mind",Rare,,,,"At the start of your Main Phase, you may pay [1] to choose a friendly gear. It becomes a unit gear with Might equal to its Energy cost until you choose another gear with me.",,Orianna,,,FALSE
+RAD-146,The Ball,Signature,Gear,"Calm, Mind",Epic,5,1,,"[Deploy]
+[Ganking]
+When you play this or move this, choose one —
+• Draw 1.
+• Deal 2 to enemy units here.",,Orianna,,,FALSE
+RAD-147,"K'Sante, Pride of Nazumah",,Legend,"Calm, Body",Rare,,,,"[1], [E]: Give a friendly unit ""I have [Assault] equal to my [Shield]"" this turn.",,K'Sante,,,FALSE
+RAD-148,Ntofo Strikes,Signature,Spell,"Calm, Body",Epic,2,1,,"[Action]
+Give a friendly unit [Shield 2] this turn, then deal damage equal to its [Shield] to an enemy unit.",,K'Sante,,"""Sometimes a warden must become a warrior."" —K'Sante",FALSE
+RAD-149,"Riven, The Exile",,Legend,"Calm, Chaos",Rare,,,,Units you play to battlefields you control enter ready.,,Riven,,,FALSE
+RAD-150,Blade of the Exile,Signature,Gear,"Calm, Chaos",Epic,3,1,,[Equip] — [A] or exhaust a friendly unit,[Ganking] [M]+3,Riven,Equipment,,FALSE
+RAD-151,"Seraphine, Starry-Eyed Songstress",,Legend,"Mind, Order",Rare,,,,"As an additional cost to play a spell, you may exhaust me and three friendly units to reduce the cost of that spell by [2].",,Seraphine,,,FALSE
+RAD-152,Encore,Signature,Spell,"Mind, Order",Epic,3,1,,"Choose two —
+• Deal 2 to a unit.
+• Play two 1[M] Recruit unit tokens.
+• Give up to two units each +1[M] this turn.
+• Look at the top 2 cards of your Main Deck, draw 1 and recycle the other.",,Seraphine,,,FALSE
+RAD-153,"Evelynn, Agony's Embrace",,Legend,"Body, Chaos",Rare,,,,"Once each turn, when you play a card from face down, draw 1. Then, if it's not your turn, discard 1.",,Evelynn,,,FALSE
+RAD-154,Last Caress,Signature,Spell,"Body, Chaos",Epic,2,,,"[Reaction]
+The next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it.",,Evelynn,,"""I tasted peace once. It didn't do it for me."" —Evelynn",TRUE
+RAD-155,"Jarvan IV, Exemplar of Demacia",,Legend,"Body, Order",Rare,,,,"When you play a gear with [Deploy], you may exhaust me and pay [A] to move a friendly unit to that battlefield.",,Jarvan IV,,,FALSE
+RAD-156,Demacian Standard,Signature,Gear,"Body, Order",Epic,2,1,,"[Deploy]
+When one or more friendly units attack her, give one of them +2[M] this turn.
+When you hold here, you may return this to its owner's hand.",,Jarvan IV,,"""Demacia, now and forever."" —Jarvan IV",FALSE
+RAD-157,Bandle Scouts' Academy,,Battlefield,,Uncommon,,,,"When you hide a card here, play a Gold gear token exhausted.",,,,,FALSE
+RAD-158,Black Market,,Battlefield,,Uncommon,,,,[A][A]: Draw 1. Each player may use this ability once on their turn.,,,,,FALSE
+RAD-159,Black Rose Sanctum,,Battlefield,,Uncommon,,,,"For each player, the first time each turn a non-token unit they control dies here, they play a 1[M] Recruit unit token to their base.",,,,,FALSE
+RAD-160,Cosmic Vista,,Battlefield,,Uncommon,,,,"When you hold here, if your Rune Deck is empty, you score 1 point.",,,,,FALSE
+RAD-161,Durand Memorial,,Battlefield,,Uncommon,,,,"When you defend here, choose a unit you control here. Give it [Tank] this combat.",,,,,FALSE
+RAD-162,Firelight's Hideout,,Battlefield,,Uncommon,,,,"When you conquer here, the next unit you play this turn has [Accelerate].",,,,,FALSE
+RAD-163,Hunters' Circle,,Battlefield,,Uncommon,,,,"For each player, the first unit or gear they play here on their turn costs [1] less.",,,,,FALSE
+RAD-164,Packed Amphitheater,,Battlefield,,Uncommon,,,,Champion units here have +1[M].,,,,,FALSE
+RAD-165,Rakelstake,,Battlefield,,Uncommon,,,,"For each player, the first time they play a unit or gear here each turn, they [Predict].",,,,,FALSE
+RAD-166,Ruined Monastery,,Battlefield,,Uncommon,,,,"When you conquer here, you may discard 1 and channel 1 rune exhausted.",,,,,FALSE
+RAD-167,"Neeko, Blending In",Champion,Unit,,Epic,6,1,4,"If Neeko is in your deck, choose up to 3 different legends in addition to your standing legend.
+When you play me, choose one of those Legends and add it to your Legend Zone while I'm on the board.",,Neeko,Ixtal,,TRUE

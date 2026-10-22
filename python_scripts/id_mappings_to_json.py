@@ -10,6 +10,7 @@ csv_handler = [
     ("ttsId", process_str),
     ("rarity", process_str),
     ("baseCardName", process_str),
+    ("version", process_str),
     ("notes", process_str),
     ("alterFlavor", process_boolean),
     ("alteredFlavorText", process_multi_line_str),

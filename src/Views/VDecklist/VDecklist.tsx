@@ -24,15 +24,15 @@ export class VDecklist extends React.Component<IProps, IState> {
         this.state = { hover: "", title: this.props.initialTitle };
     }
 
-    private copyToText: React.MouseEventHandler<HTMLDivElement> = (_) => {
-        copy(this.props.decklist.exportToText());
-        window.alert("Decklist copied to clipboard as text format.");
+    private copyStandardText: React.MouseEventHandler<HTMLDivElement> = (_) => {
+        copy(this.props.decklist.exportStandard("TEXT"));
+        window.alert("Decklist copied to clipboard in standard text format.");
         this.setState({hover: ""});
     }
 
-    private copyToTCGA: React.MouseEventHandler<HTMLDivElement> = (_) => {
-        copy(this.props.decklist.exportToTCGA());
-        window.alert("Decklist copied to clipboard to be used in TCGArena.");
+    private copyStandardIds: React.MouseEventHandler<HTMLDivElement> = (_) => {
+        copy(this.props.decklist.exportStandard("IDS"));
+        window.alert("Decklist copied to clipboard in standard ID format.");
         this.setState({hover: ""});
     }
 
@@ -99,8 +99,8 @@ export class VDecklist extends React.Component<IProps, IState> {
                             {(this.state.hover === "export") && (<>
                                 <div style={{fontWeight: "600"}}>Export To</div>
                                 <div className={styles.exportOptionContainer}>
-                                    <div className={styles.hoverBoxButton} onClick={this.copyToText}>Text</div>
-                                    <div className={styles.hoverBoxButton} onClick={this.copyToTCGA}>TCGA</div>
+                                    <div className={styles.hoverBoxButton} onClick={this.copyStandardText}>Text</div>
+                                    <div className={styles.hoverBoxButton} onClick={this.copyStandardIds}>IDs</div>
                                     <div className={styles.hoverBoxButton} onClick={this.copyToTTS}>TTS</div>
                                 </div>
                             </>)}
@@ -119,9 +119,9 @@ export class VDecklist extends React.Component<IProps, IState> {
                     </div>
                 )}
                 <div className={styles.decklistContainer}>
-                    {[[{id: dl.legend, count: 1}], [{id: dl.chosenChampion, count: (dl.mainDeck.length > 0) ? dl.mainDeck[0].count : -1}], dl.mainDeck, dl.battlefields, dl.runeDeck, dl.sideboard].map((arr, i) => (
+                    {[[{id: dl.legend, count: 1}], [{id: dl.chosenChampion, count: 1}], dl.mainDeck, dl.battlefields, dl.runeDeck, dl.sideboard].map((arr, i) => (
                         <div className={styles.section} key={i}>
-                            {(arr.filter((listing) => (i !== 2 || listing.id !== dl.chosenChampion)).map((listing, j) => 
+                            {(arr.map((listing, j) => 
                                 <div className={styles.row} key={j}>
                                     <span className={`${styles.count} ${GET_COLOR_STYLE(GET_CCATEGORY(listing.id), listing.count, 0)}`}>{listing.count}x</span>
                                     <VDecklistCard id={listing.id} options={{type: "decklist"}} withCountOnLeft={true} />

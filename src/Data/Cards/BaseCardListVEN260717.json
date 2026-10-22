@@ -168,7 +168,6 @@
 		"VEN-165": {"baseId":"VEN-165", "name":"Shadow Temple", "type":["Battlefield"], "domains":[], "rarity":"Uncommon", "rulesText":"When you hold here, [Burn 3].", "otherTags":[], "hasErrata":false},
 		"VEN-166": {"baseId":"VEN-166", "name":"Threshold of the Gray", "type":["Battlefield"], "domains":[], "rarity":"Uncommon", "rulesText":"When combat starts here, the attacker and defender each [Add] [1].", "otherTags":[], "hasErrata":false},
 		"VEN-T01": {"baseId":"VEN-T01", "name":"Empowered", "type":[], "domains":[], "rulesText":"Use to mark legends, units, and gear that are [Empowered].", "otherTags":[], "hasErrata":false},
-		"VEN-T02": {"baseId":"VEN-T02", "name":"temp", "type":[], "domains":[], "otherTags":[], "hasErrata":false},
 		"VEN-T04": {"baseId":"VEN-T04", "name":"Recruit", "supertype":"Token", "type":["Unit"], "domains":[], "rarity":"Common", "might":1, "otherTags":["Recruit"], "flavorText":"\"Few earn the right to call themselves Trifarian.\"", "hasErrata":false},
 		"VEN-T05": {"baseId":"VEN-T05", "name":"Shadow Clone", "supertype":"Token", "type":["Unit"], "domains":[], "might":0, "rulesText":"When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.", "otherTags":[], "hasErrata":false},
 		"VEN-T06": {"baseId":"VEN-T06", "name":"Tentacle", "supertype":"Token", "type":["Unit"], "domains":[], "might":1, "otherTags":["Bilgewater"], "flavorText":"An extension of the will of Nagakabouros.", "hasErrata":false}
