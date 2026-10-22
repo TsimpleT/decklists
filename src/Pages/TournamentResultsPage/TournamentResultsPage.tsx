@@ -4,6 +4,7 @@ import styles from './TournamentResultsPage.module.css';
 
 import { DEV_STRING_PRE, GET_TOURNAMENT_ID, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ImageType, TOURNAMENT_RESULTS } from '../../Data';
 import { LegendImage } from '../../Views';
+import { ROUTES } from '../../Routes';
 
 export class TournamentResultsPage extends React.Component {
     public override componentDidMount(): void {
@@ -13,7 +14,7 @@ export class TournamentResultsPage extends React.Component {
     public render(): React.ReactNode {
         return (
             <div className={styles.container}>
-                {TOURNAMENT_RESULTS.map((tournament) => 
+                {TOURNAMENT_RESULTS./*filter(t => t.meta === "UNL").*/map((tournament) =>
                     <div className={styles.tournamentContainer} key={`${tournament.tournamentName} ${tournament.date}`}>
                         <div className={styles.tournamentHeader}>
                             {`${tournament.tournamentName} ${tournament.date} (T${tournament.tier})`}
@@ -55,7 +56,7 @@ export class TournamentResultsPage extends React.Component {
                                         );
                                         return ((decklist.mainDeck.length > 0)
                                             ? 
-                                                <Link to={`/decklists/riftbound/tournament/${GET_TOURNAMENT_ID(tournament.abbrName, tournament.date)}/decklist/${decklist.username}`} style={{color: "var(--text-default)"}} key={`${i} ${j}`}>{content}</Link>
+                                                <Link to={ROUTES.tournamentDecklist(GET_TOURNAMENT_ID(tournament.abbrName, tournament.date), decklist.username)} style={{color: "var(--text-default)"}} key={`${i} ${j}`}>{content}</Link>
                                             : content
                                         );
                                     }

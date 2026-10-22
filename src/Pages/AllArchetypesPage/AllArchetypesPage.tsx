@@ -2,55 +2,69 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './AllArchetypesPage.module.css';
 
-import { DEV_STRING_PRE, GET_ARCHETYPE_DECKLISTS, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ARCHETYPE_TIER_NAMES, GET_CARD, Meta, ALL_METAS, GET_ARCHETYPE_TIERS, GET_MAX_ARCHETYPE_TIER_SIZE, GET_META_NAME, GET_ARCHETYPE_ANNOTATIONS, AnnotationImageType, MAIN_SET_FROM_STRING, SET_HAS_METAL } from '../../Data';
+import { DEV_STRING_PRE, GET_ARCHETYPE_DECKLISTS, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ARCHETYPE_TIER_NAMES, GET_CARD, Meta, ALL_METAS, GET_ARCHETYPE_TIERS, GET_MAX_ARCHETYPE_TIER_SIZE, GET_META_NAME, GET_ARCHETYPE_ANNOTATIONS, AnnotationImageType, MAIN_SET_FROM_STRING, SET_HAS_METAL, META_FROM_STRING } from '../../Data';
 import { AnnotationImage, LegendImage } from '../../Views';
+import { ROUTES } from '../../Routes';
+import { RouteAwareProps } from '../../withRoute';
 
-interface IState {
-    meta: Meta
-}
-
-export class AllArchetypesPage extends React.Component<{}, IState> {
-    constructor(props: {}) {
-        super(props);
-        let url: string = document.URL;
-        if(url.length > 0 && url.charAt(url.length-1) !== "/") {
-            url += "/";
-        }
-        const metaParsed = url.slice(url.indexOf("all-archetypes/")+15, url.length-1).toUpperCase();
-        this.state = { meta: ALL_METAS.includes(metaParsed as Meta) ? metaParsed as Meta : ALL_METAS[ALL_METAS.length-1] };
+export class AllArchetypesPage extends React.Component<RouteAwareProps> {
+    private getMetaFromPath(): Meta {
+        return META_FROM_STRING(this.props.route.params.meta ?? "");
     }
 
     public override componentDidMount(): void {
         document.title = `${DEV_STRING_PRE}All Archetypes`;
     }
-    
+
+    public override componentDidUpdate(previousProps: RouteAwareProps): void {
+        if(previousProps.route.params.meta !== this.props.route.params.meta) {
+            document.title = `${DEV_STRING_PRE}All Archetypes`;
+        }
+    }
+
     public render(): React.ReactNode {
+        const meta = this.getMetaFromPath();
         return (
             <div className={styles.container}>
                 <div style={{display: "flex", gap: "10px"}}>
                     <div className={styles.headerContainer}>
-                        <div className={styles.headerLabel} style={{borderLeft: "none"}}>{`${GET_META_NAME(this.state.meta)} Meta`}</div>
+                        <div className={styles.headerLabel} style={{borderLeft: "none"}}>{`${GET_META_NAME(meta)} Meta`}</div>
                     </div>
                     <div className={styles.headerContainer}>
-                        {ALL_METAS.filter((meta) => meta !== this.state.meta).map((meta, idx) => {
-                            const extraStyles = (idx === 0) ?
-                                styles.firstMeta :
-                            (idx === ALL_METAS.length-2) ?
-                                `${styles.leftBorder} ${styles.lastMeta}` :
-                                styles.leftBorder;
+                        {ALL_METAS.map((iterMeta, idx) => {
+                            const extraStyles = (
+                                (idx === 0) ?
+                                    styles.firstMeta :
+                                    (idx === ALL_METAS.length-1) ?
+                                        `${styles.leftBorder} ${styles.lastMeta}` :
+                                        (idx > 0) ? styles.leftBorder : ""
+                            );
+                            const labelStyles = `${extraStyles} ${styles.headerLabel}`;
+                            if(iterMeta === meta) {
+                                return (
+                                    <div
+                                        className={`${labelStyles} ${styles.currentMeta}`}
+                                        aria-current="page"
+                                        key={iterMeta}
+                                    >
+                                        {iterMeta}
+                                    </div>
+                                );
+                            }
                             return (
-                                <div className={`${extraStyles} ${styles.headerLabel} ${styles.headerLabelLink}`} onClick={() => {
-                                    window.history.pushState("", "", `/decklists/riftbound/all-archetypes/${meta}`);
-                                    this.setState({meta: meta});
-                                }}>
-                                    {meta}
-                                </div>
+                                <Link
+                                    to={ROUTES.archetypes(iterMeta)}
+                                    className={`${labelStyles} ${styles.headerLabelLink}`}
+                                    key={iterMeta}
+                                >
+                                    {iterMeta}
+                                </Link>
                             );
                         })}
                     </div>
                 </div>
                 <div className={styles.innerContainer}>
-                    {GET_ARCHETYPE_TIERS(this.state.meta).map((tier, tierIdx) =>
+                    {GET_ARCHETYPE_TIERS(meta).map((tier, tierIdx) =>
                         <div className={styles.columnContainer} key={tierIdx}>
                             <div className={styles.tierHeader}>{ARCHETYPE_TIER_NAMES[tierIdx]}</div>
                             {(tier.length === 0) &&
@@ -60,19 +74,19 @@ export class AllArchetypesPage extends React.Component<{}, IState> {
                             }
                             {tier.map((archetype, archetypeIdx) => {
                                 const baseId = ARCHETYPE_TO_LEGEND_BASE_ID(archetype);
-                                const numLists = GET_ARCHETYPE_DECKLISTS(archetype, this.state.meta).length;
+                                const numLists = GET_ARCHETYPE_DECKLISTS(archetype, meta).length;
                                 const subtitle = `${numLists} Tourney Decklist${(numLists !== 1) ? "s" : ""}`
                                 const title = `${archetype}: ${subtitle}`;
                                 const colors = GET_CARD(baseId).domains;
                                 const hasMetal: boolean = SET_HAS_METAL(MAIN_SET_FROM_STRING(baseId.substring(0, 3)));
-                                const isBottomOfTier = (archetypeIdx === GET_MAX_ARCHETYPE_TIER_SIZE(this.state.meta)-1);
+                                const isBottomOfTier = (archetypeIdx === GET_MAX_ARCHETYPE_TIER_SIZE(meta)-1);
                                 const archetypeStyle: React.CSSProperties = {
                                     borderBottom: (isBottomOfTier) ? "none" : "",
                                     borderRadius: (isBottomOfTier) ? "0 0 8px 8px" : ""
                                 };
                                 return (
-                                    <Link to={`/decklists/riftbound/archetype/${archetype.replaceAll(" ", "-")}/${this.state.meta}`} style={{all: "unset"}} key={archetypeIdx}>
-                                        <div className={`${styles.archetypeContainer} ${((hasMetal || this.state.meta !== ALL_METAS[ALL_METAS.length-1]) ? {} : styles.noMetal)}`} style={archetypeStyle}>
+                                    <Link to={ROUTES.archetypeDecklists(archetype, meta)} style={{all: "unset"}} key={archetypeIdx}>
+                                        <div className={`${styles.archetypeContainer} ${((hasMetal || meta !== ALL_METAS[ALL_METAS.length-1]) ? {} : styles.noMetal)}`} style={archetypeStyle}>
                                             <LegendImage id={baseId} imgTitle={title} size={48} extraStyles={{border: "none"}} />
                                             <div className={styles.colorsContainer}>
                                                 <div className={styles.colorDiv} style={{backgroundColor: `var(--bg-${colors[0].toLowerCase()})`}}>
@@ -87,7 +101,7 @@ export class AllArchetypesPage extends React.Component<{}, IState> {
                                                 <div className={styles.archetypeSubtitle}>{subtitle}</div>
                                             </div>
                                             <div className={styles.archetypeAnnotationContainer}>{
-                                                GET_ARCHETYPE_ANNOTATIONS(this.state.meta, archetype).map((str, annotationIdx) => <AnnotationImage input={str as AnnotationImageType} size={18} key={`${str}-${annotationIdx}`}/> )
+                                                GET_ARCHETYPE_ANNOTATIONS(meta, archetype).map((str, annotationIdx) => <AnnotationImage input={str as AnnotationImageType} size={18} key={`${str}-${annotationIdx}`}/> )
                                             }</div>
                                         </div>
                                     </Link>

@@ -4,6 +4,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DEV_STRING_PRE } from './Data';
 import { AppNav } from './AppNav';
 import { AllArchetypesPage, CardListPage, DecklistTablePage, ErrorPage, PlayerResultsPage, TournamentResultsPage, TournamentDecklistPage, MyDecklistsPage, DecklistPage } from './Pages';
+import { APP_BASENAME, ROUTE_PATHS } from './Routes';
+import { withRoute } from './withRoute';
+
+const RouteAwareAppNav = withRoute(AppNav);
+const RouteAwareArchetypesPage = withRoute(AllArchetypesPage);
+const RouteAwareDecklistPage = withRoute(DecklistPage);
+const RouteAwareDecklistTablePage = withRoute(DecklistTablePage);
+const RouteAwareTournamentDecklistPage = withRoute(TournamentDecklistPage);
 
 export class AppMainRouter extends React.Component {
     public override componentDidMount(): void {
@@ -12,19 +20,19 @@ export class AppMainRouter extends React.Component {
     
     public render(): React.ReactNode {
         return (
-            <BrowserRouter>
-                <AppNav />
+            <BrowserRouter basename={APP_BASENAME}>
+                <RouteAwareAppNav />
                 <Routes>
-                    <Route path="/decklists/" element={<AllArchetypesPage />} />
-                    <Route path="/decklists/riftbound" element={<AllArchetypesPage />} />
-                    <Route path="/decklists/riftbound/me" element={<MyDecklistsPage />} />
-                    <Route path="/decklists/riftbound/me/:deckid" element={<DecklistPage />} />
-                    <Route path="/decklists/riftbound/all-archetypes/:meta" element={<AllArchetypesPage />} />
-                    <Route path="/decklists/riftbound/archetype/:archetype/:meta" element={<DecklistTablePage />} />
-                    <Route path="/decklists/riftbound/player-results" element={<PlayerResultsPage />} />
-                    <Route path="/decklists/riftbound/all-cards" element={<CardListPage />} />
-                    <Route path="/decklists/riftbound/tournament-results" element={<TournamentResultsPage />} />
-                    <Route path="/decklists/riftbound/tournament/:tourneyName/decklist/:username" element={<TournamentDecklistPage />} />
+                    <Route path={ROUTE_PATHS.home} element={<RouteAwareArchetypesPage />} />
+                    <Route path="/riftbound" element={<RouteAwareArchetypesPage />} />
+                    <Route path={ROUTE_PATHS.myDecklists} element={<MyDecklistsPage />} />
+                    <Route path={ROUTE_PATHS.decklist} element={<RouteAwareDecklistPage />} />
+                    <Route path={ROUTE_PATHS.archetypes} element={<RouteAwareArchetypesPage />} />
+                    <Route path={ROUTE_PATHS.archetypeDecklists} element={<RouteAwareDecklistTablePage />} />
+                    <Route path={ROUTE_PATHS.playerResults} element={<PlayerResultsPage />} />
+                    <Route path={ROUTE_PATHS.allCards} element={<CardListPage />} />
+                    <Route path={ROUTE_PATHS.tournamentResults} element={<TournamentResultsPage />} />
+                    <Route path={ROUTE_PATHS.tournamentDecklist} element={<RouteAwareTournamentDecklistPage />} />
                     <Route path="*" element={<ErrorPage />} />
                 </Routes>
             </BrowserRouter>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './VDecklistTable.module.css';
 
 import { ALL_CCATEGORIES, Archetype, CCATEGORY, Decklist, GET_ARCHETYPE_DECKLISTS, GET_CCATEGORY, GET_META_NAME, LocalStorageManager, Meta, TO_BASE_ID } from '../../Data';
+import { ROUTES } from '../../Routes';
 import { VDecklistCard } from '../VDecklistCard';
 
 interface IProps {
@@ -306,14 +307,14 @@ export class VDecklistTable extends React.Component<IProps, IState> {
                                 return (
                                     <th className={styles.headerLinkCell} key={deckIdx} title={((decklist.username === "") ? "" : `${decklist.username}: `) + `${decklist.tournamentName} ${decklist.date} ${decklist.placing}`}>
                                         {(decklist.username !== "You") ?
-                                            <Link to={`/decklists/riftbound/tournament/${decklist.tournId}/decklist/${decklist.username}`} style={{color: "var(--text-default)"}}>
+                                            <Link to={ROUTES.tournamentDecklist(decklist.tournId, decklist.username)} style={{color: "var(--text-default)"}}>
                                                 <div className={styles.deckLabelCell}>
                                                     <div>{decklist.tournId.substring(0,decklist.tournId.indexOf("-"))}</div>
                                                     <div className={styles.placingLabel}>{decklist.placing}</div>
                                                 </div>
                                             </Link>
                                         :
-                                            <Link to={`/decklists/riftbound/me/${this.lsmDecklistIds[deckIdx]}`} style={{color: "var(--text-default)"}}>
+                                            <Link to={ROUTES.decklist(this.lsmDecklistIds[deckIdx])} style={{color: "var(--text-default)"}}>
                                                 <div className={styles.deckLabelCell}>
                                                     {decklist.username}
                                                 </div>

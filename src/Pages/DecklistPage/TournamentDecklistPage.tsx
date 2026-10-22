@@ -2,29 +2,34 @@ import React from 'react';
 
 import { Decklist, DEV_STRING_PRE, GET_TOURNAMENT_DECKLIST, GET_PLACING, GET_TOURNAMENT_NAME } from '../../Data';
 import { VDecklist } from '../../Views';
+import { RouteAwareProps } from '../../withRoute';
 
-interface IProps {}
-
-export class TournamentDecklistPage extends React.Component<IProps> {
+export class TournamentDecklistPage extends React.Component<RouteAwareProps> {
     public override componentDidMount(): void {
         document.title = `${DEV_STRING_PRE}Decklist ${this.username} ${this.tournId}`;
     }
     
-    private tournId: string;
-    private username: string;
-    private decklist?: Decklist;
-    private placing?: string;
-
-    public constructor(props: IProps) {
-        super(props);
-        let url: string = document.URL;
-        if(url.length > 0 && url.charAt(url.length-1) !== "/") {
-            url += "/";
+    public override componentDidUpdate(previousProps: RouteAwareProps): void {
+        if(previousProps.route.params.tourneyName !== this.props.route.params.tourneyName
+            || previousProps.route.params.username !== this.props.route.params.username) {
+            document.title = `${DEV_STRING_PRE}Decklist ${this.username} ${this.tournId}`;
         }
-        this.tournId = url.slice(url.indexOf("tournament/")+11, url.indexOf("/decklist/"));
-        this.username = decodeURI(url.slice(url.indexOf("decklist/")+9, url.length-1));
-        this.decklist = GET_TOURNAMENT_DECKLIST(this.tournId, this.username);
-        this.placing = GET_PLACING(this.tournId, this.username);
+    }
+
+    private get tournId(): string {
+        return this.props.route.params.tourneyName ?? "";
+    }
+
+    private get username(): string {
+        return this.props.route.params.username ?? "";
+    }
+
+    private get decklist(): Decklist|undefined {
+        return GET_TOURNAMENT_DECKLIST(this.tournId, this.username);
+    }
+
+    private get placing(): string|undefined {
+        return GET_PLACING(this.tournId, this.username);
     }
 
     public render(): React.ReactNode {

@@ -59,10 +59,10 @@ export class Decklist {
         this.username = (idl.username) ? idl.username : `*Unknown${Decklist.unknownPlayerCount++}*`;
         this.legend = idl.legend ?? "";
         this.chosenChampion = idl.chosenChampion ?? "";
-        this.mainDeck = idl.mainDeck ?? [];
-        this.battlefields = idl.battlefields ?? [];
-        this.runeDeck = idl.runeDeck ?? [];
-        this.sideboard = idl.sideboard ?? [];
+        this.mainDeck = [...(idl.mainDeck ?? [])];
+        this.battlefields = [...(idl.battlefields ?? [])];
+        this.runeDeck = [...(idl.runeDeck ?? [])];
+        this.sideboard = [...(idl.sideboard ?? [])];
         this.tournamentName = tournamentName;
         this.tournId = tournId;
         this.placing = placing;

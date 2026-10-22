@@ -27,7 +27,7 @@
     margin-right: 2px;
 }
 
-.container > a {
+.navItem {
     all: unset;
     border-radius: 4px;
     font-size: 14px;
@@ -36,12 +36,18 @@
     border: 1px solid var(--text-default);
 }
 
-.container > a:hover {
+.container > a.navItem:hover {
     background-color: var(--bg-dark-hover);
 }
 
-.container > a:active {
+.container > a.navItem:active {
     background-color: var(--bg-dark-active);
+}
+
+.active {
+    background-color: var(--bg-dark-active);
+    border-color: white;
+    font-weight: 600;
 }
 
 .title {

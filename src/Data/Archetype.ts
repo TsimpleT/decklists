@@ -148,7 +148,7 @@ export function PREDICT_ARCHETYPE(decklist: Decklist): Archetype {
 export const ARCHETYPE_TIER_NAMES = ["Favorites", "Contenders", "Real Challengers", "Potential Challengers", "Struggling", "Memes"/*, "Rotated + Not Top Tier"*/];
 const META_ARCHETYPE_TIERS: {[meta in Meta]: Archetype[][]} = {
     "RAD": [
-        ["Kennen Miracle", "Riven", "Irelia", "Rengar", "Azir", "Yi (OGS)", "Kai'Sa", "Akali"],
+        ["Kennen Miracle", "Riven", "Rengar", "Azir", "Yi (OGS)", "Kai'Sa", "Irelia", "Akali"],
         ["Kennen Hook", "LeBlanc", "Jayce", "Vex", "Rek'Sai", "Sett", "Viktor"],
         ["Mordekaiser", "Zed", "Orianna", "Evelynn", "Kha'Zix", "Ornn", "Diana", "Nasus", "Ezreal Control"],
         ["Lillia", "Ambessa", "Poppy Aurora", "Jarvan IV", "Jhin", "Yi (UNL)"],

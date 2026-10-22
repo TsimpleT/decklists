@@ -1,9 +1,6 @@
-[6.0.0] RAD + Missing Arts + Many Fixes / Tests
-Added new set Radiance (RAD) + indicator for live meta no metal decks
-Fixed all decklists to 39 main + cc format + added tests
-Added all alt/promo/etc arts to IDMappings + added more info
-Added missing tournaments and fixed conflicting tournament ids
-Added tests for unique tts ids, and tournament...
- ...import inclusion, unique ids, valid metadata, and proper lookup
-Fixed tierlist annotationimage stale issue
-Added separate python script for RC quals
+[6.0.1] Highlight active tab and make it unclickable
+Fixed links and routing to be route aware
+Added copilot intstructions and github workflow
+Fixed decklist not remaking input arrays + test for it
+Fixed LocalStorageManager singleton + test for it
+Renamed Decklists folder to decklists

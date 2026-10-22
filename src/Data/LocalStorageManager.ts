@@ -140,6 +140,9 @@ export class LocalStorageManager {
 
     private static _instance?: LocalStorageManager;
     public static getInstance(): LocalStorageManager {
-        return (LocalStorageManager._instance) ? LocalStorageManager._instance : new LocalStorageManager();
+        if(!LocalStorageManager._instance) {
+            LocalStorageManager._instance = new LocalStorageManager();
+        }
+        return LocalStorageManager._instance;
     }
 }

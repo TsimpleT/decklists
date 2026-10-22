@@ -42,13 +42,11 @@ export class MyDecklistsPage extends React.Component<{}, IState> {
             return;
         }
         const id = LSM.addDecklist(decklist);
-        let ids = this.state.ids;
-        ids.push(id);
-        let decklists = this.state.decklists;
-        decklists.push(decklist);
-        let deckNames = this.state.deckNames;
-        deckNames.push(decklist.archetype);
-        this.setState({ ids: ids, decklists: decklists, deckNames: deckNames });
+        this.setState((state) => ({
+            ids: [...state.ids, id],
+            decklists: [...state.decklists, decklist],
+            deckNames: [...state.deckNames, decklist.archetype]
+        }));
     }
 
     public devCopy: React.MouseEventHandler<HTMLDivElement> = async (): Promise<void> => {

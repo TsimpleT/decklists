@@ -1,3 +1,4 @@
+\[6.0.1\] (26Oct21) Highlight active tab and make it unclickable
 \[6.0.0\] (26Oct21) RAD + Missing Arts + Many Fixes / Tests
 \[5.1.0\] (26Sep15) VEN post-ban tierlist
 \[5.0.1\] (26Aug30) Added incomplete indicator to tournament results

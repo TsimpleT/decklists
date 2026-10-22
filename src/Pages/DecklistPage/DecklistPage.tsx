@@ -2,25 +2,25 @@ import React from 'react';
 
 import { Decklist, DEV_STRING_PRE, LocalStorageManager } from '../../Data';
 import { VDecklist } from '../../Views';
+import { RouteAwareProps } from '../../withRoute';
 
-interface IProps {}
-
-export class DecklistPage extends React.Component<IProps> {
+export class DecklistPage extends React.Component<RouteAwareProps> {
     public override componentDidMount(): void {
         document.title = `${DEV_STRING_PRE}Decklist ${LocalStorageManager.getInstance().getDeckName(this.uuid)}`;
     }
     
-    private uuid: string;
-    private decklist?: Decklist;
-
-    public constructor(props: IProps) {
-        super(props);
-        let url: string = document.URL;
-        if(url.length > 0 && url.charAt(url.length-1) !== "/") {
-            url += "/";
+    public override componentDidUpdate(previousProps: RouteAwareProps): void {
+        if(previousProps.route.params.deckid !== this.props.route.params.deckid) {
+            document.title = `${DEV_STRING_PRE}Decklist ${LocalStorageManager.getInstance().getDeckName(this.uuid)}`;
         }
-        this.uuid = decodeURI(url.slice(url.indexOf("me/")+3, url.length-1));
-        this.decklist = LocalStorageManager.getInstance().getDecklist(this.uuid);
+    }
+
+    private get uuid(): string {
+        return this.props.route.params.deckid ?? "";
+    }
+
+    private get decklist(): Decklist|undefined {
+        return LocalStorageManager.getInstance().getDecklist(this.uuid);
     }
 
     public render(): React.ReactNode {

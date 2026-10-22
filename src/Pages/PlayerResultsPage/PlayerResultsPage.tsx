@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './PlayerResultsPage.module.css';
 
 import { DEV_STRING_PRE, GET_TOURNAMENT_DECKLIST, GET_TOURNAMENT_ABBR, GET_TOURNAMENT_ID, ALL_PLAYERS, GET_PLAYER_RESULTS } from '../../Data';
+import { ROUTES } from '../../Routes';
 
 export class PlayerResultsPage extends React.Component {
     public override componentDidMount(): void {
@@ -26,7 +27,7 @@ export class PlayerResultsPage extends React.Component {
                                         {(decklist !== undefined && decklist.mainDeck.length > 0) &&
                                             <span>
                                                 {" ("}
-                                                <Link to={`/decklists/riftbound/tournament/${tournId}/decklist/${decklist.username}`}
+                                                <Link to={ROUTES.tournamentDecklist(tournId, decklist.username)}
                                                     style={{color: "var(--text-default)"}}>
                                                         {decklist.archetype}
                                                 </Link>
