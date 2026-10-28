@@ -68,17 +68,25 @@ test("Each tournament has valid meta, tier, and date metadata", () => {
 });
 
 test("Each deck's legend matches chosen champion", () => {
-    for(let tr of TOURNAMENT_RESULTS) {
-        for(let placing of tr.results) {
-            for(let dl of placing.decklists) {
-                if(dl.chosenChampion !== "" && dl.legend !== "") {
-                    const lg = GET_CARD(dl.legend), cc = GET_CARD(dl.chosenChampion);
-                    // console.dir(`${dl.tournId} | ${dl.username} | ${dl.placing} | ${lg.name} | ${cc.name}`);
-                    expect(lg.championTag).toEqual(cc.championTag);
+    const incorrectDecks: string[] = [];
+
+    for(const tournament of TOURNAMENT_RESULTS) {
+        for(const placing of tournament.results) {
+            for(const decklist of placing.decklists) {
+                if(decklist.chosenChampion !== "" && decklist.legend !== "") {
+                    const legend = GET_CARD(decklist.legend), champion = GET_CARD(decklist.chosenChampion);
+                    if(legend.championTag !== champion.championTag) {
+                        incorrectDecks.push(
+                            `${decklist.tournId} | ${decklist.username} | ${decklist.placing} | ` +
+                            `${legend.name} | ${champion.name}`
+                        );
+                    }
                 }
             }
         }
     }
+
+    expect(incorrectDecks).toEqual([]);
 });
 
 test("Each deck has 39 cards in the main deck", () => {

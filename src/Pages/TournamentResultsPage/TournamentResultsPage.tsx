@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './TournamentResultsPage.module.css';
 
 import { DEV_STRING_PRE, GET_TOURNAMENT_ID, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ImageType, TOURNAMENT_RESULTS, ALL_METAS, GET_META_NAME, Meta } from '../../Data';
-import { LegendImage } from '../../Views';
+import { SquareImage } from '../../Views';
 import { ROUTES } from '../../Routes';
 import { RouteAwareProps } from '../../withRoute';
 
@@ -47,7 +47,7 @@ export class TournamentResultsPage extends React.Component<RouteAwareProps> {
                 {TOURNAMENT_RESULTS.filter((tournament) => selectedMeta === undefined || tournament.meta === selectedMeta).map((tournament) =>
                     <div className={styles.tournamentContainer} key={`${tournament.tournamentName} ${tournament.date}`}>
                         <div className={styles.tournamentHeader}>
-                            {`${tournament.tournamentName} ${tournament.date} (T${tournament.tier})`}
+                            {`${tournament.tournamentName} ${tournament.date}`}
                             <span className={styles.tournamentLinksContainer}>
                                 {(tournament.links.map((link, i) => {
                                     const s = link.toLowerCase();
@@ -73,13 +73,13 @@ export class TournamentResultsPage extends React.Component<RouteAwareProps> {
                                     {placing.decklists.map((decklist, j) => {
                                         const content = (
                                             <span className={styles.resultRow} key={`${i} ${j}`}>
-                                                <LegendImage id={ARCHETYPE_TO_LEGEND_BASE_ID(decklist.archetype)} size={28} extraStyles={{border: "none"}} loading="lazy" />
+                                                <SquareImage id={ARCHETYPE_TO_LEGEND_BASE_ID(decklist.archetype)} size={28} extraStyles={{border: "none"}} loading="lazy" />
                                                 <span className={styles.rowText} title={decklist.username} style={(decklist.username[0] === "*") ? {fontStyle: "italic"} : {}}>
                                                     {decklist.username}
                                                 </span>
                                                 {decklist.isIncomplete() && (
                                                     <div className={styles.incompleteContainer}>
-                                                        <img src={ImageUtil.getImage("Incomplete")} height={16} alt={"Incomplete"}/>
+                                                        <img src={ImageUtil.getImage("Incomplete")} height={16} alt={"Incomplete"} title={"Incomplete"} />
                                                     </div>
                                                 )}
                                             </span>

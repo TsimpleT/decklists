@@ -121,6 +121,11 @@
     margin: 4px 0;
 }
 
+.firstSection {
+    margin-bottom: 10px;
+    display: flex;
+}
+
 .section {
     margin-bottom: 10px;
 }

@@ -148,12 +148,12 @@ export function PREDICT_ARCHETYPE(decklist: Decklist): Archetype {
 export const ARCHETYPE_TIER_NAMES = ["Favorites", "Contenders", "Real Challengers", "Potential Challengers", "Struggling", "Memes"/*, "Rotated + Not Top Tier"*/];
 const META_ARCHETYPE_TIERS: {[meta in Meta]: Archetype[][]} = {
     "RAD": [
-        ["Kennen Miracle", "Riven", "Rengar", "Azir", "Yi (OGS)", "Kai'Sa", "Irelia", "Akali"],
-        ["Kennen Hook", "LeBlanc", "Jayce", "Vex", "Rek'Sai", "Sett", "Viktor"],
-        ["Mordekaiser", "Zed", "Orianna", "Evelynn", "Kha'Zix", "Ornn", "Diana", "Nasus", "Ezreal Control"],
-        ["Lillia", "Ambessa", "Poppy Aurora", "Jarvan IV", "Jhin", "Yi (UNL)"],
-        ["Ziggs", "Ekko", "Ivern", "Vi", "Mel", "Pyke"],
-        ["Seraphine", "K'Sante", "Renekton", "Shen"]
+        ["Riven", "Kennen Miracle", "Kai'Sa", "Rengar", "Azir"],
+        ["Irelia", "Akali", "LeBlanc", "Yi (OGS)", "Viktor", "Vex", "Kennen Hook", "Diana", "Rek'Sai"],
+        ["Jayce", "Sett", "Evelynn", "Mordekaiser", "Zed", "Orianna", "Kha'Zix", "Ornn", "Nasus", "Lillia", "Ezreal Control"],
+        ["Ambessa", "Yi (UNL)", "Poppy Aurora", "Jarvan IV", "Jhin", "Ekko", "Mel"],
+        ["Vi", "Ziggs", "Ivern", "Pyke", "Renekton"],
+        ["Seraphine", "Shen", "K'Sante"]
         // ["Sett", "Darius", "Fiora", "Lucian", "Lux Control", "Volibear", "Annie", "Draven", "Miss Fortune Aurora", "Sivir Aurora", "Ahri", "Jax", "Yasuo", "Leona", "Rumble", "Lee Sin", "Teemo", "Jinx", "Renata Glasc", "Garen Aurora"],
     ],
     "VEN2": [
@@ -214,8 +214,17 @@ export function GET_MAX_ARCHETYPE_TIER_SIZE(meta: Meta) {
 
 const ARCHETYPE_ANNOTATIONS: {[meta in Meta]: {[key in Archetype]?: string[]}} = {
     "RAD": {
-        "Riven": ["Up On the rise"],
+        "Riven": ["Up On the rise", "Trophy Won SD Sacramento"],
+        "Kai'Sa": ["Up On the rise"],
+        "Akali": ["Up On the rise"],
+        "Irelia": ["Down On the decline"],
+        "LeBlanc": ["Down On the decline"],
+        "Viktor Control": ["Up On the rise"],
         "Mordekaiser": ["Up On the rise"],
+        "Yi (OGS)": ["Down On the decline"],
+        "Jayce": ["Down On the decline"],
+        "Kennen Hook": ["Question Speculative"],
+        "Diana": ["Up On the rise", "Trophy Won SD Melbourne"],
     },
     "VEN2": {
         "Rengar": ["Up On the rise", "Trophy Won RQ LA"],

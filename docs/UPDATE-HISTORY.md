@@ -1,3 +1,4 @@
+\[6.2.0\] (26Oct27) Updated Decklist View + More Data
 \[6.1.0\] (26Oct22) Added meta filter to tournament results
 \[6.0.2\] (26Oct22) Fixed tournament decklists into json + script to generate
 \[6.0.1\] (26Oct21) Highlight active tab and make it unclickable

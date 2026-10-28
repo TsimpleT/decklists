@@ -5,6 +5,7 @@ import styles from './VDecklist.module.css';
 import { CardType, Decklist, GET_CCATEGORY, ImageUtil } from '../../Data';
 import { VDecklistCard } from '../VDecklistCard';
 import { GET_COLOR_STYLE } from '../VDecklistTable';
+import { SquareImage } from '../SquareImage';
 
 interface IProps {
     decklist: Decklist;
@@ -119,7 +120,16 @@ export class VDecklist extends React.Component<IProps, IState> {
                     </div>
                 )}
                 <div className={styles.decklistContainer}>
-                    {[[{id: dl.legend, count: 1}], [{id: dl.chosenChampion, count: 1}], dl.mainDeck, dl.battlefields, dl.runeDeck, dl.sideboard].map((arr, i) => (
+                    <div className={styles.firstSection}>
+                        {[[{id: dl.legend, count: 1}], [{id: dl.chosenChampion, count: 1}], dl.battlefields, dl.runeDeck].map((arr, i) => (
+                            (arr.map((listing, j) => 
+                                <div className={styles.column} key={j}>
+                                    <SquareImage id={listing.id} subscript={listing.count > 1 ? `${listing.count}` : undefined} size={40} extraStyles={{border: "none", marginRight: "4px"}} subscriptFontSize={20} enableHover={true}/>
+                                </div>
+                            ))
+                        ))}
+                    </div>
+                    {[/*[{id: dl.legend, count: 1}], [{id: dl.chosenChampion, count: 1}], */dl.mainDeck, /*dl.battlefields, dl.runeDeck, */dl.sideboard].map((arr, i) => (
                         <div className={styles.section} key={i}>
                             {(arr.map((listing, j) => 
                                 <div className={styles.row} key={j}>

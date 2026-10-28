@@ -1,2 +1,3 @@
-[6.1.0] Added meta filter to tournament results
-Added lazy loading to LegendImages
+[6.2.0] Updated Decklist View + More data
+SquareImage <= LegendImage
+Added results from weekend showdowns

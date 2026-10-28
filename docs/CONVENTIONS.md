@@ -30,10 +30,15 @@ within each bullet/section, children folders first, then ../folder_name, then al
 $env:CI = 'true'; npm.cmd start
 ```
 
-# TO BUILD
+# TO DEPLOY
 ```
 $env:CI = 'true'
+
 npm.cmd test -- --watchAll=false --runInBand
-npm.cmd run build
-npm.cmd run deploy --ignore-scripts
+if ($LASTEXITCODE -eq 0) {
+    npm.cmd run build
+    if ($LASTEXITCODE -eq 0) {
+        npm.cmd run deploy --ignore-scripts
+    }
+}
 ```

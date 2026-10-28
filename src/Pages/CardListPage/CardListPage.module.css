@@ -1,3 +1,10 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-bottom: 8px;
+}
+
 .container {
     margin: 2px 6px 390px;
     width: 288px;

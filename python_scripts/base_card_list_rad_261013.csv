@@ -44,7 +44,7 @@ Once each turn, if I would die, you may kill a friendly unit to heal me, exhaust
 RAD-021,"Ekko, Revolutionary",Champion,Unit,Fury,Epic,5,1,4,"I enter ready.
 [Assault]
 [Action][>] Discard 1, [1][R]: Banish me, then play me to your base, ignoring my cost.",,Ekko,Zaun,"""I finish what I start.""",FALSE
-RAD-022,Whrling Twirligig,,Gear,Fury,Epic,4,1,,"[E]: Play a Gold gear token exhausted.
+RAD-022,Whirling Twirligig,,Gear,Fury,Epic,4,1,,"[E]: Play a Gold gear token exhausted.
 Kill a friendly gear, [E]: Play a 1[M] Recruit unit token.
 Kill a friendly unit, [E]: Play a 3[M] Mech unit token.",,,,,FALSE
 RAD-023,"Ziggs, Short-Fused",Champion,Unit,Fury,Epic,5,1,5,"When you play me, play a Bomb gear token to a battlefield.
@@ -242,7 +242,7 @@ RAD-121,One-Two Punch,,Spell,Order,Common,3,,,"[Action]
 [Buff] a friendly unit and [Stun] an enemy unit.",,,,"Less of an accessory, more of a statement piece.",FALSE
 RAD-122,Party Crasher,,Unit,Order,Common,9,1,6,"I cost [1] less for each exhausted unit you control.
 [Tank]",,,Zaun,"""Borrrring! Who's ready to get LOUD?""",FALSE
-RAD-123,Guardian's Shield,,Gear,Order,Common,2,1,,"[Quick-Draw]
+RAD-123,Protector's Shield,,Gear,Order,Common,2,1,,"[Quick-Draw]
 [Equip] [1]",[Tank] [M]+1,,Equipment,,FALSE
 RAD-124,Burn Away,,Spell,Order,Uncommon,3,1,,Banish a unit with 3[M] or less or a gear. [Burn 2].,,,,No one will remember you.,FALSE
 RAD-125,Dune Devourer,,Unit,Order,Uncommon,7,1,7,"You may kill a friendly unit as an additional cost to play me. If you do, I cost [2] less.

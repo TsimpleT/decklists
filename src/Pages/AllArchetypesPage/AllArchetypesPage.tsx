@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './AllArchetypesPage.module.css';
 
 import { DEV_STRING_PRE, GET_ARCHETYPE_DECKLISTS, ARCHETYPE_TO_LEGEND_BASE_ID, ImageUtil, ARCHETYPE_TIER_NAMES, GET_CARD, Meta, ALL_METAS, GET_ARCHETYPE_TIERS, GET_MAX_ARCHETYPE_TIER_SIZE, GET_META_NAME, GET_ARCHETYPE_ANNOTATIONS, AnnotationImageType, MAIN_SET_FROM_STRING, SET_HAS_METAL, META_FROM_STRING } from '../../Data';
-import { AnnotationImage, LegendImage } from '../../Views';
+import { AnnotationImage, SquareImage } from '../../Views';
 import { ROUTES } from '../../Routes';
 import { RouteAwareProps } from '../../withRoute';
 
@@ -87,7 +87,7 @@ export class AllArchetypesPage extends React.Component<RouteAwareProps> {
                                 return (
                                     <Link to={ROUTES.archetypeDecklists(archetype, meta)} style={{all: "unset"}} key={archetypeIdx}>
                                         <div className={`${styles.archetypeContainer} ${((hasMetal || meta !== ALL_METAS[ALL_METAS.length-1]) ? {} : styles.noMetal)}`} style={archetypeStyle}>
-                                            <LegendImage id={baseId} imgTitle={title} size={48} extraStyles={{border: "none"}} />
+                                            <SquareImage id={baseId} imgTitle={title} size={48} extraStyles={{border: "none"}} />
                                             <div className={styles.colorsContainer}>
                                                 <div className={styles.colorDiv} style={{backgroundColor: `var(--bg-${colors[0].toLowerCase()})`}}>
                                                     <img src={ImageUtil.getImage(`${colors[0]}BW`)} height={16} title={colors[0]} alt={colors[0]} />

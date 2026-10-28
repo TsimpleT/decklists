@@ -1,0 +1,53 @@
+.wrapperForImg {
+    position: relative;
+    /* display: flex; */
+}
+
+.imageContainer {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.unknown {
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.subscript {
+    position: absolute;
+    right: 7px;
+    bottom: 0;
+    color: #FFFFFFD8;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-weight: 700;
+    z-index: 5;
+}
+
+.imageContainer > img {
+    width: 280%;
+    margin-top: -14%;
+    margin-left: -94%;
+}
+
+.cardHoverImage {
+    position: absolute;
+    top: 0px;
+    right: -303px;
+    width: 300px;
+    border-radius: 16px;
+    z-index: 100;
+}
+
+.cardHoverImageBF {
+    position: absolute;
+    top: -60px;
+    right: -362px;
+    width: 300px;
+    border-radius: 16px;
+    rotate: 90deg;
+    z-index: 100;
+}
